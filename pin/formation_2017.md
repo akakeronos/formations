@@ -44,13 +44,13 @@
 
 ### exercice
 Remplir le canvas si dessous pour mettre en place votre première itération
-![canvas vierge](../media/canvasvierge.png)
+![canvas vierge](/blob/master/pin/media/canvasvierge.png)
 
 correction
-![canvas premier pas](../media/leancanvas1.png)
+![canvas premier pas](/blob/master/pin/media/leancanvas1.png)
 
 Remplir le canvas si dessous pour mettre en place votre SAE
-![canvas vierge](../media/canvasvierge.png)
+![canvas vierge](/blob/master/pin/media/canvasvierge.png)
 
 correction
-![canvas premier pas](../media/leancanvas2.png)
+![canvas premier pas](/blob/master/pin/media/leancanvas2.png)
