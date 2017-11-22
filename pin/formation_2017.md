@@ -42,15 +42,19 @@
 8. Identifier les coûts
 9. Identifier les revenus ou les gains
 
+### Choix du scenarii en fonction :
+
+* des ressources humaines nécessaires,
+* des moyens techniques à mobiliser,
+* des moyens financiers à prévoir,
+* de la volonté stratégique,
+* la maturité vis-à-vis du numérique et des archives.
+
+ et pour les acteurs publics de l’environnement institutionnel et du contexte territorial
+
 ### exercice
-Remplir le canvas si dessous pour mettre en place votre première itération
+1. Remplir le canvas si dessous pour mettre en place votre première itération
 ![canvas vierge](/pin/media/canvasvierge.png)
 
-correction
-![canvas premier pas](/pin/media/leancanvas1.png)
-
-Remplir le canvas si dessous pour mettre en place votre SAE
-![canvas vierge](/pin/media/canvasvierge.png)
-
-correction
-![canvas cible](/pin/media/leancanvas4.png)
+2. [correction](corrigeExercice.md)
+4. [correction sae](corrigeExercice.md)
