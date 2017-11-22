@@ -148,7 +148,7 @@ Dans la mesure où devant le juge, se posent les questions de recevabilité et d
 ![schéma des briques du système d'information](/pin/media/gouvernancedocumentaire.png)
 
 ## slide 20 gestion transverse de l'information
-![schéma de la relation entr producteur et utilisateur de l'information](/pin/media/gestiontransverseinformation.jpg)
+![schéma de la relation entre producteur et utilisateur de l'information](/pin/media/gestiontransverseinformation.jpg)
 
 ## slide 21 moyens transverses
 ![illustration des moyens transverses](/pin/media/moyenstransverses.png)
@@ -165,17 +165,78 @@ Dans la mesure où devant le juge, se posent les questions de recevabilité et d
 * Définition des règles de communicabilité
 (quel est le délai pour rendre une information librement accessible à tous ?)
 
+## slide 23 Les 3 âges électroniques
+![graphique illustrant la gestion du cycle de vie des données](/pin/media/cyclevieGEDSAE.png)
+## slide 24 Référentiel documentaire de la politique d'archivage électronique
+![graphique illustrant les documents composant la politique d'archivage électronique](/pin/media/referentielpolitiquearchivage.png)
+> * PSA/PA : politique de service d'archivage / politique d'archivage
+> * MOO : mise en oeuvre opérationnelle
+> * DPA : déclaration des pratiques d'archivage (vise ensuite à définir comment l'AA s'organise pour répondre aux objectifs et engagements de la (des) PA ainsi qu'à identifier les procédures opérationnelles et les moyens mis en œuvre pour cela)
+> * PSSI : politique de sécurité des systèmres d'informations
 
-## gestion
+[ressource complémentaire SSI](https://www.ssi.gouv.fr/archive/fr/confiance/documents/methodes/ArchivageSecurise-P2A-2006-07-24.pdf)
+
+
+## slide 24 gestion
+
 ### Les métadonnées de pérennisation et l’accès aux objets
-* Introduction sur les Métadonnées en général : définition, aspect théorique, utilité des Métadonnées ;
-* Le modèle d’information de l’OAIS : place des Métadonnées dans le modèle ;
+#### slide 25 Introduction sur les Métadonnées en général
+**définition**
+> Une métadonnée est une donnée servant à **définir ou décrire** une autre donnée. **Porteuse d'information** sur le **contexte**, le **sens** et la **finalité** de la ressource informationnelle portée par la **donnée brute**.
+
+![explication des métadonnées par un métaphore sur le vin](/pin/media/vinContexte.PNG)
+
+### slide 26 structuration de l'information
+La structuration de l’information est la clé qui assure la versatilité des usages qui peuvent être capitalisés à partir d’un même processus de description
+
+![schéma des différents types de métadonnées](/pin/media/metadonnees.png)
+
+# slide 27 Le modèle d’information de l’OAIS : place des Métadonnées dans le modèle ;
+**l'objet information**
+
+l’Objet Information est composé d’un objet données
+(physique ou numérique) et de l’information de représentation qui permettent d’interpréter les données sous la forme d’une information compréhensible.
+![schéma oais objet information](/pin/media/objetinformation.png)
+
+**l'information de représentation**
+
+Basée sur la récursivité, elle permet de représenter les différentes composantes de l'information
+![schéma OAIS de l'information de représentation](/pin/media/informationrepresentation.png)
+
+Elle peut être composée des typologies suivantes :
+* Information de structure :
+types de données courants en informatique, comme des caractères, des nombres, des pixels, des tableaux
+* Information sémantique :
+informations complémentaires associées aux éléments de structure, telles que la langue dans laquelle l’objet est exprimé, les opérations réalisables sur chaque type de données et leurs relations, etc.
+* Autres:
+Identifiants d’autres standards comme la référence à la norme ASCII
+
+**L'information de pérennisation**
+
+![schéma OAIS de l'information de pérennnisation](/pin/media/informationperennisation.png)
+
+Elle peut être composée des tyopologies suivantes :
+
+* Information de provenance : décrit l’origine du contenu d’information, qui en a la charge, et quel est l’historique de ses modifications
+
+* Information de contexte : décrit comment le contenu d’information s’articule avec d’autres informations à l’extérieur du paquet
+
+* Information d’identification : fournit un ou plusieurs identifiants ou systèmes d’identification
+
+* Information de droits d’accès (Access Rights Information) : information qui identifie les restrictions d’accès portant sur l’Information de contenu
+
+* Information d’intégrité : protège le contenu d’information contre les altérations non documentées
+
+
 * Quelles Métadonnées pour la pérennisation ?
 * Les droits de propriété intellectuelle ;
 * Encoder les Métadonnées ;
 * L’accès à l’information grâce aux métadonnées.
 
 ## Mise en oeuvre : retour d'expérience et cas pratiques
+## slide Mise en oeuvre opérationnelle
+![schéma des briques techniques et fonctionnelles pour le SAE](/pin/media/saeTechniquefonctionnel.png)
+
 ### Par où commencer ?
 
 |étape | solutions applicatives          | solutions humaines | documentation |
