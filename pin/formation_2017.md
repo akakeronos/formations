@@ -28,7 +28,7 @@ La norme ISO 30300 dite "gestion des documents d'activité" permet d'inclure les
 
 ## slide 5 Organisation
 La dématérialisation produit ou renforce de nouveaux processus :
-* Gestion des droits : la mise à jour de l'annuaire devient critique
+* Gestion des droits : la mise à jour de l'annuaire devient critique
 * Gestion des circuits / processus dématérialisés dans la GED
   * maintenance,
   * nouveaux processus,
@@ -151,7 +151,7 @@ Dans la mesure où devant le juge, se posent les questions de recevabilité et d
 ![schéma de la relation entre producteur et utilisateur de l'information](/pin/media/gestiontransverseinformation.jpg)
 
 ## slide 21 moyens transverses
-![illustration des moyens transverses](/pin/media/moyenstransverses.png)
+![illustration des moyens transverses](/pin/media/moyenstransverses.PNG)
 
 ## slide 22 Les bases de la politique de gestion de l'information
 >Définition du cycle de vie de l'information
@@ -213,7 +213,7 @@ Identifiants d’autres standards comme la référence à la norme ASCII
 
 **L'information de pérennisation**
 
-![schéma OAIS de l'information de pérennnisation](/pin/media/informationperennisation.png)
+![schéma OAIS de l'information de pérennnisation](/pin/media/informationperennisation.PNG)
 
 Elle peut être composée des tyopologies suivantes :
 
