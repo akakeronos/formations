@@ -3,9 +3,9 @@ class: center, middle
 
 # formation PIN 6 décembre 2017
 
-* Quelles Métadonnées pour la pérennisation ?
-* Encoder les Métadonnées ;
-* L’accès à l’information grâce aux métadonnées.
+* Cycle de l'information
+* Gestion des métadonnées
+* Mon projet
 
 ---
 
@@ -24,11 +24,11 @@ class: center, middle
 
 ## **Norme de gestion des activités documentaires**
 
-La norme ISO 30300 dite "gestion des documents d'activité" permet d'inclure les aspects essentiels à la mise en place d'une stratégie de gestion de la production documentaires en reprenant des concepts issus des normes de gestion de la qualité :
+La norme ISO 30300 dite "gestion des documents d'activité" permet d'inclure les aspects essentiels à la mise en place d'une **stratégie de gestion de la production documentaire** en reprenant des concepts issus des normes de gestion de la qualité :
 * l’efficacité de toutes les activités « métier » d’une organisation,
-* la responsabilisation de tous les acteurs,
-* la gestion des risques,
-* la continuité des opérations.
+* la **responsabilisation** de tous les acteurs,
+* la gestion des **risques**,
+* la **continuité** des opérations.
 
 ---
 
@@ -47,14 +47,14 @@ La norme ISO 30300 dite "gestion des documents d'activité" permet d'inclure les
 
 ## Organisation
 La dématérialisation produit ou renforce de nouveaux processus :
-* Gestion des droits : la mise à jour de l'annuaire devient critique
-* Gestion des circuits / processus dématérialisés dans la GED
+* Gestion des **droits** : la mise à jour de l'annuaire devient critique
+* Gestion des **circuits** / processus dématérialisés dans la GED
   * maintenance,
   * nouveaux processus,
   * adaptation vs réorganisation, ...
 --  
-* Gestion des référentiels de métadonnées : outils et correspondants métiers sont essentiels
-* Architecture de l'information : un nouveau métier, une fonction dédiée ?
+* Gestion des **référentiels** de métadonnées : outils et correspondants métiers sont essentiels
+* **Architecture** de l'information : un nouveau métier, une fonction dédiée ?
 * Gestion de l'enrichissement des documents grâce aux référentiels : comment les utilisateurs enrichissent leurs documents, à quelle dose, comment ?
 * Gestion de la contribution des utilisateurs aux référentiels : comment les retours des utilisateurs peuvent aider à améliorer les référentiels ?
 * Gestion documentaire : les basiques de la GED et des fonctionnalités associées.
@@ -83,18 +83,16 @@ Proposer de passer d'une logique de gestion **individuelle inconsistante, éphé
 
 ---
 
-## La gestion de l'archivage au sens du records management : 2 cycles de besoins parallèles :
+## La gestion de l'archivage au sens du records management
+### 2 cycles de besoins parallèles :
 * ceux de la production/utilisation
 * ceux des outils de conservation/logistique
 
 ---
 
 ## Parallélisme des âges
-
 ![schéma d'illustration du parallélisme des besoins de gestion](https://cdn.rawgit.com/akakeronos/formations/5254a980//pin/media/paralleleActivite.png)
-
 ---
-
 ## Qualifier et classer l'information numérique : caractéristiques internes et externe
 
 ---
