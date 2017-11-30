@@ -1,4 +1,4 @@
-class: center, middle
+class: center, top
 .center[Ceci est fait en texte avec du logiciel libre]
 
 # formation PIN 6 décembre 2017
@@ -22,7 +22,7 @@ class: center, middle
 
 ---
 
-## **Norme de gestion des activités documentaires**
+## Norme de gestion des activités documentaires
 
 La norme ISO 30300 dite "gestion des documents d'activité" permet d'inclure les aspects essentiels à la mise en place d'une **stratégie de gestion de la production documentaire** en reprenant des concepts issus des normes de gestion de la qualité :
 * l’efficacité de toutes les activités « métier » d’une organisation,
@@ -32,7 +32,7 @@ La norme ISO 30300 dite "gestion des documents d'activité" permet d'inclure les
 
 ---
 
-## **Un petit détour par la vision processus**
+## Un petit détour par la vision processus
 
 > **processus** : ensemble ordonnées d'activités qui délivre un produit et/ou un service, à un "client" interne ou externe, lui apporte de la valeur, répond à ses besoins exprimés ou implicites et nécessite d'être maîtrisé/piloté
 
@@ -52,20 +52,23 @@ La dématérialisation produit ou renforce de nouveaux processus :
   * maintenance,
   * nouveaux processus,
   * adaptation vs réorganisation, ...
---  
+
+---
+
+## Organisation
 * Gestion des **référentiels** de métadonnées : outils et correspondants métiers sont essentiels
 * **Architecture** de l'information : un nouveau métier, une fonction dédiée ?
 * Gestion de l'enrichissement des documents grâce aux référentiels : comment les utilisateurs enrichissent leurs documents, à quelle dose, comment ?
-* Gestion de la contribution des utilisateurs aux référentiels : comment les retours des utilisateurs peuvent aider à améliorer les référentiels ?
+* Gestion de la **contribution** des utilisateurs aux référentiels
 * Gestion documentaire : les basiques de la GED et des fonctionnalités associées.
-* La recherche d'information :c'est un processus qui doit être clair pour les utilisateurs.
-* Le travail collaboratif : méthodologie à mettre en place.
+* La **recherche** d'information :c'est un processus qui doit être clair pour les utilisateurs.
+* Le travail **collaboratif** : méthodologie à mettre en place.
 
 ---
 
 ## Collectivisation de la production
 Proposer de passer d'une logique de gestion **individuelle inconsistante, éphémère et isolée** à une logique de gestion **collective organisée, contrôlée et partagée**
-
+![Collectivisme documentaire](https://cdn.rawgit.com/akakeronos/formations/5254a980/pin/media/collectivisation.png)
 ---
 
 ## Cycle de vie des documents engageants (records)
