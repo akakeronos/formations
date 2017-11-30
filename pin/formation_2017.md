@@ -68,7 +68,7 @@ La dématérialisation produit ou renforce de nouveaux processus :
 
 ## Collectivisation de la production
 Proposer de passer d'une logique de gestion **individuelle inconsistante, éphémère et isolée** à une logique de gestion **collective organisée, contrôlée et partagée**
-![Collectivisme documentaire](https://cdn.rawgit.com/akakeronos/formations/5254a980/pin/media/collectivisation.png)
+![Collectivisme documentaire](https://cdn.rawgit.com/akakeronos/formations/5254a980/pin/media/collectivisation.jpg)
 ---
 
 ## Cycle de vie des documents engageants (records)
