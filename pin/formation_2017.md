@@ -66,7 +66,6 @@ Cas d'utilisation : Un cas d'utilisation (use case) représente un ensemble de s
 
 ## Les activités sur les données
 .reduite[![Diversité des activités](https://cdn.rawgit.com/akakeronos/formations/5254a980/pin/media/rosaceActivites.png)]
-
 ---
 
 ## Organisation
