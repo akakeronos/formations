@@ -38,6 +38,25 @@ La norme ISO 30300 dite "gestion des documents d'activité" permet d'inclure les
 
 > **processus métier** : ensemble des activités qui s’enchaînent pour créer un produit ou un service à partir d’éléments de base. Un processus se décompose en sous-processus. (MAC, glossaire de l'archivage)
 
+<!--
+* « Logiciel fonctionnel plutôt que documentation complète » : il est vital que l'application fonctionne. Le reste, et notamment la documentation technique, est secondaire, même si une documentation succincte et précise est utile comme moyen de communication.
+
+* « Collaboration avec le client plutôt que la négociation du contrat » : le client doit être impliqué dans le développement. On ne peut se contenter de négocier un contrat au début du projet, puis de négliger les demandes du client.
+
+* « Réagir au changement plutôt que suivre un plan » : la planification initiale et la structure du logiciel doivent être flexibles afin de permettre l'évolution de la demande du client tout au long du projet.
+
+Cette méthode se situe à mi-chemin entre UP (Unified Processus «processus unifié»), un cadre générale très complet des processus de développement, et XP (eXtreme Programming), une approche minimaliste centrée sur le code.
+
+Avec cette méthode, nous n'utilisons pas les treize types de diagrammes proposés par UML 2, mais seulement un tiers, en insistant particulièrement sur les diagrammes de classes et le diagramme de séquence. Cette limitation volontaire ne diminue en rien la puissance de la démarche, mais, elle nous permet une réduction significative du temps d'apprentissage de la modélisation avec UML, tout en restant largement suffisante pour une bonne modélisation de notre système.
+
+Pour ce faire, on va commencer par les diagrammes de cas d'utilisation (Use Case) qui permet de donner une vue globale de l'application. Pas seulement pour un client non avisé qui aura l'idée de sa future application mais aussi le développeur s'en sert pour le développement des interfaces.
+
+En deuxième lieu on va présenter la chronologie des opérations par les diagrammes de séquences.
+
+Et finir par les diagrammes statiques, qui sont celles de classe de conception, de classe participantes et le modèle physique.
+
+-->
+
 ---
 
 ## Les activités sur les données
