@@ -55,12 +55,17 @@ En deuxième lieu on va présenter la chronologie des opérations par les diagra
 
 Et finir par les diagrammes statiques, qui sont celles de classe de conception, de classe participantes et le modèle physique.
 
+La représentation d'un cas d'utilisation met en jeu trois concepts : l'acteur, le cas d'utilisation et l'interaction entre l'acteur et le cas d'utilisation.
+
+Cas d'utilisation : Un cas d'utilisation (use case) représente un ensemble de séquences d'actions qui sont réalisées par le système et qui produisent un résultat observable intéressant pour un acteur particulier
+
+
 -->
 
 ---
 
 ## Les activités sur les données
-![Diversité des activités](https://cdn.rawgit.com/akakeronos/formations/5254a980/pin/media/rosaceActivites.png)
+.reduite[![Diversité des activités](https://cdn.rawgit.com/akakeronos/formations/5254a980/pin/media/rosaceActivites.png)]
 
 ---
 
