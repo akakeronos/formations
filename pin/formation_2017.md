@@ -1,30 +1,47 @@
-class: center, top
+class: inverse, center, middle
+
 .center[Ceci est fait en texte avec du logiciel libre]
 
 # formation PIN 6 décembre 2017
 
-* Cycle de l'information
-* Gestion des métadonnées
-* Mon projet
+## Au programme
 
+1. Cycle de l'information
+2. Gestion des métadonnées
+3. Votre projet
+
+---
+
+# Qui suis-je?
+.pull-left[
+Agent public au département de la Gironde : j’ai coordonné plusieurs projets dans le domaine de l'ingénierie documentaire (SAE, GED, Open data)
+
+Facilitateur numérique : je contribue à renforcer le pouvoir d'agir au travers d'un usage conscient du numérique.
+
+@keronos
+]
+.pull-right[
+![illustration de Moebius](./media/futureNow.jpg)
+]
+.footnote[(illustration : Moebius)]
 ---
 
 ## Corpus théorique
 
 **Définitions**
 
-> Record management : organisation des opérations permettant de contrôler les processus de production documentaire
+> **Record management** : **organisation** des opérations permettant de **contrôler les processus** de production documentaire
 
-> L’archivage numérique pérenne des documents électroniques : conservation des documents et données et des informations qu’ils contiennent :
+> L’**archivage pérenne** des documents électroniques : **conservation** des documents et données et **des informations** qu’ils contiennent :
 * Dans leur aspect physique comme dans leur aspect intellectuel
 * Sur le très long terme
 * De manière à ce qu’ils soient en permanence accessibles et compréhensibles
 
 ---
 
-## Norme de gestion des activités documentaires
+## Gestion des activités documentaires
 
-La norme ISO 30300 dite "gestion des documents d'activité" permet d'inclure les aspects essentiels à la mise en place d'une **stratégie de gestion de la production documentaire** en reprenant des concepts issus des normes de gestion de la qualité :
+La **norme ISO 30300** dite "gestion des documents d'activité" permet d'inclure les aspects essentiels à la mise en place d'une **stratégie de gestion de la production documentaire** en reprenant des concepts issus des normes de gestion de la qualité :
 * l’efficacité de toutes les activités « métier » d’une organisation,
 * la **responsabilisation** de tous les acteurs,
 * la gestion des **risques**,
@@ -38,60 +55,52 @@ La norme ISO 30300 dite "gestion des documents d'activité" permet d'inclure les
 
 > **processus métier** : ensemble des activités qui s’enchaînent pour créer un produit ou un service à partir d’éléments de base. Un processus se décompose en sous-processus. (MAC, glossaire de l'archivage)
 
-<!--
-* « Logiciel fonctionnel plutôt que documentation complète » : il est vital que l'application fonctionne. Le reste, et notamment la documentation technique, est secondaire, même si une documentation succincte et précise est utile comme moyen de communication.
-
-* « Collaboration avec le client plutôt que la négociation du contrat » : le client doit être impliqué dans le développement. On ne peut se contenter de négocier un contrat au début du projet, puis de négliger les demandes du client.
-
-* « Réagir au changement plutôt que suivre un plan » : la planification initiale et la structure du logiciel doivent être flexibles afin de permettre l'évolution de la demande du client tout au long du projet.
-
-Cette méthode se situe à mi-chemin entre UP (Unified Processus «processus unifié»), un cadre générale très complet des processus de développement, et XP (eXtreme Programming), une approche minimaliste centrée sur le code.
-
-Avec cette méthode, nous n'utilisons pas les treize types de diagrammes proposés par UML 2, mais seulement un tiers, en insistant particulièrement sur les diagrammes de classes et le diagramme de séquence. Cette limitation volontaire ne diminue en rien la puissance de la démarche, mais, elle nous permet une réduction significative du temps d'apprentissage de la modélisation avec UML, tout en restant largement suffisante pour une bonne modélisation de notre système.
-
-Pour ce faire, on va commencer par les diagrammes de cas d'utilisation (Use Case) qui permet de donner une vue globale de l'application. Pas seulement pour un client non avisé qui aura l'idée de sa future application mais aussi le développeur s'en sert pour le développement des interfaces.
-
-En deuxième lieu on va présenter la chronologie des opérations par les diagrammes de séquences.
-
-Et finir par les diagrammes statiques, qui sont celles de classe de conception, de classe participantes et le modèle physique.
-
-La représentation d'un cas d'utilisation met en jeu trois concepts : l'acteur, le cas d'utilisation et l'interaction entre l'acteur et le cas d'utilisation.
-
-Cas d'utilisation : Un cas d'utilisation (use case) représente un ensemble de séquences d'actions qui sont réalisées par le système et qui produisent un résultat observable intéressant pour un acteur particulier
-
-
--->
+![illustration d'un processus](./media/dessinerProcessus2.jpg)
 
 ---
 
-## Les activités sur les données
-.reduite[![Diversité des activités](https://cdn.rawgit.com/akakeronos/formations/5254a980/pin/media/rosaceActivites.png)]
----
+## Par exemple un macro-processus de RM
 
+.pull-left[![illustration d'un processus de record Management](./media/processusRM.png)]
+.pull-right[.reduite[![Diversité des activités](./media/rosaceActivites.png)]]
+
+---
 ## Organisation
+.pull-left[
 La dématérialisation produit ou renforce de nouveaux processus :
 * Gestion des **droits** : la mise à jour de l'annuaire devient critique
-* Gestion des **circuits** / processus dématérialisés dans la GED
+* Gestion des **circuits** / processus dématérialisés
   * maintenance,
   * nouveaux processus,
   * adaptation vs réorganisation, ...
+* Gestion des **référentiels** de métadonnées : outils et correspondants métiers sont essentiels
 
+]
+.pull-right[![Diversité des activités](./media/circuitProcessus.jpg)]
+
+.footnote[Illustration: Edwin D. Babbitt’s The Principles of Light and Color (1878) — [Source](https://archive.org/details/gri_c00033125011227010).]
 ---
 
 ## Organisation
-* Gestion des **référentiels** de métadonnées : outils et correspondants métiers sont essentiels
-* **Architecture** de l'information : un nouveau métier, une fonction dédiée ?
+.pull-left[
 * Gestion de l'enrichissement des documents grâce aux référentiels : comment les utilisateurs enrichissent leurs documents, à quelle dose, comment ?
 * Gestion de la **contribution** des utilisateurs aux référentiels
-* Gestion documentaire : les basiques de la GED et des fonctionnalités associées.
+* Gestion documentaire: les basiques du classement et des fonctionnalités associées.
 * La **recherche** d'information :c'est un processus qui doit être clair pour les utilisateurs.
 * Le travail **collaboratif** : méthodologie à mettre en place.
+* **Architecture** de l'information : un nouveau métier, une fonction dédiée ?
+
+]
+.pull-right[![illustration architecture futuriste](./media/architectureInformation.jpg)]
+
+.footnote[Illustration: NASA Ames Research Center (1970) — [Source](https://settlement.arc.nasa.gov/70sArt/art.html).]
 
 ---
 
 ## Collectivisation de la production
 Proposer de passer d'une logique de gestion **individuelle inconsistante, éphémère et isolée** à une logique de gestion **collective organisée, contrôlée et partagée**
-![Collectivisme documentaire](https://cdn.rawgit.com/akakeronos/formations/7a65cf24/pin/media/collectivisation.jpg)
+
+![Collectivisme documentaire](./media/collectivisation.jpg)
 ---
 
 ## Cycle de vie des documents engageants (records)
@@ -101,29 +110,32 @@ Proposer de passer d'une logique de gestion **individuelle inconsistante, éphé
   * validation
   * validité
 
+![Le contrat](./media/contratLagaffe.jpg)
+
 ---
 
 ## Continuum information
 
-![schéma d'illustration du continuum du cycle de vie](https://cdn.rawgit.com/akakeronos/formations/5254a980//pin/media/continuiteInformation.png)
+![schéma d'illustration du continuum du cycle de vie](./media/continuiteInformation.png)
 
 ---
 
-## La gestion de l'archivage au sens du records management
-### 2 cycles de besoins parallèles :
-* ceux de la production/utilisation
-* ceux des outils de conservation/logistique
-
+## La gestion de l'archivage
+### production vs. conservation
+![illustration du désert B de Moebius](./media/desertB.jpg)
 ---
 
 ## Parallélisme des âges
-![schéma d'illustration du parallélisme des besoins de gestion](https://cdn.rawgit.com/akakeronos/formations/5254a980//pin/media/paralleleActivite.png)
+![schéma d'illustration du parallélisme des besoins de gestion](./media/paralleleActivite.png)
 ---
 ## Qualifier et classer l'information numérique : caractéristiques internes et externe
+.pull-left[![une disquette informatique](./media/disquette.jpg)]
+.pull-right[![des métadonnées EAD en XML](./media/metadonneesXML.png)]
 
 ---
 
 ### Caractéristiques internes
+.pull-left[
 * nom (identifiant)
 * titre
 * description
@@ -133,40 +145,49 @@ Proposer de passer d'une logique de gestion **individuelle inconsistante, éphé
 * format
 * indexation
 * somme de contrôle
-
+]
+.pull-right[![vieille carte d'identité](./media/CarteIdentite.jpg)]
 ---
 
 ### Caractéristiques externes
+.pull-left[
 * version
 * classification de diffusion
 * classification de publication
 * sort final
 * DUA
 * signature
+]
+.pull-right[![contexte](./media/cerveauContexte.jpg)]
 
 ---
 
-## Contraintes réglementaires et risques : archiver pour prouver et pour tracer
+## Contraintes réglementaires et risques
+### Archiver pour prouver et pour tracer
+
+.pull-left[
 * transfert de responsabilités
 * stockage sécurisé
 * gel de l'original
 * journal des événements
-
+]
+.pull-right[![empreinte digitale](./media/tracabilite.jpg)]
 ---
+## La gestion des risques
 
-**La valeur ajoutée de la gestion des risques**
 * éviter que des documents/données ne soient pas archivés
 * éviter que des données/documents soient modifiés
 * trouver facilement l'information
 * éviter que des documents/données ne soient détruits trop tôt
 * éviter que des documents/données soient conservés trop longtemps
 
+.reduite[![image de saut en parachute](./media/gestionRisque.png)]
 ---
 
 ## Gestion de la qualité
 Le records management impose aux producteurs de documents de considérer le document, quel que soit son support, **dès sa création**, en fonction des **différentes valeurs** qu’il peut avoir et **des fonctions** qu’il remplit.
 
-![schéma exigence / satisfaction](https://cdn.rawgit.com/akakeronos/formations/5254a980/pin/media/qualite.png)
+![schéma exigence / satisfaction](./media/qualite.png)
 
 ---
 
@@ -174,16 +195,19 @@ Le records management impose aux producteurs de documents de considérer le docu
 
 ### Performance et connaissance
 
-* Réduire les coûts : conserver efficacement les informations critiques  et y accéder rapidement
-* Le capital immatériel de la collectivité est un levier majeur de la chaîne de valeur
-* Il répond à un besoin croissant de collaboration et de communication
-* Il faut mettre en place les moyens pour exploiter avec efficience ces contenus
-* Etablir les règles de gestion et de partage de l’information de la collectivité
-* Se conformer à la règlementation
+* Réduire les coûts : **conserver efficacement** les informations critiques  et y accéder rapidement
+* Se conformer à la **règlementation**
 
 --
+* Le capital immatériel de la collectivité est un **levier majeur** de la chaîne de valeur
+* Il répond à un besoin croissant de **collaboration et de communication**
+* Il faut mettre en place les moyens pour **exploiter avec efficience** ces contenus
+
+---
+## Enjeux pour l'organisation
 
 ### Risques juridiques et financiers
+.pull-left[
 * Coût global de stockage qui s’élève
 * Coûts passé à rechercher et à extraire les données
 * Un éparpillement dans des outils différents
@@ -191,23 +215,27 @@ Le records management impose aux producteurs de documents de considérer le docu
 * Une gestion désordonnée entraîne des pertes de temps et d’informations
 * Pas de capitalisation de la connaissance commune
 * Perte d’identité et contentieux
-
+]
+.pull-right[
+![baie de stockage informatique](./media/stockage.jpg)]
 ---
 
 ## Evaluation de la production
 Le but du records management est de **lier un document à l'activité qui l'a produit et au contexte dans lequel il a été créé** avec des moyens suffisants pour qu'il puisse ultérieurement être **accepté comme authentique** et représentatif de l'information d'origine.
 
-![tableau des critères de sélection de l'information](https://cdn.rawgit.com/akakeronos/formations/5254a980//pin/media/critereselectioninformation.png)
+![tableau des critères de sélection de l'information](./media/critereselectioninformation.png)
 
 ---
 
 ## Certification de la production
+.pull-left[
 Le mécanisme de signature doit permettre (selon art. 1316-1 du Code civil) :
 
 * d’identifier / authentifier l’auteur d’un document (traçabilité)
 * de garantir que l’auteur a bien émis ce document et pas un autre
 (intégrité : le document n’a pas été altéré entre l‘émission et le moment où le lecteur le consulte)
-
+]
+.pull-right[![illustration processus signature électronique](./media/signature.jpg)]
 ---
 
 ## Gestion de la preuve
@@ -221,56 +249,57 @@ Dans la mesure où devant le juge, se posent les questions de recevabilité et d
 ---
 
 ## Gouvernance documentaire
-![schéma des briques du système d'information](https://cdn.rawgit.com/akakeronos/formations/5254a980/pin/media/gouvernancedocumentaire.png)
+![schéma des briques du système d'information](./media/gouvernancedocumentaire.png)
 
 ---
 
 ## Gestion transverse de l'information
-![schéma de la relation entre producteur et utilisateur de l'information](https://cdn.rawgit.com/akakeronos/formations/5254a980/pin/media/gestiontransverseinformation.jpg)
+![schéma de la relation entre producteur et utilisateur de l'information](./media/gestiontransverseinformation.jpg)
 
 ---
 
 ## Moyens transverses
-![illustration des moyens transverses](https://cdn.rawgit.com/akakeronos/formations/5254a980/pin/media/moyenstransverses.PNG)
+![illustration des moyens transverses](./media/moyenstransverses.PNG)
 
 ---
 
-## Les bases de la politique de gestion de l'information
+## Politique de gestion de l'information
 >Définition du cycle de vie de l'information
 -> une analyse des **processus** de travail  + **réglementation** + **besoins** de gestion
 
-* Identification des documents liés à la continuité de l’activité
-* Définition des durées de conservation
+* **Identification** des documents liés à la continuité de l’activité
+* Définition des **durées de conservation**
 (combien de temps les documents seront-ils nécessaires) ? À partir de quel moment peut-on les détruire ?)
-* Définition des règles de communicabilité
+* Définition des règles de **communicabilité**
 (quel est le délai pour rendre une information librement accessible à tous ?)
 
 ---
 
 ## Les 3 âges électroniques
-![graphique illustrant la gestion du cycle de vie des données](https://cdn.rawgit.com/akakeronos/formations/5254a980/pin/media/cyclevieGEDSAE.png)
+![graphique illustrant la gestion du cycle de vie des données](./media/cyclevieGEDSAE.png)
 
 ---
 
-## Référentiel documentaire de la politique d'archivage électronique
-![graphique illustrant les documents composant la politique d'archivage électronique](https://cdn.rawgit.com/akakeronos/formations/5254a980/pin/media/referentielpolitiquearchivage.png)
+## La politique d'archivage électronique
+.reduite[![graphique illustrant les documents composant la politique d'archivage électronique](./media/referentielpolitiquearchivage.png)]
 ---
-## Référentiel documentaire de la politique d'archivage électronique : lexique
+## Référentiel documentaire PA
 
 > * PSA/PA : politique de service d'archivage / politique d'archivage
 > * MOO : mise en oeuvre opérationnelle
 > * DPA : déclaration des pratiques d'archivage (vise ensuite à définir comment l'AA s'organise pour répondre aux objectifs et engagements de la (des) PA ainsi qu'à identifier les procédures opérationnelles et les moyens mis en œuvre pour cela)
-> * PSSI : politique de sécurité des systèmres d'informations
+> * PSSI : politique de sécurité des systèmes d'informations
 
 [ressource complémentaire SSI](https://www.ssi.gouv.fr/archive/fr/confiance/documents/methodes/ArchivageSecurise-P2A-2006-07-24.pdf)
 
 ---
 
 ## Gestion
-
+![illustration des membres de la dream team](./media/dreamteam.png)
 ---
 
-### Les métadonnées de pérennisation et l’accès aux objets
+### Les métadonnées de pérennisation
+![métaphore métadonnées comme partie imergée iceberg](./media/icebergMetadonnees.jpg)
 
 ---
 
@@ -278,34 +307,40 @@ Dans la mesure où devant le juge, se posent les questions de recevabilité et d
 **définition**
 > Une métadonnée est une donnée servant à **définir ou décrire** une autre donnée. **Porteuse d'information** sur le **contexte**, le **sens** et la **finalité** de la ressource informationnelle portée par la **donnée brute**.
 
-![explication des métadonnées par un métaphore sur le vin](https://cdn.rawgit.com/akakeronos/formations/5254a980/pin/media/vinContexte.PNG)
+![explication des métadonnées par un métaphore sur le vin](./media/vinContexte.PNG)
 
 ---
 
 ### Structuration de l'information
 La structuration de l’information est la clé qui assure la versatilité des usages qui peuvent être capitalisés à partir d’un même processus de description
 
-![schéma des différents types de métadonnées](https://cdn.rawgit.com/akakeronos/formations/5254a980/pin/media/metadonnees.png)
+![schéma des différents types de métadonnées](./media/metadonnees.png)
 
 ---
 
-# Le modèle d’information de l’OAIS : place des Métadonnées dans le modèle ;
-**l'objet information**
+## Le modèle d’information de l’OAIS
+### L'objet information
 
+.pull-left[
 l’Objet Information est composé d’un objet données
 (physique ou numérique) et de l’information de représentation qui permettent d’interpréter les données sous la forme d’une information compréhensible.
+]
 --
-![schéma oais objet information](https://cdn.rawgit.com/akakeronos/formations/5254a980/pin/media/objetinformation.png)
-
+.pull-right[.reduite[![schéma oais objet information](./media/objetinformation.png)]
+]
 ---
 
 **l'information de représentation**
 
+.pull-left[
 Basée sur la récursivité, elle permet de représenter les différentes composantes de l'information
-![schéma OAIS de l'information de représentation](https://cdn.rawgit.com/akakeronos/formations/5254a980/pin/media/informationrepresentation.png)
 
----
+![schéma OAIS de l'information de représentation](./media/informationrepresentation.png)
+]
+--
+.pull-right[
 **Composition**
+
 Elle peut être composée des typologies suivantes :
 * Information de structure :
 types de données courants en informatique, comme des caractères, des nombres, des pixels, des tableaux
@@ -313,32 +348,39 @@ types de données courants en informatique, comme des caractères, des nombres, 
 informations complémentaires associées aux éléments de structure, telles que la langue dans laquelle l’objet est exprimé, les opérations réalisables sur chaque type de données et leurs relations, etc.
 * Autres:
 Identifiants d’autres standards comme la référence à la norme ASCII
-
+]
 ---
 
 **L'information de pérennisation**
 
-![schéma OAIS de l'information de pérennnisation](https://cdn.rawgit.com/akakeronos/formations/5254a980/pin/media/informationperennisation.PNG)
+.pull-left[
+Elle doit permettre d'expliciter le contexte de production
 
----
-**Composition**
+![schéma OAIS de l'information de pérennnisation](./media/informationperennisation.PNG)
+]
+--
+.pull-right[
 Elle peut être composée des typologies suivantes :
 
-* Information de provenance : décrit l’origine du contenu d’information, qui en a la charge, et quel est l’historique de ses modifications
-* Information de contexte : décrit comment le contenu d’information s’articule avec d’autres informations à l’extérieur du paquet
-* Information d’identification : fournit un ou plusieurs identifiants ou systèmes d’identification
-* Information de droits d’accès (Access Rights Information) : information qui identifie les restrictions d’accès portant sur l’Information de contenu
-* Information d’intégrité : protège le contenu d’information contre les altérations non documentées
+* **Information de provenance** : décrit l’origine du contenu d’information, qui en a la charge, et quel est l’historique de ses modifications
+* **Information de contexte** : décrit comment le contenu d’information s’articule avec d’autres informations à l’extérieur du paquet
+* **Information d’identification** : fournit un ou plusieurs identifiants ou systèmes d’identification
+* **Information de droits d’accès** (Access Rights Information) : information qui identifie les restrictions d’accès portant sur l’information de contenu
+* **Information d’intégrité** : protège le contenu d’information contre les altérations non documentées
+]
+
 
 ---
 
-## Mise en oeuvre : retour d'expérience et cas pratiques
-
+## Mise en oeuvre
+.reduite[![illustration processus innovation](./media/processusInnovation.jpg)]
 ---
 
 ## Mise en oeuvre opérationnelle
-![schéma des briques techniques et fonctionnelles pour le SAE](https://cdn.rawgit.com/akakeronos/formations/5254a980/pin/media/saeTechniquefonctionnel.png)
-
+![schéma des briques techniques et fonctionnelles pour le SAE](./media/saeTechniquefonctionnel.png)
+---
+## La vision SAEM Girondin
+![La vision SAEM](./media/vision2.png)
 ---
 
 ### Par où commencer ?
@@ -376,6 +418,29 @@ Elle peut être composée des typologies suivantes :
  et pour les acteurs publics de **l’environnement institutionnel et du contexte territorial**
 
 ---
+### Agile en milieu hostile
+<!--
+* « Logiciel fonctionnel plutôt que documentation complète » : il est vital que l'application fonctionne. Le reste, et notamment la documentation technique, est secondaire, même si une documentation succincte et précise est utile comme moyen de communication.
+
+* « Collaboration avec le client plutôt que la négociation du contrat » : le client doit être impliqué dans le développement. On ne peut se contenter de négocier un contrat au début du projet, puis de négliger les demandes du client.
+
+* « Réagir au changement plutôt que suivre un plan » : la planification initiale et la structure du logiciel doivent être flexibles afin de permettre l'évolution de la demande du client tout au long du projet.
+
+Cette méthode se situe à mi-chemin entre UP (Unified Processus «processus unifié»), un cadre générale très complet des processus de développement, et XP (eXtreme Programming), une approche minimaliste centrée sur le code.
+
+Avec cette méthode, nous n'utilisons pas les treize types de diagrammes proposés par UML 2, mais seulement un tiers, en insistant particulièrement sur les diagrammes de classes et le diagramme de séquence. Cette limitation volontaire ne diminue en rien la puissance de la démarche, mais, elle nous permet une réduction significative du temps d'apprentissage de la modélisation avec UML, tout en restant largement suffisante pour une bonne modélisation de notre système.
+
+Pour ce faire, on va commencer par les diagrammes de cas d'utilisation (Use Case) qui permet de donner une vue globale de l'application. Pas seulement pour un client non avisé qui aura l'idée de sa future application mais aussi le développeur s'en sert pour le développement des interfaces.
+
+En deuxième lieu on va présenter la chronologie des opérations par les diagrammes de séquences.
+
+Et finir par les diagrammes statiques, qui sont celles de classe de conception, de classe participantes et le modèle physique.
+
+La représentation d'un cas d'utilisation met en jeu trois concepts : l'acteur, le cas d'utilisation et l'interaction entre l'acteur et le cas d'utilisation.
+
+Cas d'utilisation : Un cas d'utilisation (use case) représente un ensemble de séquences d'actions qui sont réalisées par le système et qui produisent un résultat observable intéressant pour un acteur particulier
+
+-->
 
 ### exercice
 1. Remplir le canvas si dessous pour mettre en place votre première itération
