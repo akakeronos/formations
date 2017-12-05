@@ -12,11 +12,12 @@ class: inverse, center, middle
 
 ---
 
-# Qui suis-je?
+# Qui suis-je ?
 .pull-left[
-Agent public au département de la Gironde : j’ai coordonné plusieurs projets dans le domaine de l'ingénierie documentaire (SAE, GED, Open data)
+Agent public au département de la Gironde : j’ai coordonné plusieurs projets dans le domaine de l'ingénierie documentaire
+(SAE, GED, Open data)
 
-Facilitateur numérique : je contribue à renforcer le pouvoir d'agir au travers d'un usage conscient du numérique.
+Facilitateur numérique : je contribue à renforcer le pouvoir d'agir des utilisateurs au travers d'un accompagnement aux usages (conscients) du numérique.
 
 @keronos
 ]
@@ -58,13 +59,52 @@ La **norme ISO 30300** dite "gestion des documents d'activité" permet d'inclure
 ![illustration d'un processus](./media/dessinerProcessus2.jpg)
 
 ---
+## Modèle de processus
 
-## Par exemple un macro-processus de RM
+|Durée/date | Acteur 1 | Acteur 2 | Documents |
+|------|:--------------------:|:-----:|:----:|
+|04/12/2017|Action 1 --->|Action 2|Version 0.1|
+|04/12/2017|Action 3||version 0.2|
+---
+## Macro-processus de RM
 
 .pull-left[![illustration d'un processus de record Management](./media/processusRM.png)]
 .pull-right[.reduite[![Diversité des activités](./media/rosaceActivites.png)]]
 
 ---
+class: center, top
+## Modélisation d'un processus
+1. On commence par définir les diagrammes de cas d'utilisation (Use Case)
+
+![exemple de cas d'utilisation archiver](./media/useCaseArchiver.png)
+
+<!--
+Qui permettent de donner une vue globale de l'application. Pas seulement pour un client non avisé qui aura l'idée de sa future application mais aussi le développeur s'en sert pour le développement des interfaces.
+
+La représentation d'un cas d'utilisation met en jeu trois concepts : l'acteur, le cas d'utilisation et l'interaction entre l'acteur et le cas d'utilisation.
+
+Cas d'utilisation : Un cas d'utilisation (use case) représente un ensemble de séquences d'actions qui sont réalisées par le système et qui produisent un résultat observable intéressant pour un acteur particulier
+
+-->
+
+---
+class: center, top
+
+## Modélisation d'un processus
+
+2. Ensuite on va présenter la chronologie des opérations par les diagrammes de séquences.
+
+![exemple de diagramme de classe verser archives](./media/diagrammeSequenceArchiver.png)
+---
+class: center, top
+## Modélisation d'un processus
+
+3. Et finir par les diagrammes statiques, qui sont celles de classe de conception, de classe participantes et le modèle physique.
+]
+
+.![exemple de diagramme de classe verser archives](./media/diagrammeClasseVerserArchives.png)
+---
+
 ## Organisation
 .pull-left[
 La dématérialisation produit ou renforce de nouveaux processus :
@@ -231,8 +271,8 @@ Le but du records management est de **lier un document à l'activité qui l'a pr
 .pull-left[
 Le mécanisme de signature doit permettre (selon art. 1316-1 du Code civil) :
 
-* d’identifier / authentifier l’auteur d’un document (traçabilité)
-* de garantir que l’auteur a bien émis ce document et pas un autre
+* **d’identifier / authentifier** l’auteur d’un document (traçabilité)
+* de **garantir** que l’auteur a bien émis ce document et pas un autre
 (intégrité : le document n’a pas été altéré entre l‘émission et le moment où le lecteur le consulte)
 ]
 .pull-right[![illustration processus signature électronique](./media/signature.jpg)]
@@ -285,10 +325,10 @@ Dans la mesure où devant le juge, se posent les questions de recevabilité et d
 ---
 ## Référentiel documentaire PA
 
-> * PSA/PA : politique de service d'archivage / politique d'archivage
-> * MOO : mise en oeuvre opérationnelle
-> * DPA : déclaration des pratiques d'archivage (vise ensuite à définir comment l'AA s'organise pour répondre aux objectifs et engagements de la (des) PA ainsi qu'à identifier les procédures opérationnelles et les moyens mis en œuvre pour cela)
-> * PSSI : politique de sécurité des systèmes d'informations
+* **PSA/PA** : politique de service d'archivage / politique d'archivage
+* **MOO** : mise en oeuvre opérationnelle
+* **DPA** : déclaration des pratiques d'archivage (vise ensuite à définir comment l'AA s'organise pour répondre aux objectifs et engagements de la (des) PA ainsi qu'à identifier les procédures opérationnelles et les moyens mis en œuvre pour cela)
+* **PSSI** : politique de sécurité des systèmes d'informations
 
 [ressource complémentaire SSI](https://www.ssi.gouv.fr/archive/fr/confiance/documents/methodes/ArchivageSecurise-P2A-2006-07-24.pdf)
 
@@ -322,8 +362,8 @@ La structuration de l’information est la clé qui assure la versatilité des u
 ### L'objet information
 
 .pull-left[
-l’Objet Information est composé d’un objet données
-(physique ou numérique) et de l’information de représentation qui permettent d’interpréter les données sous la forme d’une information compréhensible.
+l’Objet Information est composé d’un **objet données**
+(physique ou numérique) et de l’information de représentation qui permettent d’interpréter les données sous la forme d’une **information compréhensible**.
 ]
 --
 .pull-right[.reduite[![schéma oais objet information](./media/objetinformation.png)]
@@ -342,11 +382,13 @@ Basée sur la récursivité, elle permet de représenter les différentes compos
 **Composition**
 
 Elle peut être composée des typologies suivantes :
-* Information de structure :
+* **Information de structure** :
 types de données courants en informatique, comme des caractères, des nombres, des pixels, des tableaux
-* Information sémantique :
+
+* **Information sémantique** :
 informations complémentaires associées aux éléments de structure, telles que la langue dans laquelle l’objet est exprimé, les opérations réalisables sur chaque type de données et leurs relations, etc.
-* Autres:
+
+* **Autres**:
 Identifiants d’autres standards comme la référence à la norme ASCII
 ]
 ---
@@ -363,9 +405,13 @@ Elle doit permettre d'expliciter le contexte de production
 Elle peut être composée des typologies suivantes :
 
 * **Information de provenance** : décrit l’origine du contenu d’information, qui en a la charge, et quel est l’historique de ses modifications
+
 * **Information de contexte** : décrit comment le contenu d’information s’articule avec d’autres informations à l’extérieur du paquet
+
 * **Information d’identification** : fournit un ou plusieurs identifiants ou systèmes d’identification
+
 * **Information de droits d’accès** (Access Rights Information) : information qui identifie les restrictions d’accès portant sur l’information de contenu
+
 * **Information d’intégrité** : protège le contenu d’information contre les altérations non documentées
 ]
 
@@ -417,8 +463,31 @@ Elle peut être composée des typologies suivantes :
 
  et pour les acteurs publics de **l’environnement institutionnel et du contexte territorial**
 
+![la balance coût / service](./media/ecoEchelleAnime.gif)
 ---
-### Agile en milieu hostile
+class:center,top
+### Cas de figure : commune
+![choix scenario commune](./media/mutualisationSAE-Commune.png)
+
+---
+class:center,top
+### Cas de figure : EPCI
+![choix scenario EPCI](./media/mutualisationSAE-EPCI.png)
+
+---
+class:center,top
+### Cas de figure : EPL
+![choix scenario EPL](./media/mutualisationSAE-EPL.png)
+---
+class: center,top
+### Votre projet : version classique
+
+![Les étapes du projet de SAE](./media/syntheseArchivisteSI.png)
+---
+class: center, top
+### MVP
+![canvas vierge](./media/canvasvierge.png)
+
 <!--
 * « Logiciel fonctionnel plutôt que documentation complète » : il est vital que l'application fonctionne. Le reste, et notamment la documentation technique, est secondaire, même si une documentation succincte et précise est utile comme moyen de communication.
 
@@ -426,25 +495,23 @@ Elle peut être composée des typologies suivantes :
 
 * « Réagir au changement plutôt que suivre un plan » : la planification initiale et la structure du logiciel doivent être flexibles afin de permettre l'évolution de la demande du client tout au long du projet.
 
-Cette méthode se situe à mi-chemin entre UP (Unified Processus «processus unifié»), un cadre générale très complet des processus de développement, et XP (eXtreme Programming), une approche minimaliste centrée sur le code.
-
-Avec cette méthode, nous n'utilisons pas les treize types de diagrammes proposés par UML 2, mais seulement un tiers, en insistant particulièrement sur les diagrammes de classes et le diagramme de séquence. Cette limitation volontaire ne diminue en rien la puissance de la démarche, mais, elle nous permet une réduction significative du temps d'apprentissage de la modélisation avec UML, tout en restant largement suffisante pour une bonne modélisation de notre système.
-
-Pour ce faire, on va commencer par les diagrammes de cas d'utilisation (Use Case) qui permet de donner une vue globale de l'application. Pas seulement pour un client non avisé qui aura l'idée de sa future application mais aussi le développeur s'en sert pour le développement des interfaces.
-
-En deuxième lieu on va présenter la chronologie des opérations par les diagrammes de séquences.
-
-Et finir par les diagrammes statiques, qui sont celles de classe de conception, de classe participantes et le modèle physique.
-
-La représentation d'un cas d'utilisation met en jeu trois concepts : l'acteur, le cas d'utilisation et l'interaction entre l'acteur et le cas d'utilisation.
-
-Cas d'utilisation : Un cas d'utilisation (use case) représente un ensemble de séquences d'actions qui sont réalisées par le système et qui produisent un résultat observable intéressant pour un acteur particulier
-
 -->
-
+---
 ### exercice
-1. Remplir le canvas si dessous pour mettre en place votre première itération
-![canvas vierge](https://cdn.rawgit.com/akakeronos/formations/5254a980/pin/media/canvasvierge.png)
+1. Remplir le canvas pour mettre en place votre première itération
 
 2. [correction](corrigeExercice.md)
 4. [correction sae](corrigeExercice.md)
+---
+### Rétrospective
+2. Les points satisfaisants
+3. les points à améliorer
+
+A votre disposition pour en parler :
+* par mail : p.romain@gironde.fr
+* sur twitter : @keronos
+
+Pour en savoir plus sur le projet SAEM :
+[le blog du SAEM](http://saem.e-bordeaux.org/blog)
+
+**Merci pour votre attention !**
