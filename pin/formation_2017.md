@@ -1,5 +1,8 @@
 class: inverse, center, middle
-
+background-image: url(./media/continuum.jpg)
+background-position: top;
+background-repeat: no-repeat;
+background-size: contain;
 .center[Ceci est fait en texte avec du logiciel libre]
 
 # formation PIN 6 décembre 2017
