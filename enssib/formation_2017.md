@@ -491,6 +491,7 @@ Instances :
   * Phase 1 : 49 500 € TTC par collectivité
   * Phase 2 : 200 000 € TTC par collectivité
 
+--
 * deux subventions accordées par le SIAF dans le cadre des appels à projet AD-ESSOR
   * 2014 : 30 000 €
   * 2015 : 33 900 €
@@ -560,7 +561,6 @@ Instances :
   * 3j/sem pendant 1 an
 
 --
-
 * Audit de conformité :
   * 40% des exigences couvertes
 ---
@@ -594,12 +594,10 @@ Instances :
   * 3j/sem pendant 3 ans
 
 --
-
 * Audit de conformité :
   * 80% des exigences couvertes  
 
 --
-
 * Préparation de la phase 3 :
   * développement de connecteurs applicatifs pour le flux PES V2
   * développement d’une interface avec Arkhéia (en cours)  
