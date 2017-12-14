@@ -25,7 +25,7 @@ Facilitateur numérique : je contribue à renforcer le pouvoir d'agir des utilis
 @keronos
 ]
 .pull-right[
-![illustration de Moebius](././pin/media/futureNow.jpg)
+![illustration de Moebius](./../pin/media/futureNow.jpg)
 ]
 .footnote[(illustration : Moebius)]
 ---
@@ -596,7 +596,7 @@ Instances :
   * développement de connecteurs applicatifs pour le flux PES V2
   * développement d’une interface avec Arkhéia (en cours)  
 ---
-  
+
 ### Par où commencer ?
 
 |étape | solutions applicatives          | solutions humaines | documentation |
