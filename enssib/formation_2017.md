@@ -546,7 +546,9 @@ Instances :
 * Réalisation d’une analyse RGS Ebios
 * Rédaction d’un cahier de spécifications détaillées
 * Réalisation d’une matrice fonctionnelle
+
 --
+
 * Développement des compétences internes
 * Réflexion sur les modalités juridiques de mutualisation
 ---
@@ -556,7 +558,9 @@ Instances :
   * 145 j de développement
   * 65 j d’études
   * 3j/sem pendant 1 an
+
 --
+
 * Audit de conformité :
   * 40% des exigences couvertes
 ---
@@ -588,10 +592,14 @@ Instances :
   * 200k€ par partenaire soit 600k€
   * 245 j de développement
   * 3j/sem pendant 3 ans
+
 --
+
 * Audit de conformité :
   * 80% des exigences couvertes  
+
 --
+
 * Préparation de la phase 3 :
   * développement de connecteurs applicatifs pour le flux PES V2
   * développement d’une interface avec Arkhéia (en cours)  
