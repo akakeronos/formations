@@ -1,5 +1,5 @@
 class: inverse, center, middle
-background-image: url(././pin/media/continuum.jpg)
+background-image: url(./../pin/media/continuum.jpg)
 background-position: top;
 background-repeat: no-repeat;
 background-size: contain;
@@ -59,7 +59,7 @@ La **norme ISO 30300** dite "gestion des documents d'activité" permet d'inclure
 
 > **processus métier** : ensemble des activités qui s’enchaînent pour créer un produit ou un service à partir d’éléments de base. Un processus se décompose en sous-processus. (MAC, glossaire de l'archivage)
 
-![illustration d'un processus](././pin/media/dessinerProcessus2.jpg)
+![illustration d'un processus](./../pin/media/dessinerProcessus2.jpg)
 
 ---
 ## Modèle de processus
@@ -71,15 +71,15 @@ La **norme ISO 30300** dite "gestion des documents d'activité" permet d'inclure
 ---
 ## Macro-processus de RM
 
-.pull-left[![illustration d'un processus de record Management](././pin/media/processusRM.png)]
-.pull-right[.reduite[![Diversité des activités](././pin/media/rosaceActivites.png)]]
+.pull-left[![illustration d'un processus de record Management](./../pin/media/processusRM.png)]
+.pull-right[.reduite[![Diversité des activités](./../pin/media/rosaceActivites.png)]]
 
 ---
 class: center, top
 ## Modélisation d'un processus
 1. On commence par définir les diagrammes de cas d'utilisation (Use Case)
 
-![exemple de cas d'utilisation archiver](././pin/media/useCaseArchiver.png)
+![exemple de cas d'utilisation archiver](./../pin/media/useCaseArchiver.png)
 
 <!--
 Qui permettent de donner une vue globale de l'application. Pas seulement pour un client non avisé qui aura l'idée de sa future application mais aussi le développeur s'en sert pour le développement des interfaces.
@@ -97,7 +97,7 @@ class: center, top
 
 2. Ensuite on va présenter la chronologie des opérations par les diagrammes de séquences.
 
-![exemple de diagramme de classe verser archives](././pin/media/diagrammeSequenceArchiver.png)
+![exemple de diagramme de classe verser archives](./../pin/media/diagrammeSequenceArchiver.png)
 ---
 class: center, top
 ## Modélisation d'un processus
@@ -105,7 +105,7 @@ class: center, top
 3. Et finir par les diagrammes statiques, qui sont celles de classe de conception, de classe participantes et le modèle physique.
 ]
 
-.![exemple de diagramme de classe verser archives](././pin/media/diagrammeClasseVerserArchives.png)
+.![exemple de diagramme de classe verser archives](./../pin/media/diagrammeClasseVerserArchives.png)
 ---
 
 ## Organisation
@@ -119,7 +119,7 @@ La dématérialisation produit ou renforce de nouveaux processus :
 * Gestion des **référentiels** de métadonnées : outils et correspondants métiers sont essentiels
 
 ]
-.pull-right[![Diversité des activités](././pin/media/circuitProcessus.jpg)]
+.pull-right[![Diversité des activités](./../pin/media/circuitProcessus.jpg)]
 
 .footnote[Illustration: Edwin D. Babbitt’s The Principles of Light and Color (1878) — [Source](https://archive.org/details/gri_c00033125011227010).]
 ---
@@ -134,7 +134,7 @@ La dématérialisation produit ou renforce de nouveaux processus :
 * **Architecture** de l'information : un nouveau métier, une fonction dédiée ?
 
 ]
-.pull-right[![illustration architecture futuriste](././pin/media/architectureInformation.jpg)]
+.pull-right[![illustration architecture futuriste](./../pin/media/architectureInformation.jpg)]
 
 .footnote[Illustration: NASA Ames Research Center (1970) — [Source](https://settlement.arc.nasa.gov/70sArt/art.html).]
 
@@ -143,7 +143,7 @@ La dématérialisation produit ou renforce de nouveaux processus :
 ## Collectivisation de la production
 Proposer de passer d'une logique de gestion **individuelle inconsistante, éphémère et isolée** à une logique de gestion **collective organisée, contrôlée et partagée**
 
-![Collectivisme documentaire](././pin/media/collectivisation.jpg)
+![Collectivisme documentaire](./../pin/media/collectivisation.jpg)
 ---
 
 ## Cycle de vie des documents engageants (records)
@@ -153,27 +153,27 @@ Proposer de passer d'une logique de gestion **individuelle inconsistante, éphé
   * validation
   * validité
 
-![Le contrat](././pin/media/contratLagaffe.jpg)
+![Le contrat](./../pin/media/contratLagaffe.jpg)
 
 ---
 
 ## Continuum information
 
-![schéma d'illustration du continuum du cycle de vie](././pin/media/continuiteInformation.png)
+![schéma d'illustration du continuum du cycle de vie](./../pin/media/continuiteInformation.png)
 
 ---
 
 ## La gestion de l'archivage
 ### production vs. conservation
-![illustration du désert B de Moebius](././pin/media/desertB.jpg)
+![illustration du désert B de Moebius](./../pin/media/desertB.jpg)
 ---
 
 ## Parallélisme des âges
-![schéma d'illustration du parallélisme des besoins de gestion](././pin/media/paralleleActivite.png)
+![schéma d'illustration du parallélisme des besoins de gestion](./../pin/media/paralleleActivite.png)
 ---
 ## Qualifier et classer l'information numérique : caractéristiques internes et externe
-.pull-left[![une disquette informatique](././pin/media/disquette.jpg)]
-.pull-right[![des métadonnées EAD en XML](././pin/media/metadonneesXML.png)]
+.pull-left[![une disquette informatique](./../pin/media/disquette.jpg)]
+.pull-right[![des métadonnées EAD en XML](./../pin/media/metadonneesXML.png)]
 
 ---
 
@@ -189,7 +189,7 @@ Proposer de passer d'une logique de gestion **individuelle inconsistante, éphé
 * indexation
 * somme de contrôle
 ]
-.pull-right[![vieille carte d'identité](././pin/media/CarteIdentite.jpg)]
+.pull-right[![vieille carte d'identité](./../pin/media/CarteIdentite.jpg)]
 ---
 
 ### Caractéristiques externes
@@ -201,7 +201,7 @@ Proposer de passer d'une logique de gestion **individuelle inconsistante, éphé
 * DUA
 * signature
 ]
-.pull-right[![contexte](././pin/media/cerveauContexte.jpg)]
+.pull-right[![contexte](./../pin/media/cerveauContexte.jpg)]
 
 ---
 
@@ -214,7 +214,7 @@ Proposer de passer d'une logique de gestion **individuelle inconsistante, éphé
 * gel de l'original
 * journal des événements
 ]
-.pull-right[![empreinte digitale](././pin/media/tracabilite.jpg)]
+.pull-right[![empreinte digitale](./../pin/media/tracabilite.jpg)]
 ---
 ## La gestion des risques
 
@@ -224,13 +224,13 @@ Proposer de passer d'une logique de gestion **individuelle inconsistante, éphé
 * éviter que des documents/données ne soient détruits trop tôt
 * éviter que des documents/données soient conservés trop longtemps
 
-.reduite[![image de saut en parachute](././pin/media/gestionRisque.png)]
+.reduite[![image de saut en parachute](./../pin/media/gestionRisque.png)]
 ---
 
 ## Gestion de la qualité
 Le records management impose aux producteurs de documents de considérer le document, quel que soit son support, **dès sa création**, en fonction des **différentes valeurs** qu’il peut avoir et **des fonctions** qu’il remplit.
 
-![schéma exigence / satisfaction](././pin/media/qualite.png)
+![schéma exigence / satisfaction](./../pin/media/qualite.png)
 
 ---
 
@@ -260,13 +260,13 @@ Le records management impose aux producteurs de documents de considérer le docu
 * Perte d’identité et contentieux
 ]
 .pull-right[
-![baie de stockage informatique](././pin/media/stockage.jpg)]
+![baie de stockage informatique](./../pin/media/stockage.jpg)]
 ---
 
 ## Evaluation de la production
 Le but du records management est de **lier un document à l'activité qui l'a produit et au contexte dans lequel il a été créé** avec des moyens suffisants pour qu'il puisse ultérieurement être **accepté comme authentique** et représentatif de l'information d'origine.
 
-![tableau des critères de sélection de l'information](././pin/media/critereselectioninformation.png)
+![tableau des critères de sélection de l'information](./../pin/media/critereselectioninformation.png)
 
 ---
 
@@ -278,7 +278,7 @@ Le mécanisme de signature doit permettre (selon art. 1316-1 du Code civil) :
 * de **garantir** que l’auteur a bien émis ce document et pas un autre
 (intégrité : le document n’a pas été altéré entre l‘émission et le moment où le lecteur le consulte)
 ]
-.pull-right[![illustration processus signature électronique](././pin/media/signature.jpg)]
+.pull-right[![illustration processus signature électronique](./../pin/media/signature.jpg)]
 ---
 
 ## Gestion de la preuve
@@ -292,17 +292,17 @@ Dans la mesure où devant le juge, se posent les questions de recevabilité et d
 ---
 
 ## Gouvernance documentaire
-![schéma des briques du système d'information](././pin/media/gouvernancedocumentaire.png)
+![schéma des briques du système d'information](./../pin/media/gouvernancedocumentaire.png)
 
 ---
 
 ## Gestion transverse de l'information
-![schéma de la relation entre producteur et utilisateur de l'information](././pin/media/gestiontransverseinformation.jpg)
+![schéma de la relation entre producteur et utilisateur de l'information](./../pin/media/gestiontransverseinformation.jpg)
 
 ---
 
 ## Moyens transverses
-![illustration des moyens transverses](././pin/media/moyenstransverses.PNG)
+![illustration des moyens transverses](./../pin/media/moyenstransverses.PNG)
 
 ---
 
@@ -319,12 +319,12 @@ Dans la mesure où devant le juge, se posent les questions de recevabilité et d
 ---
 
 ## Les 3 âges électroniques
-![graphique illustrant la gestion du cycle de vie des données](././pin/media/cyclevieGEDSAE.png)
+![graphique illustrant la gestion du cycle de vie des données](./../pin/media/cyclevieGEDSAE.png)
 
 ---
 
 ## La politique d'archivage électronique
-.reduite[![graphique illustrant les documents composant la politique d'archivage électronique](././pin/media/referentielpolitiquearchivage.png)]
+.reduite[![graphique illustrant les documents composant la politique d'archivage électronique](./../pin/media/referentielpolitiquearchivage.png)]
 ---
 ## Référentiel documentaire PA
 
@@ -338,11 +338,11 @@ Dans la mesure où devant le juge, se posent les questions de recevabilité et d
 ---
 
 ## Gestion
-![illustration des membres de la dream team](././pin/media/dreamteam.png)
+![illustration des membres de la dream team](./../pin/media/dreamteam.png)
 ---
 
 ### Les métadonnées de pérennisation
-![métaphore métadonnées comme partie imergée iceberg](././pin/media/icebergMetadonnees.jpg)
+![métaphore métadonnées comme partie imergée iceberg](./../pin/media/icebergMetadonnees.jpg)
 
 ---
 
@@ -350,14 +350,14 @@ Dans la mesure où devant le juge, se posent les questions de recevabilité et d
 **définition**
 > Une métadonnée est une donnée servant à **définir ou décrire** une autre donnée. **Porteuse d'information** sur le **contexte**, le **sens** et la **finalité** de la ressource informationnelle portée par la **donnée brute**.
 
-![explication des métadonnées par un métaphore sur le vin](././pin/media/vinContexte.PNG)
+![explication des métadonnées par un métaphore sur le vin](./../pin/media/vinContexte.PNG)
 
 ---
 
 ### Structuration de l'information
 La structuration de l’information est la clé qui assure la versatilité des usages qui peuvent être capitalisés à partir d’un même processus de description
 
-![schéma des différents types de métadonnées](././pin/media/metadonnees.png)
+![schéma des différents types de métadonnées](./../pin/media/metadonnees.png)
 
 ---
 
@@ -369,7 +369,7 @@ l’Objet Information est composé d’un **objet données**
 (physique ou numérique) et de l’information de représentation qui permettent d’interpréter les données sous la forme d’une **information compréhensible**.
 ]
 --
-.pull-right[.reduite[![schéma oais objet information](././pin/media/objetinformation.png)]
+.pull-right[.reduite[![schéma oais objet information](./../pin/media/objetinformation.png)]
 ]
 ---
 
@@ -378,7 +378,7 @@ l’Objet Information est composé d’un **objet données**
 .pull-left[
 Basée sur la récursivité, elle permet de représenter les différentes composantes de l'information
 
-![schéma OAIS de l'information de représentation](././pin/media/informationrepresentation.png)
+![schéma OAIS de l'information de représentation](./../pin/media/informationrepresentation.png)
 ]
 --
 .pull-right[
@@ -401,7 +401,7 @@ Identifiants d’autres standards comme la référence à la norme ASCII
 .pull-left[
 Elle doit permettre d'expliciter le contexte de production
 
-![schéma OAIS de l'information de pérennnisation](././pin/media/informationperennisation.PNG)
+![schéma OAIS de l'information de pérennnisation](./../pin/media/informationperennisation.PNG)
 ]
 --
 .pull-right[
@@ -422,14 +422,14 @@ Elle peut être composée des typologies suivantes :
 ---
 
 ## Mise en oeuvre
-.reduite[![illustration processus innovation](././pin/media/processusInnovation.jpg)]
+.reduite[![illustration processus innovation](./../pin/media/processusInnovation.jpg)]
 ---
 
 ## Mise en oeuvre opérationnelle
-![schéma des briques techniques et fonctionnelles pour le SAE](././pin/media/saeTechniquefonctionnel.png)
+![schéma des briques techniques et fonctionnelles pour le SAE](./../pin/media/saeTechniquefonctionnel.png)
 ---
 ## La vision SAEM Girondin
-![La vision SAEM](././pin/media/vision2.png)
+![La vision SAEM](./../pin/media/vision2.png)
 ---
 ## Mise en œuvre du projet et méthodogie
 * 2010 : Initiative du Conseil général de la Gironde de rechercher des partenaires pour mettre en place une plateforme d’archivage électronique mutualisée.
@@ -514,15 +514,15 @@ Instances :
 
 .pull-left[Ateliers fonctionnels (brainstorming et séances de post-it) : partage et ajustement réguliers de la vision « produit »]
 .pull-right[
-![les principes](././pin/media/principesAgile.png)
-![les post-it](././pin/media/postit.jpg)
+![les principes](./../pin/media/principesAgile.png)
+![les post-it](./../pin/media/postit.jpg)
 ]
 
 ---
 ## Les user stories
 
 .pull-left[Rédactions en commun de users stories (US) : « en tant que (rôle).. je veux (fonctionnalité métier)… afin de (objectif)… » + critères d’acceptation pour tests]
-.pull-right[![les user stories](././pin/media/userStories.png)]
+.pull-right[![les user stories](./../pin/media/userStories.png)]
 
 ---
 ## Le backlog
@@ -532,7 +532,7 @@ Instances :
 * Déclinaison par le prestataire en tâches de développement et estimation de la charge
 * Définition de sprints : développements sur 3-4 semaines, recettes, poursuite
 ]
-.pull-right[![le backlog](././pin/media/backlog.png)]
+.pull-right[![le backlog](./../pin/media/backlog.png)]
 
 ---
 ## Réalisation et bilan phase 1
@@ -631,30 +631,30 @@ Instances :
 
  et pour les acteurs publics de **l’environnement institutionnel et du contexte territorial**
 
-![la balance coût / service](././pin/media/ecoEchelleAnime.gif)
+![la balance coût / service](./../pin/media/ecoEchelleAnime.gif)
 ---
 class:center,top
 ### Cas de figure : commune
-![choix scenario commune](././pin/media/mutualisationSAE-Commune.png)
+![choix scenario commune](./../pin/media/mutualisationSAE-Commune.png)
 
 ---
 class:center,top
 ### Cas de figure : EPCI
-![choix scenario EPCI](././pin/media/mutualisationSAE-EPCI.png)
+![choix scenario EPCI](./../pin/media/mutualisationSAE-EPCI.png)
 
 ---
 class:center,top
 ### Cas de figure : EPL
-![choix scenario EPL](././pin/media/mutualisationSAE-EPL.png)
+![choix scenario EPL](./../pin/media/mutualisationSAE-EPL.png)
 ---
 class: center,top
 ### Votre projet : version classique
 
-![Les étapes du projet de SAE](././pin/media/syntheseArchivisteSI.png)
+![Les étapes du projet de SAE](./../pin/media/syntheseArchivisteSI.png)
 ---
 class: center, top
 ### MVP
-![canvas vierge](././pin/media/canvasvierge.png)
+![canvas vierge](./../pin/media/canvasvierge.png)
 
 <!--
 * « Logiciel fonctionnel plutôt que documentation complète » : il est vital que l'application fonctionne. Le reste, et notamment la documentation technique, est secondaire, même si une documentation succincte et précise est utile comme moyen de communication.
