@@ -29,7 +29,13 @@ Facilitateur numérique : je contribue à renforcer le pouvoir d'agir des utilis
 ]
 .footnote[(illustration : Moebius)]
 ---
+## De quoi avez-vous besoin ?
 
+* méthodologie projet archivage ?
+* corpus théorique gestion des métadonnées ?
+* contexte institutionnel et archivage électronique ?
+
+---
 ## Corpus théorique
 
 **Définitions**
@@ -419,6 +425,15 @@ Elle peut être composée des typologies suivantes :
 ]
 
 
+---
+### Les métadonnées descriptives
+
+.pull-left[**Décrire le contexte et les relations : le projet de norme Records in Context**
+
+Intégration des standards de description ISAD(G), ISAAR(CPF), ISDF et ISDIAH
+Les entités de ce modèle s’articulent autour de la notion de record
+]
+.pull-right[![illustration processus innovation](./../pin/media/recordInContext.jpg)]
 ---
 
 ## Mise en oeuvre
