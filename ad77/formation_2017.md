@@ -5,14 +5,14 @@ background-repeat: no-repeat;
 background-size: contain;
 .footnote[Ceci est fait en texte avec du logiciel libre]
 
-# formation CD77 avril-Mai 2018
+# formation CD77 
+## avril-Mai 2018
 
-## Au programme
+### Au programme
 
 1. Qu'est ce que l'archivage électronique
 2. Démonstration et retours d'expérience
 3. Mise en pratique
-
 ---
 
 # Qui suis-je ?
@@ -29,6 +29,8 @@ Facilitateur numérique : je contribue à renforcer le pouvoir d'agir des utilis
 ]
 .footnote[(illustration : Moebius)]
 ---
+## Tous dans le même bateau
+![SpeedBoat](./media/speedboat.jpg)
 
 ## Corpus théorique
 
@@ -42,7 +44,68 @@ Facilitateur numérique : je contribue à renforcer le pouvoir d'agir des utilis
 * De manière à ce qu’ils soient en permanence accessibles et compréhensibles
 
 ---
+## L'archivage numérique comme processus dynamique 
+<!--L'archivage numérique est donc un processus dynamique qui commence dès la création des documents.-->
 
+|Critères|Archivage traditionnel|Archivage électronique|
+|:----------------:|:-------------:|:-----------------------:|
+|Pérennité|Qualité des supports et conservation d'un exemplaire unique|Écritures en multiples exemplaires, utilisation de formats informatiques non propriétaires, etc.|
+|Intégrité|Méthodes de protection des objets (en limitant leurs sorties)|Catalogue des objets conservés, outils permettant de détecter toute modification des objets conservés|
+|Sécurité|Contrôle des accès, protection des locaux et de leur contenu (contre l'incendie, les dégâts des eaux, les nuisibles, etc.)|Contrôle des accès physiques, protection des locaux (contre l'incendie, les dégâts des eaux, etc.), gestion des droits d'accès informatiques, administration du système, réplications, sauvegardes des systèmes, etc. |
+---
+## L'archivage numérique comme processus dynamique
+|Critères|Archivage traditionnel|Archivage électronique|
+|:----------------:|:-------------:|:-----------------------:|
+|Traçabilité|Journal des événements|Journal des événements|
+|Authenticité|Signature et date|Signature électronique, horodatage, calcul et gestion d'empreintes, etc.|
+|Lisibilité / Intégrité|Implicite. Attention, certains documents peuvent s'estomper avec le temps (carbone, papiers chimiques, etc.)|Dispositifs matériels (lecteurs), formats de stockage, métadonnées spécifiques|
+|Disponibilité|Organisation des moyens et des ressources|Organisation des ressources, plan de continuité, solutions de back-up, plan de reprise d'activité|
+
+---
+
+## Objectifs de l'archivage numérique
+
+**L’archivage numérique pérenne n’est pas une sauvegarde.**
+
+L’archivage pérenne du document numérique a 3 objectifs principaux :
+.pull-left[
+* conserver le document,
+* le rendre accessible,
+* en préserver l’intelligibilité.
+]
+.pull-right[
+.reduite2[![disquette](./media/sauvegarde.jpg)]
+.reduite2[![cadenas](./media/valeurProbante.jpg)]
+]
+---
+## Les fondamentaux du besoin
+
+Ces réflexions permettent d'introduire 3 notions fondamentales :
+* authenticité et intelligibilité au travers des métadonnées descriptives
+* environnement métériel
+* environnement logiciel
+
+| Problèmes     | solutions|
+|--------------|:---------:|
+|l’obsolescence matérielle   |conserver des copies multiples des documents archivés|
+|l’obsolescence logicielle|dispositifs d’alertes de type veille technologique et économique|
+|l’obsolescence du format de fichier|format dont les spécifications internes sont librement accessibles|
+|la perte de la signification du contenu|métadonnées|
+
+.footnote[source : le concept de l'archivage numérique pérenne [ressource Cines][cines]]
+
+---
+
+## Enjeux de l'archivage numérique
+![image des enjeux de la conservation pérenne](./media/Entonnoir2-2-2.jpg)
+---
+## Enjeux de la conservation numérique
+<!--
+C’est pourquoi l’archivage numérique/électronique est devenu un véritable enjeu pour les directions des systèmes d’information. Il s'inscrit dans une gestion "efficiente" de la gestion des données numériques par la prise en compte du cycle de vie de l’information ainsi que de la conservation pérenne des données à forte valeur juridique, stratégique et/ou patrimoniale qui sont souvent la seule trace de l'activité de l'administration. Leur perte constituerait à la fois un risque juridique et un risque majeur pour la continuité des activités. La notion d'« archivage électronique » renvoie par conséquent à celle de **« gouvernance des données numériques »**.
+-->
+![image des enjeux de la conservation pérenne](./media/gouvernance_ouverte.jpg)
+
+---
 ## Gestion des activités documentaires
 
 La **norme ISO 30300** dite "gestion des documents d'activité" permet d'inclure les aspects essentiels à la mise en place d'une **stratégie de gestion de la production documentaire** en reprenant des concepts issus des normes de gestion de la qualité :
