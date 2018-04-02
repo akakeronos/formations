@@ -497,7 +497,7 @@ La chronologie des opérations par les diagrammes de séquences.
 ---
 class: center, top
 ## Et hop !
-![les processus de la plate-forme PAC](./media/processus_CINES.jpg)
+.reduite[![les processus de la plate-forme PAC](./media/processus_CINES.jpg)]
 ---
 class: center, top
 ## Modélisation d'un processus
