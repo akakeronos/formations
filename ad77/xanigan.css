@@ -70,18 +70,21 @@ img {
 .reduite2 img {
   max-height: 200px;
 }
-blockquote {
-  border-left: solid 5px lightgray;
+.blockquote {
+  border-left: solid 2px lightgray;
   padding-left: 1em;
+  font-size: 0.3 em;
+  font-weight:small;
 }
  td {
-  border: 0.7px solid;
+  border: 0.2px solid;
   text-align: center;
   font-size-adjust: auto;
   font-weight:normal;
+  padding: 5px;
   font-size: 0.3 em;
 }
 th{
-  border: 0.5px solid;
+  border: 0.2px solid;
   text-align: center;
 }
