@@ -99,7 +99,7 @@ Facilitateur numérique : je contribue à renforcer le pouvoir d'agir des utilis
 |Lisibilité / Intégrité|Implicite. Attention, certains documents peuvent s'estomper avec le temps (carbone, papiers chimiques, etc.)|Dispositifs matériels (lecteurs), formats de stockage, métadonnées spécifiques|
 |Disponibilité|Organisation des moyens et des ressources|Organisation des ressources, plan de continuité, solutions de back-up, plan de reprise d'activité|
 ---
-### Cycle de vie des archives (Donnees == Documents)
+#### Cycle de vie des archives (Donnees == Documents)
 .reduite[![illustration du cycle de vie des données](./media/cyclevieDonnees.png)]
 ---
 ## Objectifs de l'archivage numérique
@@ -308,7 +308,7 @@ La notion d'« archivage électronique » renvoie par conséquent à celle de «
 
 ---
 ## Dura lex sed lex
-code du patrimoine (article L211-1) :  les archives sont « L’**ensemble** des documents, y compris **les données**, quels que soient leur date, leur lieu de conservation, leur forme et **leur support**, produits ou reçus par toute personne physique ou morale et par tout service ou organisme public ou privé dans l'exercice de leur **activité**. »
+Code du patrimoine (article L211-1) :  les archives sont « L’**ensemble** des documents, y compris **les données**, quels que soient leur date, leur lieu de conservation, leur forme et **leur support**, produits ou reçus par toute personne physique ou morale et par tout service ou organisme public ou privé dans l'exercice de leur **activité**. »
 
 ![la loi est dure](./media/duralex.jpg)
 ---
@@ -346,8 +346,20 @@ Un document authentique est un document dont on peut prouver :
 .right-column[
 Article 110 de l'ordonnance de Villers-Cotterêts du 15 août 1539 (François 1er 1494-1547)
 
-.blockquote["Que les arrêts soient clairs et intelligibles. Et afin qu’il n’y ait cause de douter de l’intelligence desdits arrêts, Nous voulons et ordonnons qu’ils soient faits et écrits si clairement qu’il ne puisse y avoir aucune ambiguïté ou incertitude, ni lieu à en demander l’interprétation."]
+.blockquote[
+"Que les arrêts soient clairs et intelligibles.
+
+Et afin qu’il n’y ait cause de douter de l’intelligence desdits arrêts,
+
+Nous voulons et ordonnons qu’ils soient faits et écrits si clairement qu’il ne puisse y avoir aucune ambiguïté ou incertitude,
+
+ni lieu à en demander l’interprétation."
+
+
 ]
+]
+
+
 
 .left-column[
 ![le numérique dans le code civil](./media/codecivil.png)
@@ -355,7 +367,9 @@ Article 110 de l'ordonnance de Villers-Cotterêts du 15 août 1539 (François 1e
 .right-column[
 L’article 1316 du Code civil :
 
-.blockquote[ "L'écrit sous forme électronique est admis en tant que preuve au même titre que l'écrit sur support papier, sous réserve que puisse être dûment identifiée la personne dont il émane et qu'il soit établi et conservé dans des conditions de nature à en garantir l'intégrité".]
+.blockquote[
+"L'écrit sous forme électronique est admis en tant que preuve au même titre que l'écrit sur support papier, sous réserve que puisse être dûment identifiée la personne dont il émane et qu'il soit établi et conservé dans des conditions de nature à en garantir l'intégrité".
+]
 ]
 
 ---
@@ -487,6 +501,7 @@ Il doit permettre de modéliser les échanges de données pour l‘archivage et 
   * messages de notification
 ]
 
+
 ![illustration d'un processus de demande](./media/processusDemandeVersementCollaboration.png)  
 ---
 ## Modélisation d'un processus
@@ -496,17 +511,69 @@ La chronologie des opérations par les diagrammes de séquences.
 ![exemple de diagramme de classe verser archives](./media/diagrammeSequenceArchiver.png)
 ---
 class: center, top
-## Et hop !
-.reduite[![les processus de la plate-forme PAC](./media/processus_CINES.jpg)]
----
-class: center, top
+
 ## Modélisation d'un processus
 
 Les diagrammes statiques, qui permettent la conception d'un logiciel, représentent les classes participantes et le modèle physique.
 
 ![exemple de diagramme de classe verser archives](./media/diagrammeClasseVerserArchives.png)
----
 
+---
+class: center, top
+## Et hop !
+.reduite[![les processus de la plate-forme PAC](./media/processus_CINES.jpg)]
+---
+### Différents cas de versement
+.reduite[![les processus de versement SAEM](./media/processusversement.png)]
+---
+### Processus d'archivage : les responsabilités
+.pull-left[
+* L'**identification**, parmi la masse des données produites, de celles à forte **valeur** juridique, stratégique et/ou patrimoniale et dont la durée de conservation peut être très longue.
+
+* La définition d'une politique d'**accès à l'information**
+conforme aux dispositions prévues par la législation en vigueur.
+
+* La **destruction** de façon contrôlée des données
+devenues inutiles afin de **réduire les coûts** de stockage
+et de garantir le **retrait de service** des applications
+qui ne sont plus utilisées.
+
+* Un **stockage** et une sauvegarde des données importantes
+dans **un environnement sécurisé** avec des moyens adéquats.
+]
+.pull-right[
+.reduite[![illustration archiviste](./media/archiviste.png)]
+]
+---
+### Processus d'archivage : les responsabilités
+
+
+.left-column[
+.reduite2[![autorité d'archivage](./media/aa.png)]
+]
+.right-column[
+* L’AA (**autorité d’archivage**) est responsable de l'ensemble des prestations rendues par le service d’archivage électronique conformément à la politique d’archivage dont elle est à l’origine.
+
+* L’ensemble des prestations peut être décliné en plusieurs niveaux de sécurité et de service.
+
+* Son engagement se matérialse au travers de contrats de versements établi avec les services utilisateurs et dans le cadre de la politique d'archivage établie avec l'opérateur.
+
+* des accords de versement ainsi que des contrats de service différents peuvent s'appliquer à des services versants différents
+
+* une autorité de type contrôle peut s'appliquer à l'autorité d'archivage
+]
+
+.left-column[
+.reduite2[![DSI](./media/dsi.png)]
+]
+.right-column[
+* L’OA (**opérateur d’archivage**) est quant à lui responsable des moyens mis en œuvre pour satisfaire les exigences définies dans la PA.
+
+* L’AA doit posséder un droit de contrôle sur l’OA.
+
+* Il peut s'appuyer sur un opérateur délégué (exemple : pour le stockage à distance de bandes magnétiques)
+]
+---
 ## La politique d'archivage électronique
 .reduite[![graphique illustrant les documents composant la politique d'archivage électronique](./media/referentielpolitiquearchivage.png)]
 ---
@@ -519,12 +586,20 @@ Les diagrammes statiques, qui permettent la conception d'un logiciel, représent
 
 [ressource complémentaire SSI](https://www.ssi.gouv.fr/archive/fr/confiance/documents/methodes/ArchivageSecurise-P2A-2006-07-24.pdf)
 ---
-
+### Les intervants de la politique d'archivage
+.reduite[![graphique illustrant les intervenants de la politique d'archivage électronique](./media/intervantsPA.png)]
+---
 ### Les métadonnées de pérennisation
 ![métaphore métadonnées comme partie imergée iceberg](./media/icebergMetadonnees.jpg)
 
 ---
 
+#### Introduction sur les Métadonnées en général
+**définition**
+> Une métadonnée est une donnée servant à **définir ou décrire** une autre donnée. **Porteuse d'information** sur le **contexte**, le **sens** et la **finalité** de la ressource informationnelle portée par la **donnée brute**.
+
+![sans contexte](./media/bouteille.png)
+---
 #### Introduction sur les Métadonnées en général
 **définition**
 > Une métadonnée est une donnée servant à **définir ou décrire** une autre donnée. **Porteuse d'information** sur le **contexte**, le **sens** et la **finalité** de la ressource informationnelle portée par la **donnée brute**.
@@ -628,11 +703,16 @@ Elle peut être composée des typologies suivantes :
 * unitID : un identifiant unique (et pérenne)
 * unitTitle : un titre signifiant
 * unitDate : une date ou des dates extrêmes
+
+.reduite[![monographie communale](./media/archive77.png)]
 ---
 ### Identifier un producteur : Identité, activités, relations  
 * Identité : ISNI ou identifiant interne
 * Activités : missions, mandat, fonctions
 * Relations : temporelles, hiérarchiques, associatives
+
+.reduite[![monographie communale](./media/henri_brisson_monde_illustre.jpg)]
+
 ---
 ### Indexer : expliciter et normaliser
 * décrire les objets en garantissant leur traçabilité
@@ -650,19 +730,17 @@ les propriétés de mise en correspondance proposées dans SKOS permettent d'exp
 * skos:exactMatch ou skos:closeMatch
 * skos:broadMatch, skos:narrowMatch, skos:relatedMatch
 * skos:semanticRelation
-
+---
 ## Mise en oeuvre
 .reduite[![illustration processus innovation](./media/processusInnovation.jpg)]
 ---
 
-Matin deuxième jour : démonstration du SAE et retour d'expérience
-* démonstration des modules d'archivage : gestion des données d'archivage, préparation du versement, contrôle et validation du versement
+Deuxième jour : Retour d'expérience
 * gouvernance du projet d'archivage mutualisé : l'exemple Girondin
 * rôles et responsabilités : mise en perspective
+* démonstration des modules d'archivage : gestion des données d'archivage, préparation du versement, contrôle et validation du versement
 
 Après-midi : Atelier pratique mon premier versement
 * archiviste : comment présenter son meilleur profil
 * service versant : comment préparer un versement
 * archiviste : comment contrôler un versement
-
-Texte de l'introduction
