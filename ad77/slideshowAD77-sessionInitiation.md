@@ -436,7 +436,7 @@ Intégrité : le respect cumulé de trois critères
 
 <!-- Dans la mesure où devant le juge, se posent les questions de recevabilité et de force probante des documents électroniques archivés, les critères de l’intégrité doivent impérativement être édictés afin de permettre de définir les conditions dans lesquelles un document conservé pourra avoir valeur probante.-->
 
-.reduite[![les ovnis n'existent pas](./media/ovni.jpg)]
+.reduite[![les ovnis n'existent pas](./media/Ovni.jpg)]
 ---
 ## Le clé de voute : l'Identification
 Identifier un objet numérique de manière unique au sein d’un domaine
@@ -460,7 +460,7 @@ Il doit permettre de modéliser les échanges de données pour l‘archivage et 
 ---
 #### Le standard des échanges d'archives publiques : SEDA
 .pull-left[
-![schema SEDA](./media/schemaSEDA.png)
+![schema SEDA](./media/schemaSeda.PNG)
 ]
 .pull-right[
 * Le schéma SEDA permet de décrire les relations entre les acteurs au cours des échanges (transfert, de communication, de modification,  d'élimination ou de restitution d’archives).
@@ -573,6 +573,9 @@ dans **un environnement sécurisé** avec des moyens adéquats.
 
 * Il peut s'appuyer sur un opérateur délégué (exemple : pour le stockage à distance de bandes magnétiques)
 ]
+---
+### Les responsabilités dans le modèle OAIS
+![le modèle oais](./media/oais.png)
 ---
 ## La politique d'archivage électronique
 .reduite[![graphique illustrant les documents composant la politique d'archivage électronique](./media/referentielpolitiquearchivage.png)]
@@ -734,13 +737,44 @@ les propriétés de mise en correspondance proposées dans SKOS permettent d'exp
 ## Mise en oeuvre
 .reduite[![illustration processus innovation](./media/processusInnovation.jpg)]
 ---
+### Le lean canvas pour itérer sur la vision
+1. Identifier les parties prenantes (éventuellement les premiers utilisateurs de la solution mise en place)
+2. Identifier leurs problèmes (et les solutions (de contournement) qu’ils utilisent)
+3. Identifier les solutions disponibles
+4. Identifier les critères d’évaluation de la valeur apportée par la solution envisagée
+5. Identifier les critères de légitimité du(des) porteur de projets
+6. Identifier les canaux de communication mobilisables pour faire parler de son projet
+7. Identifier le concept à haute valeur ajoutée et la proposition de valeur associée au projet
+8. Identifier les coûts
+9. Identifier les revenus ou les gains
 
-Deuxième jour : Retour d'expérience
-* gouvernance du projet d'archivage mutualisé : l'exemple Girondin
-* rôles et responsabilités : mise en perspective
-* démonstration des modules d'archivage : gestion des données d'archivage, préparation du versement, contrôle et validation du versement
+---
 
-Après-midi : Atelier pratique mon premier versement
-* archiviste : comment présenter son meilleur profil
-* service versant : comment préparer un versement
-* archiviste : comment contrôler un versement
+### Choix du scenarii en fonction :
+
+* des ressources humaines nécessaires,
+* des moyens techniques à mobiliser,
+* des moyens financiers à prévoir,
+* de la volonté stratégique,
+* la maturité vis-à-vis du numérique et des archives.
+
+ et pour les acteurs publics de **l’environnement institutionnel et du contexte territorial**
+
+![la balance coût / service](./media/ecoEchelleAnime.gif)
+---
+### Votre projet : version classique
+
+![Les étapes du projet de SAE](./media/syntheseArchivisteSI.png)
+---
+class: center, top
+### MVP
+![canvas vierge](./media/canvasvierge.png)
+
+<!--
+* « Logiciel fonctionnel plutôt que documentation complète » : il est vital que l'application fonctionne. Le reste, et notamment la documentation technique, est secondaire, même si une documentation succincte et précise est utile comme moyen de communication.
+
+* « Collaboration avec le client plutôt que la négociation du contrat » : le client doit être impliqué dans le développement. On ne peut se contenter de négocier un contrat au début du projet, puis de négliger les demandes du client.
+
+* « Réagir au changement plutôt que suivre un plan » : la planification initiale et la structure du logiciel doivent être flexibles afin de permettre l'évolution de la demande du client tout au long du projet.
+
+-->
