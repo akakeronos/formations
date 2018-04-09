@@ -762,6 +762,7 @@ Les relations sont décrites selon le modèle RDF qui utilise le triplet comme �
 ---
 ### Le futur modèle de la description archivistique  : RIC Record in Context
 ![l'ontologie MDA](./media/recordInContext.jpg)
+---
 ## Mise en oeuvre
 .reduite[![illustration processus innovation](./media/processusInnovation.jpg)]
 ---
