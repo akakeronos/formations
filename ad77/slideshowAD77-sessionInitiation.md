@@ -738,7 +738,7 @@ Elle peut être composée des typologies suivantes :
 ![le graphe rdf](./media/skos.jpg)
 ---
 # Les Thesaurus et les listes d'autorité à l'heure de Web
-SKOS (Qimple Knowledge Information System) est construit sur la base du langage RDF, et son principal objectif est de permettre la publication facile de vocabulaires structurés pour leur utilisation dans le cadre du Web de données.
+SKOS (Simple Knowledge Information System) est construit sur la base du langage RDF, et son principal objectif est de permettre la publication facile de vocabulaires structurés pour leur utilisation dans le cadre du Web de données.
 les propriétés de mise en correspondance proposées dans SKOS permettent d'exprimer des correspondances entre concepts provenant de schémas différents
 * skos:exactMatch ou skos:closeMatch
 * skos:broadMatch, skos:narrowMatch, skos:relatedMatch
@@ -758,10 +758,10 @@ Les relations sont décrites selon le modèle RDF qui utilise le triplet comme �
 
 ### Exemple d'ontologie Archivage
 
-[![mobylette](./media/mda.jpg)
+![l'ontologie MDA](./media/mda.jpg)
 ---
 ### Le futur modèle de la description archivistique  : RIC Record in Context
-
+![l'ontologie MDA](./media/recordInContext.jpg)
 ## Mise en oeuvre
 .reduite[![illustration processus innovation](./media/processusInnovation.jpg)]
 ---
