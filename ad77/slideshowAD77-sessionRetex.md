@@ -55,7 +55,7 @@ Découpage du projet en trois étapes
 * phase 2 – **Développements** complémentaires sur les briques du socles ou d’autres briques fonctionnelles, **études** complémentaires et rayonnement du projet
 * phase 3 – **Exploitation puis généralisation** du système d’archivage électronique.
 
-![phases projet SAEM](./media/phasesaem.PNG)
+![phases projet SAEM](./media/phasesaem.png)
 
 ---
 ## Modalités de gouvernance
@@ -142,7 +142,7 @@ Partagé à part égale entre les partenaires
 ---
 ## Espace documentaire
 
-.reduite[![espace alfresco](./media/docged.png)]
+.reduite[![espace alfresco](./media/docGed.png)]
 ---
 
 ## Méthode agile pour le développement
@@ -152,6 +152,15 @@ Partagé à part égale entre les partenaires
 .pull-right[
 .reduite[![princpes avant processus](./media/principesAgile.png)]
 ]
+
+* Les individus et leurs interactions, de préférence aux processus et aux outils,
+* Des solutions opérationnelles, de préférence à une documentation exhaustive,
+* La collaboration avec les clients, de préférence aux négociations contractuelles,
+* La réponse au changement, de préférence au respect d’un plan.
+
+> Précisément, même si les éléments à droite ont de la valeur, nous reconnaissons davantage de valeur dans les éléments à gauche.
+
+
 ---
 ### L'expression des besoins...et leur priorisation
 Rédactions en commun de users stories (US) : « en tant que (rôle).. je veux (fonctionnalité métier)… afin de (objectif)… » + critères d’acceptation pour tests
@@ -230,7 +239,7 @@ Rédactions en commun de users stories (US) : « en tant que (rôle).. je veux 
 	* Réparties entre les 9 briques de la vision modulaire
 	   * Classées par niveau de priorité
 	    (bloquant / critique / important / mineur / trivial)
-	   * Evaluées par niveau de complexité (simple / moyen / complexe) et coûts induits---
+	   * Evaluées par niveau de complexité (simple / moyen / complexe) et coûts
 ---
 
 #### Réalisation par phase : définition de la vision produit
@@ -260,17 +269,7 @@ Rédactions en commun de users stories (US) : « en tant que (rôle).. je veux 
   * Montant du marché : Mapa (env. 200 000 €)
   * Lancement du marché : octobre 2014
 ---
-### Phase 2 référentiel : modèle de données ONTOLOGIE
-Le but d’un modèle de donnée construit comme une **ontologie** est de pouvoir **décrire des entités** (archives, acteurs, vocabulaire etc…) en utilisant les principes du web sémantique. Ils **relient les données entre elles** via des liens et **des identifiants** en supprimant les ambigüités.
-Les relations sont décrites selon le modèle RDF qui utilise le triplet comme élément de base du format d’échange : sujet (celui dont on veut parler) prédicat (propriété, verbe) objet (information)
 
-|sujet|prédicat|objet|
-|:----:|:------:|:----------:|
-|Le marché public DI45|est|un dossier|
-|Le marché public DI45|a pour producteur|la direction des Infrasctructure|
-|Le marché public DI45|a été notifié| le 12 février 2017|
-
----
 ### Réalisation et bilan phase 2
 .pull-left[
 * Phase 2 : développements
@@ -334,7 +333,7 @@ Assurer la cohérence et la complémentarité du projet SAEM avec d'autres proje
 * participation au groupe de travail SEDA V2
 * implication dans la feuille de route d'As@lae
 * Alimentation du blog SAEM
-* Collaboration avec le SIAF pour le développement d’un outil de conception de profil SEDA v2 à partir du référentiel SAEM (SHERPA)---
+* Collaboration avec le SIAF pour le développement d’un outil de conception de profil SEDA v2 à partir du référentiel SAEM (SHERPA)
 ---
 ## Retours d'expériences
 * Complexité et technicité du sujet archivage électronique (montée en compétence continue)

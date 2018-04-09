@@ -300,7 +300,7 @@ La notion d'« archivage électronique » renvoie par conséquent à celle de «
   * originaux électroniques et dématérialisation
   * faire des versements d'archives électroniques
   * gérer un journal des entrées numérique
-* le cadre normatif OAIS
+* le cadre normatif OAIS (Open Archive Information System)
 * les standards de données
 ---
 ## Le cadre normatif
@@ -310,7 +310,7 @@ La notion d'« archivage électronique » renvoie par conséquent à celle de «
 ## Dura lex sed lex
 Code du patrimoine (article L211-1) :  les archives sont « L’**ensemble** des documents, y compris **les données**, quels que soient leur date, leur lieu de conservation, leur forme et **leur support**, produits ou reçus par toute personne physique ou morale et par tout service ou organisme public ou privé dans l'exercice de leur **activité**. »
 
-![la loi est dure](./media/duralex.jpg)
+.reduite[![la loi est dure](./media/duralex.jpg)]
 ---
 ### Archiver pour prouver et pour tracer
 
@@ -404,13 +404,18 @@ au sein du marché intérieur et abrogeant la directive 1999/93/CE (eIDAS)
 ---
 
 ### Les normes de l'archivage électronique
-* NF Z42-013 (Mars 2009) : Archivage électronique - Spécifications relatives à
+* **NF Z42-013 (Mars 2009)** : Archivage électronique - Spécifications relatives à
 la conception et à l'exploitation de systèmes informatiques en vue
 d'assurer la conservation et l'intégrité des documents stockés dans ces
 systèmes
-* NF Z42-020 (Juillet 2012) : Spécifications fonctionnelles d'un composant
+* **NF Z42-020 (Juillet 2012)** : Spécifications fonctionnelles d'un composant
 Coffre-Fort Numérique destiné à la conservation d'informations numériques dans des
 conditions de nature à en garantir leur intégrité dans le temps
+
+*  **ISO 14721:2012** : modèle conceptuel destiné à la gestion, à l'archivage et à la préservation à long terme de documents numériques
+
+* **ISO 20614** : Protocole d’échange de données pour l’interopérabilité et la préservation : norme visant à définir les modalités d'échanges entre les acteurs des processus d'archivage
+
 ---
 ## Certification de la production
 .pull-left[
@@ -450,7 +455,7 @@ Identifier un objet numérique de manière unique au sein d’un domaine
 .pull-left[![schema MEDONA](./media/schemaEchanges.png)
 ]
 .pull-right[
-* Le schéma MEDONA Z 44-022 permet de structurer les métadonnées générées par les acteurs au cours des échanges (transfert, de communication, de modification, d'élimination ou de restitution d’archives).
+* La norme MEDONA (Modélisation des Échanges de DONnées pour l’Archivage) Z 44-022 permet de structurer les métadonnées générées par les acteurs au cours des échanges (transfert, de communication, de modification, d'élimination ou de restitution d’archives).
 Il doit permettre de modéliser les échanges de données pour l‘archivage et d'automatiser les procédures d'échange d'information en décrivant les règles contractuelles qui régissent le versement et la prise en charge d'un paquet d'information.
 
 * Les messages MEDONA décrivent les contraintes (format, support, identification) et fournissent un historique des opérations effectuées (transfert, réception, destruction, etc..)
@@ -526,6 +531,14 @@ class: center, top
 ### Différents cas de versement
 .reduite[![les processus de versement SAEM](./media/processusversement.png)]
 ---
+
+### Modélisation du processus de versement d'archvies publiques
+.reduite[![les processus de versement SAEM](./media/processusDemandeVersementSEDA.png)]
+---
+### Modélisation du processus de communication d'archvies publiques
+.reduite[![les processus de versement SAEM](./media/processusDemandeCommunicationSEDA.png)]
+---
+
 ### Processus d'archivage : les responsabilités
 .pull-left[
 * L'**identification**, parmi la masse des données produites, de celles à forte **valeur** juridique, stratégique et/ou patrimoniale et dont la durée de conservation peut être très longue.
@@ -617,14 +630,13 @@ La structuration de l’information est la clé qui assure la versatilité des u
 ![schéma des différents types de métadonnées](./media/metadonnees.png)
 
 ---
-## Le modèle d’information de l’OAIS
+## Le modèle d’information de l’OAIS (Open Archive Information System)
 ### L'objet information
 
 .pull-left[
 l’Objet Information est composé d’un **objet données**
 (physique ou numérique) et de l’information de représentation qui permettent d’interpréter les données sous la forme d’une **information compréhensible**.
 ]
---
 .pull-right[.reduite[![schéma oais objet information](./media/objetinformation.png)]
 ]
 ---
@@ -636,7 +648,6 @@ Basée sur la récursivité, elle permet de représenter les différentes compos
 
 ![schéma OAIS de l'information de représentation](./media/informationrepresentation.png)
 ]
---
 .pull-right[
 **Composition**
 
@@ -659,7 +670,6 @@ Elle doit permettre d'expliciter le contexte de production
 
 ![schéma OAIS de l'information de pérennnisation](./media/informationperennisation.PNG)
 ]
---
 .pull-right[
 Elle peut être composée des typologies suivantes :
 
@@ -728,12 +738,30 @@ Elle peut être composée des typologies suivantes :
 ![le graphe rdf](./media/skos.jpg)
 ---
 # Les Thesaurus et les listes d'autorité à l'heure de Web
-SKOS est construit sur la base du langage RDF, et son principal objectif est de permettre la publication facile de vocabulaires structurés pour leur utilisation dans le cadre du Web de données.
+SKOS (Qimple Knowledge Information System) est construit sur la base du langage RDF, et son principal objectif est de permettre la publication facile de vocabulaires structurés pour leur utilisation dans le cadre du Web de données.
 les propriétés de mise en correspondance proposées dans SKOS permettent d'exprimer des correspondances entre concepts provenant de schémas différents
 * skos:exactMatch ou skos:closeMatch
 * skos:broadMatch, skos:narrowMatch, skos:relatedMatch
 * skos:semanticRelation
 ---
+### Phase 2 référentiel : modèle de données ONTOLOGIE
+Le but d’un modèle de donnée construit comme une **ontologie** est de pouvoir **décrire des entités** (archives, acteurs, vocabulaire etc…) en utilisant les principes du web sémantique. Ils **relient les données entre elles** via des liens et **des identifiants** en supprimant les ambigüités.
+Les relations sont décrites selon le modèle RDF qui utilise le triplet comme élément de base du format d’échange : sujet (celui dont on veut parler) prédicat (propriété, verbe) objet (information)
+
+|sujet|prédicat|objet|
+|:----:|:------:|:----------:|
+|Le marché public DI45|est|un dossier|
+|Le marché public DI45|a pour producteur|la direction des Infrasctructure|
+|Le marché public DI45|a été notifié| le 12 février 2017|
+
+---
+
+### Exemple d'ontologie Archivage
+
+[![mobylette](./media/mda.jpg)
+---
+### Le futur modèle de la description archivistique  : RIC Record in Context
+
 ## Mise en oeuvre
 .reduite[![illustration processus innovation](./media/processusInnovation.jpg)]
 ---
