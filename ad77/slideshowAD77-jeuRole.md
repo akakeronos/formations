@@ -36,6 +36,7 @@ Par équipes de 3 vous devrez mener à bien votre quête en parcourant les forê
 ![Mise en oeuvre théorique](./media/saetheorie.png)
 ---
 name : mvp-question
+
 ## Les bonnes questions pour démarrer
 1. Identifier les parties prenantes (éventuellement les premiers utilisateurs de la solution mise en place)
 2. Identifier leurs problèmes (et les solutions (de contournement) qu’ils utilisent)
