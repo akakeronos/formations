@@ -1,4 +1,5 @@
-class: inverse, center, middle
+class: inverse, ce
+nter, middle
 background-image: url(./media/continuum.jpg)
 background-position: top;
 background-repeat: no-repeat;
@@ -35,7 +36,8 @@ Par équipes de 3 vous devrez mener à bien votre quête en parcourant les forê
 ## Carte au trésor du pays de la théorie
 ![Mise en oeuvre théorique](./media/saetheorie.png)
 ---
-name : mvp-question
+name: mvp-question
+
 ## Les bonnes questions pour démarrer
 1. Identifier les parties prenantes (éventuellement les premiers utilisateurs de la solution mise en place)
 2. Identifier leurs problèmes (et les solutions (de contournement) qu’ils utilisent)
