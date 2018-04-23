@@ -1,5 +1,4 @@
-class: inverse, ce
-nter, middle
+class: inverse, center, middle
 background-image: url(./media/continuum.jpg)
 background-position: top;
 background-repeat: no-repeat;
