@@ -148,7 +148,7 @@ name 1.3
 4. Je suis le service déconcentré de la DREAL et je veux archiver les dossiers de classement des établissements dangereux de 2008 à 2018
 
 ---
-name: sc-internes
+name: sc-interne
 
 ## **Scénario internalisation** : La collectivité gère en son sein ses propres archives
 
