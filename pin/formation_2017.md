@@ -5,7 +5,7 @@ background-repeat: no-repeat;
 background-size: contain;
 .footnote[Ceci est fait en texte avec du logiciel libre]
 
-# formation CD77 avril-Mai 2018
+# formation PIN décembre 2017
 
 ## Au programme
 
