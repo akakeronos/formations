@@ -55,7 +55,9 @@ name: mvp-question
 * [bibliothèque de référence pour l'archivage numérique](https://francearchives.fr/fr/article/26287443)
 ---
 name: 1.1
-# internalisation : aller à la page [sc-interne](slideshow.html#sc-interne)
+# internalisation :
+* aller à la page [sc-interne](slideshow.html#sc-interne)
+* aller à la page [sc-interne](#sc-interne)
 ---
 name: 1.1.1
 # j'ai déjà un SAE :
