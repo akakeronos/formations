@@ -42,7 +42,7 @@ class: center, middle
 ![Mise en oeuvre théorique](./media/saetheorie.png)
 ---
 name: mvp-question
-class: center, middle
+class: center, left
 
 ## Les bonnes questions pour démarrer
 1. Identifier les parties prenantes (éventuellement les premiers utilisateurs de la solution mise en place)
@@ -58,10 +58,26 @@ class: center, middle
 class: center, middle
 
 ## Choix de la quête
-1. Je suis une municipalité de Seine-et-Marne et je veux archiver électroniquement mes marchés publics
+1. Je suis une municipalité de Seine-et-Marne et je veux archiver électroniquement mes marchés publics :
+  * choisir un [scenario](#sc)
+2. Je suis la DREAL et je veux archiver les dossiers de classement des établissements dangereux pour la période 2008-2018
+  * choisir un [scenario](#sc)
+3. Je suis la communauté de commune du Val d'Oise et je veux archiver mes flux comptables dématérialisés
+  * choisir un [scenario](#sc)
+4. Je suis la direction des collèges du Département de la Seine-et-Marne et je veux archiver les dossiers de maintenance des batîments gérés dans l'application Abyla
+  * choisir un [scenario](#sc)
 
 * [ressource pédagogique](https://www.economie.gouv.fr/daj/ouverture-des-donnees-commande-publique)
 * [bibliothèque de référence pour l'archivage numérique](https://francearchives.fr/fr/article/26287443)
+---
+name: 1
+class: center, middle
+
+# scenarii
+* internalisation : aller à la page [sc-interne](#sc-interne)
+* externalisation publique : aller à la page [sc-depot-EPCI](#sc-depot-EPCI)
+* mutualisation : aller à la page [sc-depot-cd](#sc-depot-CD)
+* externalisation privée : aller à la page[sc-depot-tiers](#sc-depot-tiers)
 ---
 name: 1.1
 class: center, middle
