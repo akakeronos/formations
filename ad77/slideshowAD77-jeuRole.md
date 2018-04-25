@@ -73,9 +73,10 @@ class: center, middle
 name: 1
 # scenarii
 * internalisation : aller à la page [internalisation](#sc-interne)
-* externalisation publique : aller à la page [dépôt en EPCI](#sc-depot-EPCI)
-* mutualisation : aller à la page [dépôt aux AD](#sc-depot-ad)
-* externalisation privée : aller à la page [tiers archiveur privé](#sc-depot-tiers)
+* dépôt au sein d'un EPCI : aller à la page [dépôt en EPCI](#sc-depot-EPCI)
+* dépôt au Département : aller à la page [dépôt aux AD](#sc-depot-ad)
+* mutualisation entre services publics d'archives : aller à la page [mutualisation SPA](#sc-depot-spa)
+* externalisation : aller à la page [tiers archiveur privé](#sc-depot-tiers)
 ---
 name: 1.1
 class: center, middle
