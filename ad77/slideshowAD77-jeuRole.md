@@ -71,13 +71,11 @@ class: center, middle
 * [bibliothèque de référence pour l'archivage numérique](https://francearchives.fr/fr/article/26287443)
 ---
 name: 1
-class: center, middle
-
 # scenarii
-* internalisation : aller à la page [sc-interne](#sc-interne)
-* externalisation publique : aller à la page [sc-depot-EPCI](#sc-depot-EPCI)
-* mutualisation : aller à la page [sc-depot-cd](#sc-depot-CD)
-* externalisation privée : aller à la page[sc-depot-tiers](#sc-depot-tiers)
+* internalisation : aller à la page [internalisation](#sc-interne)
+* externalisation publique : aller à la page [dépôt en EPCI](#sc-depot-EPCI)
+* mutualisation : aller à la page [dépôt aux AD](#sc-depot-ad)
+* externalisation privée : aller à la page [tiers archiveur privé](#sc-depot-tiers)
 ---
 name: 1.1
 class: center, middle
@@ -229,15 +227,12 @@ class: center, middle
 aller à la page [sc-depot-EPCI](#sc-depot-EPCI)
 ---
 name: sc-interne
-class: center, middle
 
 ## **Scénario internalisation**
 La collectivité gère en son sein ses propres archives
 
 * Prérequis : disposer au moins d’1 archiviste présent dans la collectivité prenant en charge les dépôts d’archives, leur gestion et leur valorisation, et accompagnant les services de la collectivité dans la mise en oeuvre des versements et l'utilisation du SAE
 ---
-class: center, middle
-
 ## **Scénario internalisation**
 
 * Conditions de réussite / collectivité demandeuse :
@@ -252,8 +247,6 @@ class: center, middle
   * Des référents métiers identifiés dans les directions pour contribuer ponctuellement à la définition et la mise en œuvre de règles d'archivage
   * Mise en œuvre d’un réseau de référent en archivage qui sont formés et accompagnés à l’exercice régulier des processus d’archivage. Réseau extensible à la gestion du cycle de vie courant(RM) et à l’accès aux données administratives (Open Data)
 ---
-class: center, middle
-
 ## **Scénario internalisation**
 
 * Moyens techniques : quelles sont les infrastructures disponibles ?
@@ -264,8 +257,6 @@ class: center, middle
     * Puis des coûts de maintenance et de reversibilité
     (fonction de la taille et des besoins de la collectivité)
 ---
-class: center, middle
-
 ## **Scénario internalisation**
 
   * volonté stratégique : Y-a-t-il une stratégie définie ? Un sponsor ?
@@ -281,18 +272,14 @@ class: center, middle
 class: center, middle
 
 ## Identifier les forces et faiblesses de votre scenario
-![dcant forces et faiblesses](./media/dcant.png)
+![dcant forces et faiblesses](./media/dcnat.png)
 ---
-class: center, middle
-
 ### Forces
 1. Indépendance dans les choix liés au SAE
 2. relation directe avec les éditeurs de solutions à archiver
 3. qualité de service pour les services producteurs
 4. développement d’une culture métier de la conservation et du traitement des données côté SI et d’une culture du numérique dans le service archives. Compétences utiles pour le reste des projets numériques
 ---
-class: center, middle
-
 ### Forces
 
 #### Option SAE-M : Mutualisation de logiciels et / ou infrastructure
@@ -304,16 +291,12 @@ class: center, middle
     1. Optimisation des moyens techniques, financiers et RH SI
     2. Mise en conformité du dispositif
 ---
-class: center, middle
-
 ### Faiblesses
 1. Coûts et charges de mise en œuvre et de maintenance du SAE et des connecteurs
 2. Niveau de compétences et pérennité des ressources
 3. Capacité à influer sur les feuilles de route des éditeurs de solutions à archiver
 4. Niveau de conformité, pérennité et évolutivité du SAE
 ---
-class: center, middle
-
 ### Faiblesses
 
 #### Option SAE-E : Externalisation de logiciels et / ou infra. chez un tiers
@@ -327,7 +310,6 @@ class: center, middle
   2. Risque de disparition / évolution des compétences des partenaires
 
 ---
-class: center, middle
 name: sc-depot-EPCI
 
 ## **Scénario 2 : dépôt au sein d'un EPCI**
@@ -337,9 +319,6 @@ La collectivité externalise son archivage
   - s'engagent vis-à-vis des autres communes de l'EPCI à mettre à disposition un service d'archivage électronique
   - disposent des moyens et compétences suffisantes pour prendre en charge les dépôts et accompagner les collectivités dans la mise en œuvre des versements et l'utilisation du SAE
 ---
-class: center, middle
-name: sc-depot-EPCI
-
 ## **Scénario 2 : dépôt au sein d'un EPCI**
 
 * Conditions de réussite / collectivité demandeuse :
@@ -348,61 +327,41 @@ name: sc-depot-EPCI
   * RH SI : quelles sont les ressources mobilisables côté numérique ?
     * Des ressources SI suffisantes pour mettre en œuvre puis maintenir les connecteurs
 ---
-class: center, middle
-name: sc-depot-EPCI
-
 ## **Scénario 2 : dépôt au sein d'un EPCI**
 
-  * RH métiers : quelles sont les ressources mobilisables dans les directions métiers ?
-    * Des référents métiers identifiés dans les directions pour contribuer ponctuellement à la définition et la mise en œuvre de règles d'archivage
+* RH métiers : quelles sont les ressources mobilisables dans les directions métiers ?
+  * Des référents métiers identifiés dans les directions pour contribuer ponctuellement à la définition et la mise en œuvre de règles d'archivage
 
-  * Moyens techniques : quelles sont les infrastructures disponibles ?
-    * Un dispositif d'échanges de données sécurisé entre le SI de la collectivité et l'EPCI ou la commune membre
-    * Des solutions métiers à archiver homogènes entre les différentes communes membres de l'EPCI
+* Moyens techniques : quelles sont les infrastructures disponibles ?
+  * Un dispositif d'échanges de données sécurisé entre le SI de la collectivité et l'EPCI ou la commune membre
+  * Des solutions métiers à archiver homogènes entre les différentes communes membres de l'EPCI
 ---
-class: center, middle
-name: sc-depot-EPCI
-
 ## **Scénario 2 : dépôt au sein d'un EPCI**
-
-
-  * Moyens financiers : quels sont les budgets disponibles ?
-    * Entre 0 et 50 K€ sur 5 ans pour contribuer aux moyens mis en œuvre par l'EPCI ou la commune membre (suivant le modèle économique défini par l'EPCI)
+* Moyens financiers : quels sont les budgets disponibles ?
+  * Entre 0 et 50 K€ sur 5 ans pour contribuer aux moyens mis en œuvre par l'EPCI ou la commune membre (suivant le modèle économique défini par l'EPCI)
 ---
-class: center, middle
-name: sc-depot-EPCI
-
 ## **Scénario 2 : dépôt au sein d'un EPCI**
-
-
-  * volonté stratégique : Y-a-t-il une stratégie définie ? Un sponsor ?
-    * Validation générale des enjeux et de la démarche par la direction générale.
-    * Intérêt pour la mutualisation
-    * Confiance vis-à-vis de la pérennité, des compétences archivistiques et des moyens informatiques mis à disposition par l'EPCI ou la commune membre
+* volonté stratégique : Y-a-t-il une stratégie définie ? Un sponsor ?
+  * Validation générale des enjeux et de la démarche par la direction générale.
+  * Intérêt pour la mutualisation
+  * Confiance vis-à-vis de la pérennité, des compétences archivistiques et des moyens informatiques mis à disposition par l'EPCI ou la commune membre
 ---
-class: center, middle
-name: sc-depot-EPCI
-
 ## **Scénario 2 : dépôt au sein d'un EPCI**
 
-  * maturité : quelle est la maturité de l'organisation par rapport au numérique ?
-    * Système d'information maîtrisé
-    * Projets de dématérialisation engagés
-    * Sensibilité vis-à-vis des enjeux et contraintes associées aux projets mutualisés dans le domaine du numérique
+* maturité : quelle est la maturité de l'organisation par rapport au numérique ?
+  * Système d'information maîtrisé
+  * Projets de dématérialisation engagés
+  * Sensibilité vis-à-vis des enjeux et contraintes associées aux projets mutualisés dans le domaine du numérique
 
 ---
 class: center, middle
 ## Identifier les forces et faiblesses de votre scenario
-![dcant forces et faiblesses](./media/dcant.png)
+![dcant forces et faiblesses](./media/dcnat.png)
 ---
-class: center, middle
-
 ### Forces
 1. Mutualisation des coûts et charges à l'échelle de l'EPCI
-2. Compétences et moyens techniques mobilisables potentiellement  plus importants que pour le scénario 1
+2. Compétences et moyens techniques mobilisables potentiellement moins importants que pour le [scénario d'internalisation](#sc-interne)
 ---
-class: center, middle
-
 ### Forces
 
 #### Option SAE-M : Mutualisation de logiciels et / ou infrastructure
@@ -414,15 +373,11 @@ class: center, middle
     1. Optimisation des moyens techniques, financiers et RH SI
     2. Mise en conformité du dispositif
 ---
-class: center, middle
-
 ### Faiblesses
 1. Gouvernance du dispositif plus complexe que pour le scénario 1
 2. Adéquation avec les spécificités des différentes collectivités (notamment connecteurs)
 3. Capacité d'accompagnement des communes
 ---
-class: center, middle
-
 ### Faiblesses
 
 #### Option SAE-E : Externalisation de logiciels et / ou infra. chez un tiers
@@ -432,8 +387,6 @@ class: center, middle
   3. qualité de service
   4. coût du service
 ---
-class: center, middle
-
 ### Faiblesses
 
 #### Option SAE-M : Mutualisation de logiciels et / ou infrastructure
@@ -441,3 +394,228 @@ class: center, middle
   2. Risque de disparition / évolution des compétences des partenaires
 
 ---
+name: sc-depot-ad
+
+## **Scénario 3 : dépôt au département**
+La collectivité externalise son archivage au département le plus proche ou le plus avancé
+
+* Prérequis : Le Département
+  * s'engage vis-à-vis des autres collectivités du Département à mettre à disposition un service d'archivage électronique
+  * dispose des moyens et compétences suffisantes pour prendre en charge les dépôts et accompagner les collectivités dans la mise en œuvre des versements et l'utilisation du SAE
+---
+## **Scénario 3 : dépôt au département**
+
+* Conditions de réussite / collectivité demandeuse :
+  * RH AE : quelles sont les ressources mobilisables côté archives ?
+    * 1 référent identifié pour traiter les questions d'archivage électronique
+  * RH SI : quelles sont les ressources mobilisables côté numérique ?
+    * Des ressources SI suffisantes pour mettre en œuvre puis maintenir les connecteurs
+---
+## **Scénario 3 : dépôt au département**
+
+* RH métiers : quelles sont les ressources mobilisables dans les directions métiers ?
+  * Des référents métiers identifiés dans les directions pour contribuer ponctuellement à la définition et la mise en œuvre de règles d'archivage
+
+* Moyens techniques : quelles sont les infrastructures disponibles ?
+  * Un dispositif d'échanges de données sécurisé entre le SI de la collectivité et le Département
+  * Des solutions métiers à archiver homogènes entre les différentes collectivités du Département
+---
+## **Scénario 3 : dépôt au département**
+* Moyens financiers : quels sont les budgets disponibles ?
+  * Entre 0 et 50 K€ sur 5 ans pour contribuer aux moyens mis en œuvre par le Département (suivant le modèle économique défini par le Département)
+---
+## **Scénario 3 : dépôt au département**
+* volonté stratégique : Y-a-t-il une stratégie définie ? Un sponsor ?
+  * Validation générale des enjeux et de la démarche par la direction générale.
+  * Intérêt pour la mutualisation
+  * Confiance vis-à-vis de la pérennité, des compétences archivistiques et des moyens informatiques mis à disposition par le Département
+---
+## **Scénario 3 : dépôt au département**
+
+  * maturité : quelle est la maturité de l'organisation par rapport au numérique ?
+    * Système d'information maîtrisé
+    * Projets de dématérialisation engagés
+    * Sensibilité vis-à-vis des enjeux et contraintes associées aux projets mutualisés dans le domaine du numérique
+
+---
+class: center, middle
+## Identifier les forces et faiblesses de votre scenario
+![dcant forces et faiblesses](./media/dcnat.png)
+---
+### Forces
+1. Mutualisation des coûts et charges à l'échelle du Département
+
+2. Compétences et moyens techniques mobilisables potentiellement moins importants que pour les scénarii d'[internalisation](#sc-interne) ou d'[externalisation dans un EPCI](#sc-epci)
+---
+### Forces
+
+#### Option SAE-M : Mutualisation de logiciels et / ou infrastructure
+  (Code général des collectivités territoriales)
+  1. Optimisation des moyens techniques, financiers et RH SI
+  2. Mise en conformité du dispositif
+#### Option SAE-E : Externalisation de logiciels et / ou infra. chez un tiers
+  (Droit des marchés publics)
+    1. Optimisation des moyens techniques, financiers et RH SI
+    2. Mise en conformité du dispositif
+---
+### Faiblesses
+1. Gouvernance du dispositif plus complexe que pour les scénarii 1 et 2
+2. Adéquation avec les spécificités des différentes collectivités (notamment connecteurs)
+3. Capacité d'accompagnement des collectivités
+---
+### Faiblesses
+
+#### Option SAE-E : Externalisation de logiciels et / ou infra. chez un tiers
+  (Droit des marchés publics)
+  1. Risque de défaillance du fournisseur
+  2. Réversibilité en fin de marché
+  3. qualité de service
+  4. coût du service
+---
+### Faiblesses
+
+#### Option SAE-M : Mutualisation de logiciels et / ou infrastructure
+  1. Risque de changement de stratégie des partenaires
+  2. Risque de disparition / évolution des compétences des partenaires
+---
+name: sc-depot-spa
+
+## **Scénario 4 : mutualisation entre services publics d'archives**
+La collectivité mutualise son archivage avec un ou plusieurs services publics d'archives
+
+* Prérequis : Un service public d'archives
+  * propose à d'autres collectivités de mettre à leur disposition un service d'archivage électronique
+  * dispose des moyens et compétences suffisantes pour prendre en charge les dépôts et accompagner les collectivités dans la mise en œuvre des versements et l'utilisation du SAE
+---
+## **Scénario 4 : mutualisation entre services publics d'archives**
+
+* Conditions de réussite / collectivité demandeuse :
+  * RH AE : quelles sont les ressources mobilisables côté archives ?
+    * 1 référent identifié pour traiter les questions d'archivage électronique
+  * RH SI : quelles sont les ressources mobilisables côté numérique ?
+    * Des ressources SI suffisantes pour mettre en œuvre puis maintenir les connecteurs
+---
+## **Scénario 4 : mutualisation entre services publics d'archives**
+
+* RH métiers : quelles sont les ressources mobilisables dans les directions métiers ?
+  * Des référents métiers identifiés dans les directions pour contribuer ponctuellement à la définition et la mise en œuvre de règles d'archivage
+
+* Moyens techniques : quelles sont les infrastructures disponibles ?
+  * Un dispositif d'échanges de données sécurisé entre le SI de la collectivité et le SPA
+  * Des solutions métiers à archiver homogènes entre les différentes collectivités associées au SPA
+---
+## **Scénario 4 : mutualisation entre services publics d'archives**
+* Moyens financiers : quels sont les budgets disponibles ?
+  * Entre 0 et 50 K€ sur 5 ans pour contribuer aux moyens mis en œuvre par le SPA (suivant le modèle économique défini par le SPA)
+---
+## **Scénario 4 : mutualisation entre services publics d'archives**
+* volonté stratégique : Y-a-t-il une stratégie définie ? Un sponsor ?
+  * Validation générale des enjeux et de la démarche par la direction générale.
+  * Intérêt pour la mutualisation
+  * Confiance vis-à-vis de la pérennité, des compétences archivistiques et des moyens informatiques mis à disposition par le SPA
+---
+## **Scénario 4 : mutualisation entre services publics d'archives**
+
+  * maturité : quelle est la maturité de l'organisation par rapport au numérique ?
+    * Système d'information maîtrisé
+    * Projets de dématérialisation engagés
+    * Sensibilité vis-à-vis des enjeux et contraintes associées aux projets mutualisés dans le domaine du numérique
+---
+class: center, middle
+## Identifier les forces et faiblesses de votre scenario
+![dcant forces et faiblesses](./media/dcnat.png)
+---
+### Forces
+1. Mutualisation des coûts et charges (fonction du nombre de collectivités partenaires)
+2. Compétences et moyens techniques mobilisables potentiellement moins importants que pour les scénarii d'[internalisation](#sc-interne) ou d'[externalisation dans un EPCI](#sc-epci)
+---
+### Forces
+
+#### Option SAE-M : Mutualisation de logiciels et / ou infrastructure
+  (Code général des collectivités territoriales)
+  1. Optimisation des moyens techniques, financiers et RH SI
+  2. Mise en conformité du dispositif
+#### Option SAE-E : Externalisation de logiciels et / ou infra. chez un tiers
+  (Droit des marchés publics)
+    1. Optimisation des moyens techniques, financiers et RH SI
+    2. Mise en conformité du dispositif
+---
+### Faiblesses
+1. Gouvernance du dispositif plus complexe que pour les scénarii 1, 2 et 3
+2. Adéquation avec les spécificités des différentes collectivités (notamment connecteurs)
+3. Capacité d'accompagnement des collectivités
+---
+### Faiblesses
+
+#### Option SAE-E : Externalisation de logiciels et / ou infra. chez un tiers
+  (Droit des marchés publics)
+  1. Risque de défaillance du fournisseur
+  2. Réversibilité en fin de marché
+  3. qualité de service
+  4. coût du service
+---
+### Faiblesses
+
+#### Option SAE-M : Mutualisation de logiciels et / ou infrastructure
+  1. Risque de changement de stratégie des partenaires
+  2. Risque de disparition / évolution des compétences des partenaires
+---
+name: sc-depot-tiers
+
+## **Scénario 5 : dépôt chez un tiers archiveur privé et agréé**
+La collectivité externalise son archivage chez un tiers archiveur privé (EPL ou entreprise privée)
+
+* Prérequis :
+  * Une convention ou un marché est conclu entre la collectivité et un tiers-archiveur
+  * Le Tiers-archiveur dispose des moyens et compétences pour prendre en charge les dépôts et accompagner les collectivités dans la mise en œuvre des versements et l'utilisation du SAE
+  * La collectivité dispose par ailleurs d'une solution pour gérer ses archives définitives (cf autres scénarios)
+---
+## **Scénario 5 : dépôt chez un tiers archiveur privé et agréé**
+
+* Conditions de réussite / collectivité demandeuse :
+  * RH AE : quelles sont les ressources mobilisables côté archives ?
+    * 1 référent identifié pour traiter les questions d'archivage électronique
+    * ressources requises par scénario archivage définitif retenu
+  * RH SI : quelles sont les ressources mobilisables côté numérique ?
+    * Des ressources SI suffisantes pour mettre en œuvre puis maintenir les connecteurs
+    * ressources requises par scénario archivage définitif retenu
+---
+## **Scénario 5 : dépôt chez un tiers archiveur privé et agréé**
+
+* RH métiers : quelles sont les ressources mobilisables dans les directions métiers ?
+  * Des référents métiers identifiés dans les directions pour contribuer ponctuellement à la définition et la mise en œuvre de règles d'archivage
+
+* Moyens techniques : quelles sont les infrastructures disponibles ?
+  * Un dispositif d'échanges de données sécurisé entre le SI de la collectivité et le tiers-archiveur
+  * Des solutions métiers à archiver homogènes entre les différentes collectivités associées au tiers-archiveur
+  * moyens techniques requis par scénario archivage définitif retenu
+---
+## **Scénario 5 : dépôt chez un tiers archiveur privé et agréé**
+* Moyens financiers : quels sont les budgets disponibles ?
+  * Entre 15 et 50 K€ sur 5 ans pour mettre en œuvre la prestation de tiers-archivage puis payer une redevance au tiers-archiveur pour les archives prises en charge (suivant modèle économique du tiers-archiveur)
+  * moyens financiers requis par scénario archivage définitif retenu
+---
+## **Scénario 5 : dépôt chez un tiers archiveur privé et agréé**
+* volonté stratégique : Y-a-t-il une stratégie définie ? Un sponsor ?
+  * Validation générale des enjeux et de la démarche par la direction générale.
+  * Intérêt pour l'externalisation
+  * Confiance vis-à-vis de la pérennité, des compétences archivistiques et des moyens informatiques mis à disposition par le tiers-archiveur
+---
+## **Scénario 5 : dépôt chez un tiers archiveur privé et agréé**
+
+  * maturité : quelle est la maturité de l'organisation par rapport au numérique ?
+    * Système d'information maîtrisé
+    * Projets de dématérialisation engagés
+    * Sensibilité vis-à-vis des enjeux et contraintes associées aux projets mutualisés dans le domaine du numérique
+---
+class: center, middle
+## Identifier les forces et faiblesses de votre scenario
+![dcant forces et faiblesses](./media/dcnat.png)
+---
+### Forces
+1. Mutualisation des coûts et charges (fonction du nombre de collectivités clientes)
+2. Compétences et moyens techniques mobilisables potentiellement moins importants que pour les scénarii d'[internalisation](#sc-interne) ou d'[externalisation dans un EPCI](#sc-epci)
+---
+### Faiblesses
+1. Reversibilité du dispositif
+2. Adéquation avec les spécificités des différentes collectivités (notamment connecteurs)
