@@ -3,7 +3,7 @@ background-image: url(./media/continuum.jpg)
 background-position: top;
 background-repeat: no-repeat;
 background-size: contain;
-.footnote[Ceci est fait en texte avec du logiciel libre]
+.footnote[CC-By-SA Keronos Entertainment. Ceci est fait en texte avec du logiciel libre]
 
 # formation CD77
 ## Mai 2018
@@ -16,365 +16,76 @@ background-size: contain;
 4. évaluation
 ---
 ## Agenda
-* Matin premier jour : rappel des épisodes précédents
-* Après-midi premier jour : choisir une quête et un scenario
-* Matin deuxième jour : réaliser la quête
-* Après-midi deuxième jour : partage de quête et évaluation
+* Rappel des épisodes précédents
+* Choix du rôle
+* Réaliser la quête
+* Partage et rétrospective
 
 .reduite2[![horloge](./media/horaires.jpg)]
 ---
 ## Retrospective
 .reduite[![SpeedBoat](./media/speedboat.jpg)]
 ---
-class: center, middle
+class: center
 
-## Jeu dont vous êtes le héros (ou l'héroïne)
-Mettre en production un SAE et effectuer un versement
+## Jeu dont vous êtes les héroïnes (ou les héros)
+Mettre en production un SAE et faire de l'archivage électronique (un truc de dingue!)
+
+Saurez-vous apprivoiser les jargons techniques et collaborer pour déjouer la complexification abyssale de notre jungle administrative afin d'offrir des données structurées et contextualisées à vos adorateurs.trices immémorielles ?
+
+Constituez des équipes avec au moins un représentant de 2 entités OAIS puis choisissez votre terrain de jeu parmi les différents contextes de jeu.
+
+Parcourer les étapes de la mise en oeuvre d'un processus d'archivage jusqu'à la restitution de dossiers de marchés publics et votre destination sera atteinte.
+
+Choisir un rôle dans l'OASIS (pardon [OAIS](#oais)!)
+---
+name: oais
+### L'Ouverture des Archives Intelligible et Sécurisée (OAIS)
+![schéma du modèle OAIS](./media/oais.png)
+
+Placer les rôles sur le schéma en fonction du [contexte de jeu](#scenarii)
 ---
 name: heros
-## les héros (ou l'héroïne) de l'archivage électronique
-* Côté AA :
-  * entité Conservation et collections
-    * [archiviste](#archiviste)
-    * [cartographe des producteurs](#cartographe)
-    * [serial indexeur](#indexeur)
-    * [chargé de traitement de versement](#traitement)
-    * [chargé de valorisation d'archives numériques](#valorisation)
-  * entité Entrées et traitements
-    * [profileur de versement](#profileur)
-    * [accompagnateur de versement](#accompagnateur)
-    * [chargé d'accueil d’un versement](#accueil)
-* entité planification
+### les héros (ou l'héroïne) de l'archivage électronique
+* Entité Conservation et collections
+  * [archiviste](#archiviste)
+  * [cartographe des producteurs](#cartographe)
+  * [serial indexeur](#indexeur)
+  * [chargé de traitement de versement](#traitement)
+  * [chargé de valorisation d'archives numériques](#valorisation)
+* Entité Entrées et traitements
+  * [profileur de versement](#profileur)
+  * [accompagnateur de versement](#accompagnateur)
+  * [chargé d'accueil de versement](#accueil)
+* Entité planification
   * [plombier numérique](#plombier)
   * [urbaniste de la dématérialisation](#urbaniste)
   * [aiguilleur de la dématérialisation](#aiguilleur)
   * [référent archivage numérique](#referent)
-* entité stockage
+* Entité stockage
   * [superviseur de dépôt numérique](#superviseur)
-### Rédigez votre fiche de poste
-* [fiche de poste vierge](#vierge)
+
+Rédiger votre fiche de poste [fiche de poste vierge](#vierge)
+Placer sur la [carte OAIS](#oais) les rôles de l'équipe et choisir un [thème de jeu](#scenarii)
 ---
-name: archiviste
-class: fiche-metier
-
-### Archiviste [rôles](#heros)
-> Au sein de l'entité Conservation et collections, vous êtes chargé.e d'assurer le contrôle, la collecte, le traitement, et l'accompagnement de services producteurs variés.
-
-**missions** :
-* Etre responsable de la collecte auprès de producteurs variés
-* Assurer le contrôle scientifique et technique sur les archives
-* traitement matériel, description définition de plan de classement, saisies, inventaire
-* Aider et conseiller les institutions.
-* Assurer des formations auprès des services producteurs.
-
-**Savoir (connaissances nécessaires pour agir)**
-* connaissance des techniques, procédures et normes sur les archives
-* connaissance des institutions administratives et judiciaires et de leur histoire
-* des règles de fonctionnement des CT
-* des politiques du Département,
-
-**compétences** :
-* exploiter des textes réglementaires,
-* faire des analyses et des synthèses,
-* s'exprimer à l'oral et à l'écrit,
-* utiliser l'informatique,
-* mettre en pratique ses connaissances,
-* animer une équipe, mener des projets, évaluer son activité
-
----
-name: cartographe
-class: fiche-metier
-
-### Cartographe des producteurs [rôles](#heros)
-> Au sein de l'entité gestion pour êtes chargé.e de la création, et de la mise à jour de la cartographie des producteurs d'archives en relation avec le périmètre d'activité de l'organisation. [compatible télétravail : oui]
-
-**missions** :
-* produire des notices sur les producteurs d'archives
-* établir une cartographie des producteurs par fonction
-* contribuer aux annuaires, référentiels et à l'urbanisation du système d'information
-
-**Savoir (connaissances nécessaires pour agir)**
-* bonne connaissance de la norme ISAR-CPF
-* pratique d'un outil de cataloguage
-* techniques, procédures et normes sur les archives
-
-**compétences** :
-* connaissance du standard XML EAC
-* connaissance de l'institution
-* co-organisation de café des producteurs pour le réseau des référents
-
----
-name: indexeur
-class: fiche-metier
-
-### Serial indexeur [rôles](#heros)
-> Au sein de l'entité gestion, vous êtes chargé.e de l'enrichissement des descriptions archivistiques par le biais de vocabulaires contrôlés ou listes d'autorités et de l'assistance à la réalisation de vocabulaires métiers.
-[compatible télétravail : oui]
-
-**missions** :
-* réutiliser ou produire des vocabulaires contrôlés
-* mettre à jour les vocabulaires en fonction de l'évolution des besoins
-* enrichir les vocabulaires avec des alignements sémantiques
-
-**Savoir (connaissances nécessaires pour interagir)**
-* bonne connaissance des principes de l'indexation archivistique
-* maîtrise des pratiques d'indexation
-* création et mise à jour de vocabulaires contrôlés ou de listes d'autorité
-
-**compétences** :
-* capacité à organiser l'information de manière hiérarchique et structurée
-* connaissance du standard SKOS est une atout
-* organisation de café des professionnels de l'information documentaire pour partager et harmoniser les pratiques
-
----
-name: profileur
-class: fiche-metier
-
-### Profileur de versement [rôles](#heros)
-> Au sein de l'entité entrée, vous êtes chargé.e de la création et de la mise à jour de tableaux de gestion numérique au format SEDA. [compatible télétravail : oui]
-
-**missions** :
-* création de profils de versement conformes au standard SEDA
-* transformation de tableaux de gestion papier en tableaux de gestion éléctronique
-* coordination avec l'indexeur et le cartographe pour mise en relation des données
-
-**Savoir (connaissances nécessaires pour agir)**
-* maîtrise du standard SEDA
-* rédaction de profils de versement
-* techniques, procédures et normes sur les archives
-* coordination avec la DSI pour les projets de connecteurs applicatifs
-
-**compétences** :
-* connaissance et pratique de l'outil SHERPA
-* compréhension des règles de cardinalité et des schémas XML
-* compréhension des enjeux de la pérennisation numérique
-* formations aux standard SEDA et aux outils de production associés
-
----
-name: accompagnateur
-class: fiche-metier
-
-## Accompagnateur de versement [rôles](#heros)
-> Au sein de l'entité entrée, vous êtés chargé.e d'accompagner les services versants et producteurs dans la réalisation de leurs processus de versements et de restitution d'archives. [compatible télétravail : oui]
-
-**missions** :
-* assister les services versants dans les processus de versements
-* superviser l'exécution des versements automatisés
-* coordination avec le profileur et l'urbaniste pour l'automatisation des traitements
-
-**Savoir (connaissances nécessaires pour agir)**
-* maîtrise du processus de versement
-* rédaction d'accords de versement
-* techniques, procédures et normes sur les archives
-
-**compétences** :
-* compréhension des enjeux de la production numérique
-* conseil et écoute, médiation à l'usage du numérique
-* co-organisation de café des services versants pour le réseau des référents
-* évaluer les besoins des services versants et produire un rapport d'activité pour l'entité administration
-
----
-name: accueil
-class: fiche-metier
-
-### Chargé d'accueil des versements [rôles](#heros)
-> Au sein de l'entité versement, vous êtes chargé.e du contrôle, de la validation et de la transmission des versements d'archives électroniques aux entités gestion et stockage. [compatible télétravail : oui]
-
-**missions** :
-* récupérer les paquets d'informations soumis (SIP) et contrôler leur contenu
-* validater la conformité des versements par rapport aux profils et accords de versements associés
-* transmission des bordereaux de versement à l'entité gestion
-
-**Savoir (connaissances nécessaires pour agir)**
-* maîtrise des formats de conservation numérique
-* techniques, procédures et normes sur les archives
-
-**compétences** :
-* maîtrise de l'environnement de travail numérique
-* sens de la formule dans les cas de refus de versement
----
-name: traitement
-class: fiche-metier
-
-### Chargé de traitement des versements [rôles](#heros)
-> Au sein de l'entité gestion, vous êtes chargé.e du traitement du journal des entrées et du journal des événements de l'OAIS. [compatible télétravail : oui]
-
-**missions** :
-* intégrer les versements dans le journal des entrées
-* enrichir les descriptions des versements
-* effectuer des opérations de pérenisation de l'information numérique
-* établir un rapport d'activité sur la gestion de l'OAIS
-
-**Savoir (connaissances nécessaires pour agir)**
-* techniques, procédures et normes sur les archives
-* maîtrise de la description archivistique dans l'univers numérique
-* compréhension des enjeux de la recherche du futur
-
-**compétences** :
-* maîtrise de l'environnement de travail numérique
-* maîtrise de la norme ISAAD-G et du schéma XML EAD
-* bonne connaissance de l'environnement institutionnel
-* pratique avancée de rédaction littéraire
----
-name: valorisation
-class: fiche-metier
-
-### Chargé de valorisation des archives [rôles](#heros)
-> Au sein de l'entité diffusion, vous êtes en charge de la valorisation des fonds numériques. [comaptible télétravail : a priori non]
-
-**missions** :
-* préparer et diffuser des paquets d'information à diffuser
-* anticiper les besoins de communication en lien avec les entités gestion et stockage
-* construction de produits éditoriaux et de requêtes avancées
-
-**Savoir (connaissances nécessaires pour agir)**
-* maîtrise de l'environnement de travail numérique
-* maîtrise de l'environnement Web et pratique des réseaux sociaux
-* connaissances en requêtes
-* maîtrise des règles de communcabilité, de la RGPD et des procédures de dérogation
-
-**compétences** :
-* médiation numérique avec les publics
-* veille sur les modalités de diffusion de l'information
-* animateur de communauté
-
----
-name: plombier
-class: fiche-metier
-
-### Plombier numérique [rôles](#heros)
-> Au sein de l'entité gestion, vous êtes chargé.e de réaliser des connecteurs applicatifs. [compatible télétravail : oui]
-
-**missions** :
-* identifier les données nécessaires à l'archivage dans les bases de données et systèmes de fichiers utilisés par les applciations métiers
-* définir le protocole de transmission des informations extraites et prévoir leur destination
-* identifier les règles de gestion permettant de déclencher les processus de versement, de communication et d'élimination
-
-**Savoir (connaissances nécessaires pour agir)**
-* connaissance des protocoles d'interactions entre applications
-* comprendre un MCD et écrire des requêtes de type SQL
-* connaissance des outils de type ETL ou ESB
-
-**compétences** :
-* compréhension des besoins liés aux processus d'archivage
-* connaissance du métiers et des applications
-* connaissance des formats de données et des techniques de transformation, extraction, chargement
----
-name: urbaniste
-class: fiche-metier
-
-### Urbaniste de la dématérialisation [rôles](#heros)
-> Au sein de l'entité planification de la pérennisation, vous êtes chargé.e de cartographier les flux de données et de proposer une architecture dy cycle de vie de l'information. [compatible télétravail : oui]
-
-**missions** :
-* identifier les flux de données et les règles de gestion associées
-* proposer des plans d'urbanisation permettant de gérer le cycle de vie des documents et données de l'organisation
-* proposer des modules applicatifs interopérables et ouverts
-
-**Savoir (connaissances nécessaires pour agir)**
-* connaissance des enjeux de la RGPD, de l'archivage et de la dématérialisation
-* connaissance des modules existants pour la gestion du cycle de vie de l'information
-* compréhension des enjeux des architectures orientées services
-
-**compétences** :
-* maîtrise des enjeux de la dématérialisation
-* veille technologique et institutionnelle
-* capacité à dialoguer et à avancer pas à pas
----
-name: aiguilleur
-class: fiche-metier
-
-### Aiguilleur de la dématérialisation [rôles](#heros)
-> Au sein de l'entité planification de la pérennisation, vous êtes chargé.e de préparer les flux de données et de documents pour faciliter leur aiguillage vers le SAE. [comaptible télétravail : oui]
-
-**missions** :
-* contribuer à la cartographie des flux applicatifs et à la construction du référentiel documentaire
-* accompagner les projets de dématérialisation notamment sur la partie cycle de vie de l'information
-* accompagner les métiers dans l'identification des données et documents de valeur
-
-**Savoir (connaissances nécessaires pour agir)**
-* connaissance des normes de record management
-* connaissance des métiers des directions et de la réglementation en matière de dématérialisation
-* connaissance des standards de description et des données essentielles à l'archivage
-
-**compétences** :
-* maîtrise du contexte juridique et réglementaire
-* connaissance des enjeux de l'archivage électronique
-* capacité à dialoguer et à avancer pas à pas
----
-name: superviseur
-class: fiche-metier
-
-### Superviseur du dépôt numérique [rôles](#heros)
-> Au sein de l'entité stockage, vous êtes chargé.e de fournir les conditions matérielles de stockage des données archivées et de réaliser une supervision active des serveurs.
-
-**missions** :
-* définir l'architecture de stockage et de sauvegarde des données
-* mettre en place les moyens de supervision pour le maintien en condition opérationnelle et la reprise d'activité
-* produire un rapport d'activité sur le contrôle de l'intégrité des données et les besoins prévisionnels de renouvellement des capacités de stockage
-
-**Savoir (connaissances nécessaires pour agir)**
-* maîtrise des technologies de stockage et de sauvegarde
-* maîtrise des outils de supervision des infrastructures et des applications
-* connaissance des enjeux de la pérenisation
-
-**compétences** :
-* déploiement de serveurs physiques et virtuels
-* rédaction de dossiers d'architecture technique
-* rédaction d'une politique de sécurité des systèmes d'information
----
-name: referent
-class: fiche-metier
-
-### Rérérent métier archivage [rôles](#heros)
-> Au sein de votre direction métier, vous êtes chargé.e de contribuer à la cartographie de la production de données et de documents et de coordonner les processus d'archivage associés
-
-**missions**
-* rédiger des tableaux de gestion en lien avec les règles d'archivage
-* préparer les flux d'archivage en participant aux projets de connecteurs ou à la prpéaration matérielle des versements
-* effectuer des versements et participer aux processus d'archivage de la direction
-
-**Savoir (connaissances nécessaires pour agir)**
-* compréhension des enjeux de l'archivage numérique
-* connaissance des enjeux de la RGPD, de l'open data et de la dématérialisation
-
-**compétences** :
-* maîtrise de l'environnement numérique
-* connaissance des enjeux de la gestion du cycle de vie de l'information
-* compréhension des enjeux de la pérennisation de l'information
----
-name: vierge
-class: fiche-metier
-
-### Fiche de poste [rôles](#heros)
-> Au sein de ..., vous êtes chargé.e de ...
-
-**missions**
-*
-*
-*
-
-**Savoir (connaissances nécessaires pour agir)**
-*
-*
-
-**compétences** :
-*
-*
-*
----
-class: center, middle
+name: regles
+class: center
 
 ### Règles du jeu
 Par équipes de 3,4 vous devrez mener à bien votre quête en parcourant les forêts mystérieuses de la dématérialisation administrative.
 
-* [bibliothèque de référence pour l'archivage numérique](https://francearchives.fr/fr/article/26287443)
+Vous pouvez vous aider de la [bibliothèque de référence pour l'archivage numérique](https://francearchives.fr/fr/article/26287443) et de la présence d'un [facilitateur numérique](#facilitateur) pour réaliser vos missions.
 
+Consulter la [carte de la quête](#carte) et se poser les [bonnes questions](#mvp-question) pour démarrer.  Se rendre sur la page de [choix de la quête](#quete)
 ---
+name: carte
 class: center, middle
 
 ## Carte au trésor du pays de la théorie
 ![Mise en oeuvre théorique](./media/saetheorie.png)
+Au pays de la théorie, plusieurs projets sont en production et archivent quantités de données de manière totalement automatisée dans une forteresse inprenable.
+
+Après avoir choisi votre quête, votre contexte et vos compagnon.nes, tenter de rejoindre le pays de la pratique en établissant un [plan](#architecture) et en organisant une [équipe](#organisation)
 ---
 name: mvp-question
 
@@ -388,10 +99,14 @@ name: mvp-question
 7. Identifier le concept à haute valeur ajoutée et la proposition de valeur associée au projet
 8. Identifier les coûts
 9. Identifier les revenus ou les gains
+
+Revenir à la page précédente
 ---
-class: center, middle
+name: quete
+class: center
 
 ## Choix de la quête
+En fonction de votre niveau d'expertise, de vos besoins ou de votre contexte vous pouvez choisir une quête parmi celles-ci.
 
 ### équipe experte
 Verser les dossiers de marchés publics notifiés depuis la GED dans le SAE intermédiaire et verser les pièces à conserver dans le SAE définitif
@@ -402,9 +117,9 @@ Verser les dossiers de marchés publics notifiés depuis la GED dans le SAE inte
 1. Identifier la source de production
 2. Identifier les données essentielles
 3. construire la table de concordance
-4. écrire le processus de versement
-5. écrire le profil
-6. effectuer un versement manuel
+4. écrire le [contrat de versement](#contrat-versement)
+5. écrire le [profil](#profil)
+6. effectuer un [versement](#versement-marche)
 
 aller à la page [architecture](#architecture)
 
@@ -437,6 +152,8 @@ aller à la page [scenarii d'arhivage](#scenarii)
 ---
 name: architecture
 ### Architecture du cycle de vie des marchés publics
+Afin de prendre en compte la globalité du cycle de vie des archives, il est essentiel d'identifier la ou les sources de production afin d'identifier les événements déclencheurs qui peuvent justifier du passage des données ou documents d'un entrepôt à un autre.
+> Ce travail est également requis dans le cadre de la mise en pplace du RGDP en intégrant l'identification des données à caractère privé.
 
 1. identifier les sources de production
 2. identifier les acteurs du processus
@@ -447,11 +164,14 @@ aller à la page [organisation](#organisation)
 
 ---
 name: organisation
+
 ### Organisation pour la gestion du cycle de vie de l'information
-1. identifier les ressources existantes
+Afin de mener à bien votre quête vous devrez constituer une équipe compétente et complémentaire. Vous devrez évaluer leur disposnibilité afin d'ajuster l'organisation et le planning de réalisation associé à vos projets. Le cas échéant vous devrez rédiger des fiches de postes pour recruter les compétences ou les ressources manquantes.
+
+1. identifier les [ressources](#heros) existantes
 2. identifier les ressources mobilisables
-3. dessiner la cartographie des compétences
-4. écrivez les fiches des postes manquantes
+3. dessiner la [cartographie](#oais) des compétences
+4. écrivez les [fiches des postes](#vierge) manquantes
 
 allez à la page [scenarii](#scenarii)
 
@@ -459,59 +179,94 @@ allez à la page [scenarii](#scenarii)
 name: scenarii
 
 ## scenarii
-* internalisation : aller à la page [internalisation](#sc-interne)
-* dépôt au sein d'un EPCI : aller à la page [dépôt en EPCI](#sc-depot-EPCI)
-* dépôt au Département : aller à la page [dépôt aux AD](#sc-depot-ad)
-* mutualisation entre services publics d'archives : aller à la page [mutualisation SPA](#sc-depot-spa)
-* externalisation : aller à la page [tiers archiveur privé](#sc-depot-tiers)
+* internalisation : aller à la page [internalisation](#internalisation)
+* dépôt au sein d'un EPCI : aller à la page [dépôt en EPCI](#externalisation-epci)
+* dépôt au Département : aller à la page [dépôt aux AD](#externalisation-ad)
+* mutualisation entre services publics d'archives : aller à la page [mutualisation SPA](#mutualisation-spa)
+* externalisation : aller à la page [tiers archiveur privé](#externalisation-tiers)
 
 ### mise en oeuvre
 * Vous avez déjà un SAE, [rédigez un profil](#profil) pour préparer le modèle de versement
 * Vous voulez automatiser le versement, [définissez les modalités](#automatisation) du connecteur
+* vous voulez concevoir un SAE, [définissez vos besoins](#conception-sae)
 ---
 name: automatisation
 ### Concevoir un connecteur applicatif
+Un connecteur applicatif est un processus qui prend en entrée des données et des documents et qui les transmets à une autre application, lorsque survient un événement déclencheur, afin de les transformer dans un format cible.
+
+Par exemple, l'application de publication des marchés publics du département extrait les données relatives à la phase de passation, lorsque le marché est notifié et l'acte d'engagement légalisé, et les dépose dans un dossier d'une GED ou sous la forme d'un bordereau SEDA directement à un SAE.
+
 * depuis une [application métier](#automatisation-metier)
 * depuis une [GED](#automatisation-ged)
 
-retourner à la page [rédaction du profil](#profil) de versement
+Si finalement vous préférez effectuer un versement manuel, retournez à la page [rédaction du profil](#profil) de versement
 ---
 name: internalisation
-class: center, middle
 
 # internalisation :
+L'internalisation de la fonction archivage électronique nécessite une collaboration entre une autorité d'archivage et un opérateur d'archivage à l'intérieur de l'organisation. Découvrez les forces et les faiblesses de ce scenario pour voir s'il vous convient.
 
 * aller à la page [sc-interne](#sc-interne)
 ---
+name: externalisation-tiers
+
+# externalisation AI :
+La réglementation définie par le Code du Patrimoine permet d'effectuer une externalisation des archives chez un prestataire privé. Cette externalisation, toutefois, ne peut concerner que les archives intermédiaires et doit faire l'objet d'un marché public.
+Pour connaître les forces et les faiblesses de ce scenario, aller à la page [sc-depot-tiers](#sc-depot-tiers)
+---
+name: externalisation-epci
+
+# externalisation AI et AD :
+Pour une commune il est possible de d'adresser à une communauté de commune ou à une commune du groupement afin de consommer un service d'archivage électronique.
+Pour connaître les forces et les faiblesses de ce scenario, aller à la page [sc-depot-EPCI](#sc-depot-EPCI)
+---
+name: externalisation-ad
+
+# externalisation en AD :
+Pour une commune ou une communauté de commune il est possible d'effectuer des dépôts d'archives électroniques dans l'entrepôt de conservation des archives départementales si celle-ci dispose d'un service d'archivage électronique.
+Pour connaître les forces et les faiblesses de ce scenario, aller à la page [sc-depot-EPCI](#sc-depot-ad)
+---
+
+name: mutualisation-spa
+
+# mutualisation entre service public d'archives :
+Pour une commune, une communauté de commune ou un département il est possible de mettre en place une convention de partenariat afin de mutualiser le service d'archivage électronique.
+Pour connaître les forces et les faiblesses de ce scenario, aller à la page [sc-depot-EPCI](#sc-depot-spa)
+---
 name: sae-existant
-class: center, middle
 
 # j'ai déjà un SAE :
 
-[se poser les 9 question](#mvp-question)
+Vous disposez déjà d'un SAE. Vous pouvez soit effectuer un versement en rédigeant un profil ou convenir au préalable d'un contrat de versement avec le service versant. Dans tous les cas, vous devez mettre à jour votre politique d'archivage pour y inscrire le flux pris en charge et ses modalités d'archivage
 ---
 name: profil
-class: center, middle
 
 # écrire le profil
+Ce profil doit contenir plusieurs unités de description : un dossier de consultation des entreprises, un dossier de publicité, un dossier de notification, un dossier contenant les offres et éventuellement un dossier contenant l'exemplaire unique légalisé.
+Il doit contenir les règles de sort final, de DUA et de communicabilité et les données définies dans le référentiel du ministère de l'économie dans l'arrêté du 14 avril 2017 relatif aux données essentielles dans la commande publique (https://www.economie.gouv.fr/files/files/directions_services/daj/marches_publics/ouverture-donnees/referentiel_marches_publics.pdf)
 
-conformément à l'arrêté du 14 avril 2017 relatif aux données essentielles dans la commande publique (https://www.economie.gouv.fr/files/files/directions_services/daj/marches_publics/ouverture-donnees/referentiel_marches_publics.pdf)
+Une fois ce profil réalisé, vous pouvez l'associer à l'entité administrative qui va en effectuer le versement.
+
 ---
 name: contrat-versement
-class: center, middle
 
 # écrire le contrat de versement avec la direction des marchés
+Les modalités d'échanges avec les services consommateurs du service d'archivage électronique doivent être définies dans un document contractuel qui précise notamment la fréquence prévisionnelle des versements, leur contenu, leur volumétrie, les formats de fichier et les conditions de communication ou d'élimination.
 
-en vous inspirant du modèle du SIAF (https://francearchives.fr/file/08d5cc7f7b6229a5845e9b6a5e7efbc214d8b2ce/BDR_04_Contrat_de_versement_sans_notice.odt)
+Rédigez le contrat de versement de la direction de la commande publique en vous inspirant du [modèle du SIAF](./ressources/BDR_04_Contrat_de_versement_sans_notice.odt)
+
+Retranscrivez ces éléments dans votre [politique d'archivage](#politique-archivage)
 ---
 name: politique-archivage
-class: center, middle
 
 # mettre à jour le référentiel de la politique d'archivage
+La politique d'archivage est le document qui établi les responsabilités entre les différents acteurs du service d'archivage électronique et précise les offres de service associées.
 
+A partir des éléments définis dans le contrat de versement établi avec la direction de la commande publique, vous mettrez à jour votre politique d'archivage avec le niveau de service associé.
+
+Rédigez votre politique d'archivage en vous inspirant du [modèle du SIAF](./resources/BDR_02_Politique_d-archivage_sans_notice.odt)
 ---
 name: association-profil
-class: center, middle
 
 # procéder à l'association du profil avec la direction des marchés de votre autorité d'archivage
 
@@ -520,16 +275,14 @@ Rendez-vous dans le [module référentiel](http://saem-demo.cloudapp.net/referen
 Rendez-vous dans le [module GED-SAS](http://saem-demo.cloudapp.net/share) pour synchroniser ce profil dans l'espace du service versant.
 ---
 name: versement-marche
-class: center, middle
 
 # procéder au versement d'un marché :
 
-(https://github.com/akakeronos/formations/raw/master/ad77/exemples/exempleMarche.zip.zip)
+(./exemples/exempleMarche/marche SPEC 08967 SAE.zip)
 
 Trois options sont possibles en fonction ni niveau d'automatisation et d'outillage disponible. A partir de l'exemple de dossier fourni, procéder à un versement manuel [via le formulaire](#versement-marche-form), à un versement manuel [depuis le dossier profilable](#versement-marche-manuel), à l'[import d'un dossier zippé](#versement-marche-zip).
 ---
 name: versement-marche-form
-class: center, middle
 
 ## en remplissant le formulaire associé au profil dans le site versant de la direction des marchés
 
@@ -538,7 +291,6 @@ Le formulaire est accessible depuis le bouton "préparer un versement" disponibl
 Rendez-vous dans la [GED-SAS](http://saem-demo.cloudapp.net/share/page?pt=login) en tant que Fabian Halboud (fhalboud/fhalboud) et préparer un versement avec le profil synchronisé depuis le référentiel
 ---
 name: versement-marche-manuel
-class: center, middle
 
 ## en créant une arborescence de fichiers et de dossiers dans le dossier profilable de l'espace documenaire du site versant de la direction des marchés
 
@@ -547,7 +299,6 @@ Les profils synchronisés depuis le référentiel et associés à la direction d
 Rendez-vous dans la [GED-SAS](http://saem-demo.cloudapp.net/share/page?pt=login) en tant que Fabian Halboud (fhalboud/fhalboud) et préparer un versement dans le dossier profilable créé à partir de la synchronisation depuis le référentiel.
 ---
 name: versement-marche-zip
-class: center, middle
 
 ## en important le dossier zippé dans l'espace documentaire du site versant de la direction des marchés
 
@@ -556,7 +307,6 @@ Il est possible d'importer manuellement un dossier zippé qui correspond à l'ar
 Rendez-vous dans la [GED-SAS](http://saem-demo.cloudapp.net/share/page?pt=login) en tant que Fabian Halboud (fhalboud/fhalboud) et préparer un versement dans le dossier profilable créé à partir de la synchronisation depuis le référentiel.
 ---
 name: validation-versement-marche
-class: center, middle
 
 # accepter ce versement dans le SAE
 
@@ -566,32 +316,42 @@ Rendez-vous dans le [module d'archivage](http://saem-demo.cloudapp.net/asalae) e
 
 ---
 name: elimination-marche
-class: center, middle
 
 # éliminer les pièces et dossiers éliminables
+Le dossier des offres non retenues est éliminables au bout de 5 ans.
+Même si le dossier d'archives englobant a un sort final conserver, il est possible de définir un autre sort final pour une unité d'archives du versement et de procéder à son élimination.
+
+
 ---
 name: communication-marche
-class: center, middle
 
 # communiquer les dossiers communicables
+Le délai de communicabilité des marchés publics étant immédiat, vous pouvez en tant que direction de commande publique demander la communication d'un dossier de votre versement. Lors de l'intégration d'un portail de recherche et de consultation des archives communicables vous pourrez également communiquer cette archives à toute personne qui en ferait la demande.
+
+Rendez-vous dans la GED SAS dans le site de la direction de la commande publique et effectuer une demande de communication.
 ---
 name: restitution-marche
-class: center, middle
 
 # restituer le marché dans le site de la direction des marchés
+Imaginons que le marché fasse l'objet d'un avenant et que la direction de la commande publique ait besoin de modifier le contenu du dossier versé, vous pouvez le lui restituer afin qu'elle puisse le modifier et vous le soumettre à nouveau.
 ---
 name: conception-sae
-class: center, middle
 
 # je dois mettre en place un SAE
+Suite à la décision politique et administrative, vous êtes chargé de mettre en place un SAE dans vote organisation.
+Vous pouvez consulter la page des scenarii d'archivage pour voir les différentes options qui s'ouvrent à vous.
+Dans le cas où vous souhaiteriez réaliser votre propre SAE, posez vous les bonnes questions, puis définissez vos besoins prioritaires.
+
 ---
 name: location-sae
-class: center, middle
 
 # je loue un SAE existant
+Dans le cas où la commande que vous avez reçu ne stipule pas obligatoirement le déploiement d'un système d'archviage électronique conçu en interne, rendez-vous sur la page des [scenarii](#scenarii) pour consulter les options qui s'offrent à vous et les forces et faiblesses de chacun.
+
+Vous devrez ensuite en fonction de votre choix mettre à jour votre [politique d'archivage](#politique-archivage) et préciser dans un [contrat de versement](#contrat-versement) le niveau de service auquel vous souscrivez.
+
 ---
 name: infra-sae
-class: center, middle
 
 ## je définis l'espace de conservation numérique
 
@@ -605,7 +365,6 @@ Mettez à jour votre [politique de sécurité des systèmes d'information](#pssi
 Aller la page du [démarrage opérationnel](#sae-operationnel)
 ---
 name: pssi
-class: center, middle
 
 ## je met à jour la PSSI
 La Politique de sécurité des systèmes d'information définit les conditions d'utilisation des infrastructures et applications mises en oeuvre au sein de l'organisation et définissent les niveaux de service associés à l'utilisation des ressources.
@@ -617,59 +376,46 @@ Pour l'archivage électronique la priorité concerne le maintien en condition op
 Retourner à la page de définition de l'[infrastructure de stockage](#infra-sae) ou aller directement à l'étape de [démarrage opérationnel](#sae-operationnel)
 ---
 name: reversibilite
-class: center, middle
 
 ## je procède à un test de réversibilité
 ---
 name: support-pedagogique
-class: center, middle
 
 ## je rédige un support pédagogique pour les collègues de la direction des marchés
 ---
 name: dev-sae
-class: center, middle
 
 # je développe mon propre SAE
-[se poser les 9 question](#mvp-question)
+Pour développer son propre SAE il est important de connaître l'offre disponible sur le marché, de maîtriser la réglementation en vigeur et de [se poser les 9 question](#mvp-question)
+
+ENsuite vous pourrez rédiger vos [exigences fonctionnelles](#exigences-fonctionnelles)
 ---
 name: exigences-fonctionnelles
 class: center, middle
 
 ## je liste mes exigences fonctionnelles
-écrire mes 10 histoires utilisateurs prioritaires
+écrire mes 10 histoires utilisateurs prioritaires sous la forme :
+" En tant que [rôle] je veux [fonctionnalité] afin de [usage]"
+Vous préciserez pour chacune de ces exigences les tests que vous effecturez pour valider de l'adéquation du besoin avec la fonctionnalité mise à disposition sous la forme : "doit permettre de [usage détaillé]"
 ---
 name: validation-exigence
-class: center, middle
 
 # je valide mes exigences fonctionnelles
 écrire mes 10 tests de validation
+
 ---
 name: sae-production
-class: center, middle
 
 Bravo ! votre SAE peut être mis en production. Il vous faut simplement définir l'infrastructure de stockage adaptée et vous pourrez ensuite procéder à la préparation des versements.
 
 # Définir l'[infrastructure du SAE](#infra-sae)
 ---
 name: sae-operationnel
-class: center, middle
 
 Bravo ! Votre application de SAE est opérationnelle.
 Vous pouvez commencer à rédiger des profils pour permettre aux services versants d'effectuer des versements.
 
 # Rédiger le [profil de versement](#profil)
----
-name: externalisation-tiers
-class: center, middle
-
-# externalisation AI :
-aller à la page [sc-depot-tiers](#sc-depot-tiers)
----
-name: externalisation-epci
-class: center, middle
-
-# externalisation AI et AD :
-aller à la page [sc-depot-EPCI](#sc-depot-EPCI)
 ---
 name: sc-interne
 
@@ -1064,3 +810,363 @@ class: center, middle
 ### Faiblesses
 1. Reversibilité du dispositif
 2. Adéquation avec les spécificités des différentes collectivités (notamment connecteurs)
+---
+name: archiviste
+
+.left-column[
+.reduite[![avatar archiviste](./media/archiviste.png)]
+]
+.right-column[
+### Archiviste  [liste des rôles](#heros)
+> Au sein de l'entité Conservation et collections, vous êtes chargé.e d'assurer le contrôle, la collecte, le traitement, et l'accompagnement de services producteurs variés.
+
+**missions** :
+* Etre responsable de la collecte auprès de producteurs variés
+* Assurer le contrôle scientifique et technique sur les archives
+* traitement matériel, description définition de plan de classement, saisies, inventaire
+* Aider et conseiller les institutions.
+* Assurer des formations auprès des services producteurs.
+
+**Savoir (connaissances nécessaires pour agir)**
+* connaissance des techniques, procédures et normes sur les archives
+* connaissance des institutions administratives et judiciaires et de leur histoire
+* des règles de fonctionnement des CT
+* des politiques du Département,
+
+**compétences** :
+* exploiter des textes réglementaires,
+* faire des analyses et des synthèses,
+* s'exprimer à l'oral et à l'écrit,
+* utiliser l'informatique,
+* mettre en pratique ses connaissances,
+* animer une équipe, mener des projets, évaluer son activité
+]
+
+---
+name: cartographe
+
+.left-column[
+.reduite[![avatar cartographe](./media/cartographe.png)]
+]
+.right-column[
+### Cartographe des producteurs [rôles](#heros)
+> Au sein de l'entité gestion pour êtes chargé.e de la création, et de la mise à jour de la cartographie des producteurs d'archives en relation avec le périmètre d'activité de l'organisation. [compatible télétravail : oui]
+
+**missions** :
+* produire des notices sur les producteurs d'archives
+* établir une cartographie des producteurs par fonction
+* contribuer aux annuaires, référentiels et à l'urbanisation du système d'information
+
+**Savoir (connaissances nécessaires pour agir)**
+* bonne connaissance de la norme ISAR-CPF
+* pratique d'un outil de cataloguage
+* techniques, procédures et normes sur les archives
+
+**compétences** :
+* connaissance du standard XML EAC
+* connaissance de l'institution
+* co-organisation de café des producteurs pour le réseau des référents
+]
+---
+name: indexeur
+.left-column[
+.reduite[![avatar indexeur](./media/indexeur.png)]
+]
+.right-column[
+
+### Serial indexeur [rôles](#heros)
+> Au sein de l'entité gestion, vous êtes chargé.e de l'enrichissement des descriptions archivistiques par le biais de vocabulaires contrôlés ou listes d'autorités et de l'assistance à la réalisation de vocabulaires métiers.
+[compatible télétravail : oui]
+
+**missions** :
+* réutiliser ou produire des vocabulaires contrôlés
+* mettre à jour les vocabulaires en fonction de l'évolution des besoins
+* enrichir les vocabulaires avec des alignements sémantiques
+
+**Savoir (connaissances nécessaires pour interagir)**
+* bonne connaissance des principes de l'indexation archivistique
+* maîtrise des pratiques d'indexation
+* création et mise à jour de vocabulaires contrôlés ou de listes d'autorité
+
+**compétences** :
+* capacité à organiser l'information de manière hiérarchique et structurée
+* connaissance du standard SKOS est une atout
+* organisation de café des professionnels de l'information documentaire pour partager et harmoniser les pratiques
+]
+---
+name: profileur
+.left-column[
+.reduite[![avatar profileur](./media/profileur.png)]
+]
+.right-column[
+
+### Profileur de versement [rôles](#heros)
+> Au sein de l'entité entrée, vous êtes chargé.e de la création et de la mise à jour de tableaux de gestion numérique au format SEDA. [compatible télétravail : oui]
+
+**missions** :
+* création de profils de versement conformes au standard SEDA
+* transformation de tableaux de gestion papier en tableaux de gestion éléctronique
+* coordination avec l'indexeur et le cartographe pour mise en relation des données
+
+**Savoir (connaissances nécessaires pour agir)**
+* maîtrise du standard SEDA
+* rédaction de profils de versement
+* techniques, procédures et normes sur les archives
+* coordination avec la DSI pour les projets de connecteurs applicatifs
+
+**compétences** :
+* connaissance et pratique de l'outil SHERPA
+* compréhension des règles de cardinalité et des schémas XML
+* compréhension des enjeux de la pérennisation numérique
+* formations aux standard SEDA et aux outils de production associés
+]
+---
+name: accompagnateur
+.left-column[
+.reduite[![avatar accompagnatrice](./media/accompagnatrice.png)]
+]
+.right-column[
+
+### Accompagnateur.trice de versement [rôles](#heros)
+> Au sein de l'entité entrée, vous êtés chargé.e d'accompagner les services versants et producteurs dans la réalisation de leurs processus de versements et de restitution d'archives. [compatible télétravail : oui]
+
+**missions** :
+* assister les services versants dans les processus de versements
+* superviser l'exécution des versements automatisés
+* coordination avec le profileur et l'urbaniste pour l'automatisation des traitements
+
+**Savoir (connaissances nécessaires pour agir)**
+* maîtrise du processus de versement
+* rédaction d'accords de versement
+* techniques, procédures et normes sur les archives
+
+**compétences** :
+* compréhension des enjeux de la production numérique
+* conseil et écoute, médiation à l'usage du numérique
+* co-organisation de café des services versants pour le réseau des référents
+* évaluer les besoins des services versants et produire un rapport d'activité pour l'entité administration
+]
+---
+name: accueil
+.left-column[
+.reduite[![avatar accueil](./media/accueil.png)]
+]
+.right-column[
+
+### Hôte.sse de versements [rôles](#heros)
+> Au sein de l'entité versement, vous êtes chargé.e du contrôle, de la validation et de la transmission des versements d'archives électroniques aux entités gestion et stockage. [compatible télétravail : oui]
+
+**missions** :
+* récupérer les paquets d'informations soumis (SIP) et contrôler leur contenu
+* validater la conformité des versements par rapport aux profils et accords de versements associés
+* transmission des bordereaux de versement à l'entité gestion
+
+**Savoir (connaissances nécessaires pour agir)**
+* maîtrise des formats de conservation numérique
+* techniques, procédures et normes sur les archives
+
+**compétences** :
+* maîtrise de l'environnement de travail numérique
+* sens de la formule dans les cas de refus de versement
+]
+---
+name: traitement
+.left-column[
+.reduite[![avatar traiteur](./media/traiteur.png)]
+]
+.right-column[
+
+### Traiteur de versements [rôles](#heros)
+> Au sein de l'entité gestion, vous êtes chargé.e du traitement du journal des entrées et du journal des événements de l'OAIS. [compatible télétravail : oui]
+
+**missions** :
+* intégrer les versements dans le journal des entrées
+* enrichir les descriptions des versements
+* effectuer des opérations de pérenisation de l'information numérique
+* établir un rapport d'activité sur la gestion de l'OAIS
+
+**Savoir (connaissances nécessaires pour agir)**
+* techniques, procédures et normes sur les archives
+* maîtrise de la description archivistique dans l'univers numérique
+* compréhension des enjeux de la recherche du futur
+
+**compétences** :
+* maîtrise de l'environnement de travail numérique
+* maîtrise de la norme ISAAD-G et du schéma XML EAD
+* bonne connaissance de l'environnement institutionnel
+* pratique avancée de rédaction littéraire
+]
+---
+name: valorisation
+.left-column[
+.reduite[![avatar valorisatrice](./media/valorisatrice.png)]
+]
+.right-column[
+
+### Valorisatreur.trice de versement [rôles](#heros)
+> Au sein de l'entité diffusion, vous êtes en charge de la valorisation des fonds numériques. [comaptible télétravail : a priori non]
+
+**missions** :
+* préparer et diffuser des paquets d'information à diffuser
+* anticiper les besoins de communication en lien avec les entités gestion et stockage
+* construction de produits éditoriaux et de requêtes avancées
+
+**Savoir (connaissances nécessaires pour agir)**
+* maîtrise de l'environnement de travail numérique
+* maîtrise de l'environnement Web et pratique des réseaux sociaux
+* connaissances en requêtes
+* maîtrise des règles de communcabilité, de la RGPD et des procédures de dérogation
+
+**compétences** :
+* médiation numérique avec les publics
+* veille sur les modalités de diffusion de l'information
+* animateur de communauté
+]
+---
+name: plombier
+.left-column[
+.reduite[![avatar cartographe](./media/plombier.png)]
+]
+.right-column[
+
+### Plombier.ère numérique [rôles](#heros)
+> Au sein de l'entité gestion, vous êtes chargé.e de réaliser des connecteurs applicatifs. [compatible télétravail : oui]
+
+**missions** :
+* identifier les données nécessaires à l'archivage dans les bases de données et systèmes de fichiers utilisés par les applciations métiers
+* définir le protocole de transmission des informations extraites et prévoir leur destination
+* identifier les règles de gestion permettant de déclencher les processus de versement, de communication et d'élimination
+
+**Savoir (connaissances nécessaires pour agir)**
+* connaissance des protocoles d'interactions entre applications
+* comprendre un MCD et écrire des requêtes de type SQL
+* connaissance des outils de type ETL ou ESB
+
+**compétences** :
+* compréhension des besoins liés aux processus d'archivage
+* connaissance du métiers et des applications
+* connaissance des formats de données et des techniques de transformation, extraction, chargement
+]
+---
+name: urbaniste
+.left-column[
+.reduite[![avatar urbaniste](./media/urbaniste.png)]
+]
+.right-column[
+
+### Urbaniste de la démat [rôles](#heros)
+> Au sein de l'entité planification de la pérennisation, vous êtes chargé.e de cartographier les flux de données et de proposer une architecture dy cycle de vie de l'information. [compatible télétravail : oui]
+
+**missions** :
+* identifier les flux de données et les règles de gestion associées
+* proposer des plans d'urbanisation permettant de gérer le cycle de vie des documents et données de l'organisation
+* proposer des modules applicatifs interopérables et ouverts
+
+**Savoir (connaissances nécessaires pour agir)**
+* connaissance des enjeux de la RGPD, de l'archivage et de la dématérialisation
+* connaissance des modules existants pour la gestion du cycle de vie de l'information
+* compréhension des enjeux des architectures orientées services
+
+**compétences** :
+* maîtrise des enjeux de la dématérialisation
+* veille technologique et institutionnelle
+* capacité à dialoguer et à avancer pas à pas
+]
+---
+name: aiguilleur
+.left-column[
+.reduite[![avatar aiguilleur](./media/aiguilleur.png)]
+]
+.right-column[
+
+### Aiguilleur.se de record [rôles](#heros)
+> Au sein de l'entité planification de la pérennisation, vous êtes chargé.e de préparer les flux de données et de documents pour faciliter leur aiguillage vers le SAE. [comaptible télétravail : oui]
+
+**missions** :
+* contribuer à la cartographie des flux applicatifs et à la construction du référentiel documentaire
+* accompagner les projets de dématérialisation notamment sur la partie cycle de vie de l'information
+* accompagner les métiers dans l'identification des données et documents de valeur
+
+**Savoir (connaissances nécessaires pour agir)**
+* connaissance des normes de record management
+* connaissance des métiers des directions et de la réglementation en matière de dématérialisation
+* connaissance des standards de description et des données essentielles à l'archivage
+
+**compétences** :
+* maîtrise du contexte juridique et réglementaire
+* connaissance des enjeux de l'archivage électronique
+* capacité à dialoguer et à avancer pas à pas
+]
+---
+name: superviseur
+.left-column[
+.reduite[![avatar superviseur](./media/superviseur.png)]
+]
+.right-column[
+
+### Superviseur d'entrepôts numériques [rôles](#heros)
+> Au sein de l'entité stockage, vous êtes chargé.e de fournir les conditions matérielles de stockage des données archivées et de réaliser une supervision active des serveurs.
+
+**missions** :
+* définir l'architecture de stockage et de sauvegarde des données
+* mettre en place les moyens de supervision pour le maintien en condition opérationnelle et la reprise d'activité
+* produire un rapport d'activité sur le contrôle de l'intégrité des données et les besoins prévisionnels de renouvellement des capacités de stockage
+
+**Savoir (connaissances nécessaires pour agir)**
+* maîtrise des technologies de stockage et de sauvegarde
+* maîtrise des outils de supervision des infrastructures et des applications
+* connaissance des enjeux de la pérenisation
+
+**compétences** :
+* déploiement de serveurs physiques et virtuels
+* rédaction de dossiers d'architecture technique
+* rédaction d'une politique de sécurité des systèmes d'information
+]
+---
+name: referent
+.left-column[
+.reduite[![avatar référent](./media/referent.png)]
+]
+.right-column[
+
+### Référent.e métier archivage [rôles](#heros)
+> Au sein de votre direction métier, vous êtes chargé.e de contribuer à la cartographie de la production de données et de documents et de coordonner les processus d'archivage associés
+
+**missions**
+* rédiger des tableaux de gestion en lien avec les règles d'archivage
+* préparer les flux d'archivage en participant aux projets de connecteurs ou à la prpéaration matérielle des versements
+* effectuer des versements et participer aux processus d'archivage de la direction
+
+**Savoir (connaissances nécessaires pour agir)**
+* compréhension des enjeux de l'archivage numérique
+* connaissance des enjeux de la RGPD, de l'open data et de la dématérialisation
+
+**compétences** :
+* maîtrise de l'environnement numérique
+* connaissance des enjeux de la gestion du cycle de vie de l'information
+* compréhension des enjeux de la pérennisation de l'information
+]
+---
+name: vierge
+.left-column[
+.reduite[![avatar citoyen lambda](./media/citoyen.png)]
+]
+.right-column[
+
+### Fiche de poste [rôles](#heros)
+> Au sein de ..., vous êtes chargé.e de ...
+
+**missions**
+*
+*
+*
+
+**Savoir (connaissances nécessaires pour agir)**
+*
+*
+
+**compétences** :
+*
+*
+*
+]
