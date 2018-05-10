@@ -83,9 +83,10 @@ class: center, middle
 
 ## Carte au trésor du pays de la théorie
 ![Mise en oeuvre théorique](./media/saetheorie.png)
+
 Au pays de la théorie, plusieurs projets sont en production et archivent quantités de données de manière totalement automatisée dans une forteresse inprenable.
 
-Après avoir choisi votre quête, votre contexte et vos compagnon.nes, tenter de rejoindre le pays de la pratique en établissant un [plan](#architecture) et en organisant une [équipe](#organisation)
+Après avoir choisi votre quête, votre contexte et vos compagnon.nes, tentez de rejoindre le pays de la pratique en établissant un [plan](#architecture) et en organisant une [équipe](#organisation)
 ---
 name: mvp-question
 
@@ -107,6 +108,7 @@ class: center
 
 ## Choix de la quête
 En fonction de votre niveau d'expertise, de vos besoins ou de votre contexte vous pouvez choisir une quête parmi celles-ci.
+--
 
 ### équipe experte
 Verser les dossiers de marchés publics notifiés depuis la GED dans le SAE intermédiaire et verser les pièces à conserver dans le SAE définitif
@@ -122,8 +124,9 @@ Verser les dossiers de marchés publics notifiés depuis la GED dans le SAE inte
 6. effectuer un [versement](#versement-marche)
 
 aller à la page [architecture](#architecture)
-
 ---
+name: quete-archiviste
+
 ### équipe archiviste
 Effectuer un versement d'un marché public notifié et préparer l'instrument de recherche pour pouvoir le communiquer en salle de lecture.
 
@@ -141,6 +144,8 @@ Effectuer un versement d'un marché public notifié et préparer l'instrument de
 
 aller à la page [organisation](#organisation)
 ---
+name: quete-itinerante
+
 ### équipe itinérante
 1. Je suis une municipalité de Seine-et-Marne et je veux archiver électroniquement mes marchés publics :
 2. Je suis la DREAL et je veux archiver les dossiers de classement des établissements dangereux pour la période 2008-2018
@@ -152,7 +157,7 @@ aller à la page [scenarii d'arhivage](#scenarii)
 ---
 name: architecture
 ### Architecture du cycle de vie des marchés publics
-Afin de prendre en compte la globalité du cycle de vie des archives, il est essentiel d'identifier la ou les sources de production afin d'identifier les événements déclencheurs qui peuvent justifier du passage des données ou documents d'un entrepôt à un autre.
+Afin de prendre en compte la globalité du cycle de vie des archives, il est essentiel d'identifier la ou les sources de production afin de déterminer les événements déclencheurs qui peuvent justifier du passage des données ou documents d'un entrepôt à un autre.
 > Ce travail est également requis dans le cadre de la mise en pplace du RGDP en intégrant l'identification des données à caractère privé.
 
 1. identifier les sources de production
@@ -166,7 +171,9 @@ aller à la page [organisation](#organisation)
 name: organisation
 
 ### Organisation pour la gestion du cycle de vie de l'information
-Afin de mener à bien votre quête vous devrez constituer une équipe compétente et complémentaire. Vous devrez évaluer leur disposnibilité afin d'ajuster l'organisation et le planning de réalisation associé à vos projets. Le cas échéant vous devrez rédiger des fiches de postes pour recruter les compétences ou les ressources manquantes.
+Afin de mener à bien votre quête vous devrez constituer une équipe compétente et complémentaire. Vous devrez évaluer leur disponibilité afin d'ajuster l'organisation et le planning de réalisation associé à vos projets. Le cas échéant vous devrez rédiger des fiches de postes pour recruter les compétences ou les ressources manquantes.
+
+.reduite2[![dream team archivage électronique](./media/dreamteam.png)]
 
 1. identifier les [ressources](#heros) existantes
 2. identifier les ressources mobilisables
@@ -179,16 +186,23 @@ allez à la page [scenarii](#scenarii)
 name: scenarii
 
 ## scenarii
+![illustration table réflexion scenario](./media/scenarii.jpg)
+
 * internalisation : aller à la page [internalisation](#internalisation)
 * dépôt au sein d'un EPCI : aller à la page [dépôt en EPCI](#externalisation-epci)
 * dépôt au Département : aller à la page [dépôt aux AD](#externalisation-ad)
 * mutualisation entre services publics d'archives : aller à la page [mutualisation SPA](#mutualisation-spa)
 * externalisation : aller à la page [tiers archiveur privé](#externalisation-tiers)
+---
+name: action
 
 ### mise en oeuvre
 * Vous avez déjà un SAE, [rédigez un profil](#profil) pour préparer le modèle de versement
 * Vous voulez automatiser le versement, [définissez les modalités](#automatisation) du connecteur
 * vous voulez concevoir un SAE, [définissez vos besoins](#conception-sae)
+
+![illustration table réflexion scenario](./media/action.jpg)
+
 ---
 name: automatisation
 ### Concevoir un connecteur applicatif
@@ -211,19 +225,24 @@ L'internalisation de la fonction archivage électronique nécessite une collabor
 name: externalisation-tiers
 
 # externalisation AI :
-La réglementation définie par le Code du Patrimoine permet d'effectuer une externalisation des archives chez un prestataire privé. Cette externalisation, toutefois, ne peut concerner que les archives intermédiaires et doit faire l'objet d'un marché public.
+La réglementation définie par le Code du Patrimoine permet d'effectuer une externalisation des archives chez un prestataire privé.
+
+Cette externalisation, toutefois, ne peut concerner que les archives intermédiaires et doit faire l'objet d'un marché public.
+
 Pour connaître les forces et les faiblesses de ce scenario, aller à la page [sc-depot-tiers](#sc-depot-tiers)
 ---
 name: externalisation-epci
 
 # externalisation AI et AD :
 Pour une commune il est possible de d'adresser à une communauté de commune ou à une commune du groupement afin de consommer un service d'archivage électronique.
+
 Pour connaître les forces et les faiblesses de ce scenario, aller à la page [sc-depot-EPCI](#sc-depot-EPCI)
 ---
 name: externalisation-ad
 
 # externalisation en AD :
 Pour une commune ou une communauté de commune il est possible d'effectuer des dépôts d'archives électroniques dans l'entrepôt de conservation des archives départementales si celle-ci dispose d'un service d'archivage électronique.
+
 Pour connaître les forces et les faiblesses de ce scenario, aller à la page [sc-depot-EPCI](#sc-depot-ad)
 ---
 
@@ -231,6 +250,7 @@ name: mutualisation-spa
 
 # mutualisation entre service public d'archives :
 Pour une commune, une communauté de commune ou un département il est possible de mettre en place une convention de partenariat afin de mutualiser le service d'archivage électronique.
+
 Pour connaître les forces et les faiblesses de ce scenario, aller à la page [sc-depot-EPCI](#sc-depot-spa)
 ---
 name: sae-existant
@@ -243,6 +263,7 @@ name: profil
 
 # écrire le profil
 Ce profil doit contenir plusieurs unités de description : un dossier de consultation des entreprises, un dossier de publicité, un dossier de notification, un dossier contenant les offres et éventuellement un dossier contenant l'exemplaire unique légalisé.
+
 Il doit contenir les règles de sort final, de DUA et de communicabilité et les données définies dans le référentiel du ministère de l'économie dans l'arrêté du 14 avril 2017 relatif aux données essentielles dans la commande publique (https://www.economie.gouv.fr/files/files/directions_services/daj/marches_publics/ouverture-donnees/referentiel_marches_publics.pdf)
 
 Une fois ce profil réalisé, vous pouvez l'associer à l'entité administrative qui va en effectuer le versement.
@@ -286,7 +307,9 @@ name: versement-marche-form
 
 ## en remplissant le formulaire associé au profil dans le site versant de la direction des marchés
 
-Le formulaire est accessible depuis le bouton "préparer un versement" disponible sur le tableau de bord du service versant. Il permet de générer un formulaire à partir des informations contenues dans le profil et d'indiquer au service versant les informations qui restent à saisir.
+Le formulaire est accessible depuis le bouton "préparer un versement" disponible sur le tableau de bord du service versant.
+
+Il permet de générer un formulaire à partir des informations contenues dans le profil et d'indiquer au service versant les informations qui restent à saisir.
 
 Rendez-vous dans la [GED-SAS](http://saem-demo.cloudapp.net/share/page?pt=login) en tant que Fabian Halboud (fhalboud/fhalboud) et préparer un versement avec le profil synchronisé depuis le référentiel
 ---
@@ -294,7 +317,9 @@ name: versement-marche-manuel
 
 ## en créant une arborescence de fichiers et de dossiers dans le dossier profilable de l'espace documenaire du site versant de la direction des marchés
 
-Les profils synchronisés depuis le référentiel et associés à la direction des marchés créent des dossiers dans l'espace documentaire. En vous plaçant à l'intérieur de ce dossier, vous pouvez créer des dossiers et importer des documents en remplissant manuellement les métadonnées attendues.
+Les profils synchronisés depuis le référentiel et associés à la direction des marchés créent des dossiers dans l'espace documentaire.
+
+En vous plaçant à l'intérieur de ce dossier, vous pouvez créer des dossiers et importer des documents en remplissant manuellement les métadonnées attendues.
 
 Rendez-vous dans la [GED-SAS](http://saem-demo.cloudapp.net/share/page?pt=login) en tant que Fabian Halboud (fhalboud/fhalboud) et préparer un versement dans le dossier profilable créé à partir de la synchronisation depuis le référentiel.
 ---
@@ -319,14 +344,17 @@ name: elimination-marche
 
 # éliminer les pièces et dossiers éliminables
 Le dossier des offres non retenues est éliminables au bout de 5 ans.
-Même si le dossier d'archives englobant a un sort final conserver, il est possible de définir un autre sort final pour une unité d'archives du versement et de procéder à son élimination.
 
+Même si le dossier d'archives englobant a un sort final conserver, il est possible de définir un autre sort final pour une unité d'archives du versement et de procéder à son élimination.
+Comment construire le profil afin de permettre d'éliminer le plus automatiquement possible les sous-dossiers concernés par la procédure ?
 
 ---
 name: communication-marche
 
 # communiquer les dossiers communicables
 Le délai de communicabilité des marchés publics étant immédiat, vous pouvez en tant que direction de commande publique demander la communication d'un dossier de votre versement. Lors de l'intégration d'un portail de recherche et de consultation des archives communicables vous pourrez également communiquer cette archives à toute personne qui en ferait la demande.
+
+Quels sont les éléments de recherche à fournir aux usagers et de quelle manière visualiser les documents recherchés ?
 
 Rendez-vous dans la GED SAS dans le site de la direction de la commande publique et effectuer une demande de communication.
 ---
@@ -339,8 +367,10 @@ name: conception-sae
 
 # je dois mettre en place un SAE
 Suite à la décision politique et administrative, vous êtes chargé de mettre en place un SAE dans vote organisation.
-Vous pouvez consulter la page des scenarii d'archivage pour voir les différentes options qui s'ouvrent à vous.
-Dans le cas où vous souhaiteriez réaliser votre propre SAE, posez vous les bonnes questions, puis définissez vos besoins prioritaires.
+
+Vous pouvez consulter la page des [scenarii d'archivage](#scenarii) pour voir les différentes options qui s'ouvrent à vous.
+
+Dans le cas où vous souhaiteriez réaliser votre propre SAE, posez vous les [bonnes questions](#mvp-question), puis définissez vos [besoins prioritaires](#exigences-fonctionnelles).
 
 ---
 name: location-sae
@@ -371,7 +401,9 @@ La Politique de sécurité des systèmes d'information définit les conditions d
 
 Elles permettent notamment de préciser les mesures mises en oeuvre pour garantir le maintien en condition opérationnelle des services numériques et les actions prévues pour rétablir le service en cas de panne.
 
-Pour l'archivage électronique la priorité concerne le maintien en condition opérationnel avec notamment une exigence particulière sur l'intégrité des données stockées sur les serveurs de fichiers. Les interruptions de service (même de plusieurs jours) peuvent être acceptables à condition qu'aucune donnée ne soit perdue lors du rétablissement du service.
+Pour l'archivage électronique la priorité concerne le maintien en condition opérationnel avec notamment une exigence particulière sur l'intégrité des données stockées sur les serveurs de fichiers.
+
+Les interruptions de service (même de plusieurs jours) peuvent être acceptables à condition qu'aucune donnée ne soit perdue lors du rétablissement du service.
 
 Retourner à la page de définition de l'[infrastructure de stockage](#infra-sae) ou aller directement à l'étape de [démarrage opérationnel](#sae-operationnel)
 ---
@@ -388,7 +420,7 @@ name: dev-sae
 # je développe mon propre SAE
 Pour développer son propre SAE il est important de connaître l'offre disponible sur le marché, de maîtriser la réglementation en vigeur et de [se poser les 9 question](#mvp-question)
 
-ENsuite vous pourrez rédiger vos [exigences fonctionnelles](#exigences-fonctionnelles)
+Ensuite vous pourrez rédiger vos [exigences fonctionnelles](#exigences-fonctionnelles)
 ---
 name: exigences-fonctionnelles
 class: center, middle
@@ -396,6 +428,7 @@ class: center, middle
 ## je liste mes exigences fonctionnelles
 écrire mes 10 histoires utilisateurs prioritaires sous la forme :
 " En tant que [rôle] je veux [fonctionnalité] afin de [usage]"
+
 Vous préciserez pour chacune de ces exigences les tests que vous effecturez pour valider de l'adéquation du besoin avec la fonctionnalité mise à disposition sous la forme : "doit permettre de [usage détaillé]"
 ---
 name: validation-exigence
@@ -413,7 +446,8 @@ Bravo ! votre SAE peut être mis en production. Il vous faut simplement définir
 name: sae-operationnel
 
 Bravo ! Votre application de SAE est opérationnelle.
-Vous pouvez commencer à rédiger des profils pour permettre aux services versants d'effectuer des versements.
+
+Vous pouvez commencer à rédiger des [profils](#profil) pour permettre aux services versants d'effectuer des versements.
 
 # Rédiger le [profil de versement](#profil)
 ---
@@ -425,40 +459,61 @@ La collectivité gère en son sein ses propres archives
 * Prérequis : disposer au moins d’1 archiviste présent dans la collectivité prenant en charge les dépôts d’archives, leur gestion et leur valorisation, et accompagnant les services de la collectivité dans la mise en oeuvre des versements et l'utilisation du SAE
 ---
 ## **Scénario internalisation**
+Conditions de réussite / collectivité demandeuse :
 
-* Conditions de réussite / collectivité demandeuse :
-  * RH AE : quelles sont les ressources mobilisables côté archives ?
-    * 0,5 à 1 ETP minimum dédié à la gestion des archives électroniques durant la phase de mise en œuvre
-    * Puis 0,25 à 0,5 ETP minimum par la suite pour gérer le dispositif
-    (fonction de la taille et des besoins de la collectivité)
-  * RH SI : quelles sont les ressources mobilisables côté numérique ?
-    * Des ressources SI internes suffisantes pour mettre en œuvre la solution, puis la maintenir et l'exploiter et mettre en œuvre puis maintenir les connecteurs
+* **RH AE : quelles sont les ressources mobilisables côté archives ?**
+--
+
+  * 0,5 à 1 ETP minimum dédié à la gestion des archives électroniques durant la phase de mise en œuvre
+  * Puis 0,25 à 0,5 ETP minimum par la suite pour gérer le dispositif
+  (fonction de la taille et des besoins de la collectivité)
+--
+
+* **RH SI : quelles sont les ressources mobilisables côté numérique ?**
+--
+
+  * Des ressources SI internes suffisantes pour mettre en œuvre la solution, puis la maintenir et l'exploiter et mettre en œuvre puis maintenir les connecteurs
   * Compétences SI particulières : expérience dans les traitements de données, métadonnées, protocoles de communication, format de fichiers, structuration de l’information. Plutôt formation infoDoc que génie logiciel
-* RH métiers : quelles sont les ressources mobilisables dans les directions métiers ?
+--
+
+* **RH métiers : quelles sont les ressources mobilisables dans les directions métiers ?**
+--
+
   * Des référents métiers identifiés dans les directions pour contribuer ponctuellement à la définition et la mise en œuvre de règles d'archivage
   * Mise en œuvre d’un réseau de référent en archivage qui sont formés et accompagnés à l’exercice régulier des processus d’archivage. Réseau extensible à la gestion du cycle de vie courant(RM) et à l’accès aux données administratives (Open Data)
 ---
 ## **Scénario internalisation**
 
-* Moyens techniques : quelles sont les infrastructures disponibles ?
-    * Des infrastructures techniques sécurisées, conformes à l'état de l'art en matière d'archivage électronique
-    * Un environnement de virtualisation, un expert système et réseau pour une architecture forcément redondée et sécurisée
-  * Moyens financiers : quels sont les budgets disponibles ?
-    * Entre 50 et 250 K€ sur 5 ans pour acquérir, mettre en œuvre et maintenir la solution
-    * Puis des coûts de maintenance et de reversibilité
-    (fonction de la taille et des besoins de la collectivité)
+* **Moyens techniques : quelles sont les infrastructures disponibles ?**
+--
+
+  * Des infrastructures techniques sécurisées, conformes à l'état de l'art en matière d'archivage électronique
+  * Un environnement de virtualisation, un expert système et réseau pour une architecture forcément redondée et sécurisée
+--
+
+* **Moyens financiers : quels sont les budgets disponibles ?**
+--
+
+  * Entre 50 et 250 K€ sur 5 ans pour acquérir, mettre en œuvre et maintenir la solution
+  * Puis des coûts de maintenance et de reversibilité
+  (fonction de la taille et des besoins de la collectivité)
 ---
 ## **Scénario internalisation**
 
-  * volonté stratégique : Y-a-t-il une stratégie définie ? Un sponsor ?
-    * Volonté affirmée et pérenne dans le temps vis-à-vis des enjeux et de la démarche de la part de la Direction Générale, de la Direction des Archives, de la Direction des systèmes d'information, voire des élus
-    * Doit s’intégrer à une stratégie plus globale de dématérialisation productive et de qualité de service
+* **volonté stratégique : Y-a-t-il une stratégie définie ? Un sponsor ?**
+--
 
-  * maturité : quelle est la maturité de l'organisation par rapport au numérique ?
-    * Expérience affirmée des projets de dématérialisation
-    * Vision urbanisée du système d'information
-    * Gouvernance des projets systèmes d'information opérationnelle
-    * Veille et retours d'expérience associés à la mise en œuvre de l'archivage électronique
+  * Volonté affirmée et pérenne dans le temps vis-à-vis des enjeux et de la démarche de la part de la Direction Générale, de la Direction des Archives, de la Direction des systèmes d'information, voire des élus
+  * Doit s’intégrer à une stratégie plus globale de dématérialisation productive et de qualité de service
+--
+
+* **maturité : quelle est la maturité de l'organisation par rapport au numérique ?**
+--
+
+  * Expérience affirmée des projets de dématérialisation
+  * Vision urbanisée du système d'information
+  * Gouvernance des projets systèmes d'information opérationnelle
+  * Veille et retours d'expérience associés à la mise en œuvre de l'archivage électronique
 ---
 class: center, middle
 
@@ -479,8 +534,8 @@ class: center, middle
   2. Mise en conformité du dispositif
 #### Option SAE-E : Externalisation de logiciels et / ou infra. chez un tiers
   (Droit des marchés publics)
-    1. Optimisation des moyens techniques, financiers et RH SI
-    2. Mise en conformité du dispositif
+  1. Optimisation des moyens techniques, financiers et RH SI
+  2. Mise en conformité du dispositif
 ---
 ### Faiblesses
 1. Coûts et charges de mise en œuvre et de maintenance du SAE et des connecteurs
@@ -506,40 +561,58 @@ name: sc-depot-EPCI
 ## **Scénario 2 : dépôt au sein d'un EPCI**
 La collectivité externalise son archivage
 
-* Prérequis : L'EPCI ou une de ses communes membres
+* **Prérequis** : L'EPCI ou une de ses communes membres
   - s'engagent vis-à-vis des autres communes de l'EPCI à mettre à disposition un service d'archivage électronique
   - disposent des moyens et compétences suffisantes pour prendre en charge les dépôts et accompagner les collectivités dans la mise en œuvre des versements et l'utilisation du SAE
 ---
 ## **Scénario 2 : dépôt au sein d'un EPCI**
 
-* Conditions de réussite / collectivité demandeuse :
-  * RH AE : quelles sont les ressources mobilisables côté archives ?
-    * 1 référent identifié pour traiter les questions d'archivage électronique
-  * RH SI : quelles sont les ressources mobilisables côté numérique ?
-    * Des ressources SI suffisantes pour mettre en œuvre puis maintenir les connecteurs
+Conditions de réussite / collectivité demandeuse :
+
+* **RH AE : quelles sont les ressources mobilisables côté archives ?**
+--
+
+  * 1 référent identifié pour traiter les questions d'archivage électronique
+--
+
+* **RH SI : quelles sont les ressources mobilisables côté numérique ?**
+
+--
+  * Des ressources SI suffisantes pour mettre en œuvre puis maintenir les connecteurs
 ---
 ## **Scénario 2 : dépôt au sein d'un EPCI**
 
-* RH métiers : quelles sont les ressources mobilisables dans les directions métiers ?
-  * Des référents métiers identifiés dans les directions pour contribuer ponctuellement à la définition et la mise en œuvre de règles d'archivage
+* **RH métiers : quelles sont les ressources mobilisables dans les directions métiers ?**
+--
 
-* Moyens techniques : quelles sont les infrastructures disponibles ?
+  * Des référents métiers identifiés dans les directions pour contribuer ponctuellement à la définition et la mise en œuvre de règles d'archivage
+--
+
+* **Moyens techniques : quelles sont les infrastructures disponibles ?**
+--
+
   * Un dispositif d'échanges de données sécurisé entre le SI de la collectivité et l'EPCI ou la commune membre
   * Des solutions métiers à archiver homogènes entre les différentes communes membres de l'EPCI
 ---
 ## **Scénario 2 : dépôt au sein d'un EPCI**
-* Moyens financiers : quels sont les budgets disponibles ?
+* **Moyens financiers : quels sont les budgets disponibles ?**
+--
+
   * Entre 0 et 50 K€ sur 5 ans pour contribuer aux moyens mis en œuvre par l'EPCI ou la commune membre (suivant le modèle économique défini par l'EPCI)
 ---
 ## **Scénario 2 : dépôt au sein d'un EPCI**
-* volonté stratégique : Y-a-t-il une stratégie définie ? Un sponsor ?
+* **volonté stratégique : Y-a-t-il une stratégie définie ? Un sponsor ?**
+--
+
   * Validation générale des enjeux et de la démarche par la direction générale.
   * Intérêt pour la mutualisation
   * Confiance vis-à-vis de la pérennité, des compétences archivistiques et des moyens informatiques mis à disposition par l'EPCI ou la commune membre
 ---
 ## **Scénario 2 : dépôt au sein d'un EPCI**
 
-* maturité : quelle est la maturité de l'organisation par rapport au numérique ?
+* **maturité : quelle est la maturité de l'organisation par rapport au numérique ?**
+--
+
   * Système d'information maîtrisé
   * Projets de dématérialisation engagés
   * Sensibilité vis-à-vis des enjeux et contraintes associées aux projets mutualisés dans le domaine du numérique
@@ -590,43 +663,60 @@ name: sc-depot-ad
 ## **Scénario 3 : dépôt au département**
 La collectivité externalise son archivage au département le plus proche ou le plus avancé
 
-* Prérequis : Le Département
+* **Prérequis** : Le Département
   * s'engage vis-à-vis des autres collectivités du Département à mettre à disposition un service d'archivage électronique
   * dispose des moyens et compétences suffisantes pour prendre en charge les dépôts et accompagner les collectivités dans la mise en œuvre des versements et l'utilisation du SAE
 ---
 ## **Scénario 3 : dépôt au département**
+Conditions de réussite / collectivité demandeuse :
 
-* Conditions de réussite / collectivité demandeuse :
-  * RH AE : quelles sont les ressources mobilisables côté archives ?
-    * 1 référent identifié pour traiter les questions d'archivage électronique
-  * RH SI : quelles sont les ressources mobilisables côté numérique ?
-    * Des ressources SI suffisantes pour mettre en œuvre puis maintenir les connecteurs
+* **RH AE : quelles sont les ressources mobilisables côté archives ?**
+--
+
+  * 1 référent identifié pour traiter les questions d'archivage électronique
+--
+
+* **RH SI : quelles sont les ressources mobilisables côté numérique ?**
+--
+
+  * Des ressources SI suffisantes pour mettre en œuvre puis maintenir les connecteurs
 ---
 ## **Scénario 3 : dépôt au département**
 
-* RH métiers : quelles sont les ressources mobilisables dans les directions métiers ?
-  * Des référents métiers identifiés dans les directions pour contribuer ponctuellement à la définition et la mise en œuvre de règles d'archivage
+* **RH métiers : quelles sont les ressources mobilisables dans les directions métiers ?**
+--
 
-* Moyens techniques : quelles sont les infrastructures disponibles ?
+  * Des référents métiers identifiés dans les directions pour contribuer ponctuellement à la définition et la mise en œuvre de règles d'archivage
+--
+
+* **Moyens techniques : quelles sont les infrastructures disponibles ?**
+--
+
   * Un dispositif d'échanges de données sécurisé entre le SI de la collectivité et le Département
   * Des solutions métiers à archiver homogènes entre les différentes collectivités du Département
 ---
 ## **Scénario 3 : dépôt au département**
-* Moyens financiers : quels sont les budgets disponibles ?
+* **Moyens financiers : quels sont les budgets disponibles ?**
+--
+
   * Entre 0 et 50 K€ sur 5 ans pour contribuer aux moyens mis en œuvre par le Département (suivant le modèle économique défini par le Département)
 ---
 ## **Scénario 3 : dépôt au département**
-* volonté stratégique : Y-a-t-il une stratégie définie ? Un sponsor ?
+* **volonté stratégique : Y-a-t-il une stratégie définie ? Un sponsor ?**
+--
+
   * Validation générale des enjeux et de la démarche par la direction générale.
   * Intérêt pour la mutualisation
   * Confiance vis-à-vis de la pérennité, des compétences archivistiques et des moyens informatiques mis à disposition par le Département
 ---
 ## **Scénario 3 : dépôt au département**
 
-  * maturité : quelle est la maturité de l'organisation par rapport au numérique ?
-    * Système d'information maîtrisé
-    * Projets de dématérialisation engagés
-    * Sensibilité vis-à-vis des enjeux et contraintes associées aux projets mutualisés dans le domaine du numérique
+* **maturité : quelle est la maturité de l'organisation par rapport au numérique ?**
+--
+
+  * Système d'information maîtrisé
+  * Projets de dématérialisation engagés
+  * Sensibilité vis-à-vis des enjeux et contraintes associées aux projets mutualisés dans le domaine du numérique
 
 ---
 class: center, middle
@@ -674,43 +764,61 @@ name: sc-depot-spa
 ## **Scénario 4 : mutualisation entre services publics d'archives**
 La collectivité mutualise son archivage avec un ou plusieurs services publics d'archives
 
-* Prérequis : Un service public d'archives
+* **Prérequis : Un service public d'archives**
   * propose à d'autres collectivités de mettre à leur disposition un service d'archivage électronique
   * dispose des moyens et compétences suffisantes pour prendre en charge les dépôts et accompagner les collectivités dans la mise en œuvre des versements et l'utilisation du SAE
 ---
 ## **Scénario 4 : mutualisation entre services publics d'archives**
 
-* Conditions de réussite / collectivité demandeuse :
-  * RH AE : quelles sont les ressources mobilisables côté archives ?
-    * 1 référent identifié pour traiter les questions d'archivage électronique
-  * RH SI : quelles sont les ressources mobilisables côté numérique ?
-    * Des ressources SI suffisantes pour mettre en œuvre puis maintenir les connecteurs
+Conditions de réussite / collectivité demandeuse :
+
+* **RH AE : quelles sont les ressources mobilisables côté archives ?**
+--
+
+  * 1 référent identifié pour traiter les questions d'archivage électronique
+--
+
+* **RH SI : quelles sont les ressources mobilisables côté numérique ?**
+--
+
+  * Des ressources SI suffisantes pour mettre en œuvre puis maintenir les connecteurs
 ---
 ## **Scénario 4 : mutualisation entre services publics d'archives**
 
-* RH métiers : quelles sont les ressources mobilisables dans les directions métiers ?
-  * Des référents métiers identifiés dans les directions pour contribuer ponctuellement à la définition et la mise en œuvre de règles d'archivage
+* **RH métiers : quelles sont les ressources mobilisables dans les directions métiers ?**
+--
 
-* Moyens techniques : quelles sont les infrastructures disponibles ?
+  * Des référents métiers identifiés dans les directions pour contribuer ponctuellement à la définition et la mise en œuvre de règles d'archivage
+--
+
+* **Moyens techniques : quelles sont les infrastructures disponibles ?**
+--
+
   * Un dispositif d'échanges de données sécurisé entre le SI de la collectivité et le SPA
   * Des solutions métiers à archiver homogènes entre les différentes collectivités associées au SPA
 ---
 ## **Scénario 4 : mutualisation entre services publics d'archives**
-* Moyens financiers : quels sont les budgets disponibles ?
+* **Moyens financiers : quels sont les budgets disponibles ?**
+--
+
   * Entre 0 et 50 K€ sur 5 ans pour contribuer aux moyens mis en œuvre par le SPA (suivant le modèle économique défini par le SPA)
 ---
 ## **Scénario 4 : mutualisation entre services publics d'archives**
-* volonté stratégique : Y-a-t-il une stratégie définie ? Un sponsor ?
+* **volonté stratégique : Y-a-t-il une stratégie définie ? Un sponsor ?**
+--
+
   * Validation générale des enjeux et de la démarche par la direction générale.
   * Intérêt pour la mutualisation
   * Confiance vis-à-vis de la pérennité, des compétences archivistiques et des moyens informatiques mis à disposition par le SPA
 ---
 ## **Scénario 4 : mutualisation entre services publics d'archives**
 
-  * maturité : quelle est la maturité de l'organisation par rapport au numérique ?
-    * Système d'information maîtrisé
-    * Projets de dématérialisation engagés
-    * Sensibilité vis-à-vis des enjeux et contraintes associées aux projets mutualisés dans le domaine du numérique
+* **maturité : quelle est la maturité de l'organisation par rapport au numérique ?**
+--
+
+  * Système d'information maîtrisé
+  * Projets de dématérialisation engagés
+  * Sensibilité vis-à-vis des enjeux et contraintes associées aux projets mutualisés dans le domaine du numérique
 ---
 class: center, middle
 ## Identifier les forces et faiblesses de votre scenario
@@ -756,48 +864,66 @@ name: sc-depot-tiers
 ## **Scénario 5 : dépôt chez un tiers archiveur privé et agréé**
 La collectivité externalise son archivage chez un tiers archiveur privé (EPL ou entreprise privée)
 
-* Prérequis :
+* **Prérequis** :
   * Une convention ou un marché est conclu entre la collectivité et un tiers-archiveur
   * Le Tiers-archiveur dispose des moyens et compétences pour prendre en charge les dépôts et accompagner les collectivités dans la mise en œuvre des versements et l'utilisation du SAE
   * La collectivité dispose par ailleurs d'une solution pour gérer ses archives définitives (cf autres scénarios)
 ---
 ## **Scénario 5 : dépôt chez un tiers archiveur privé et agréé**
 
-* Conditions de réussite / collectivité demandeuse :
-  * RH AE : quelles sont les ressources mobilisables côté archives ?
-    * 1 référent identifié pour traiter les questions d'archivage électronique
-    * ressources requises par scénario archivage définitif retenu
-  * RH SI : quelles sont les ressources mobilisables côté numérique ?
-    * Des ressources SI suffisantes pour mettre en œuvre puis maintenir les connecteurs
-    * ressources requises par scénario archivage définitif retenu
+Conditions de réussite / collectivité demandeuse :
+
+* **RH AE : quelles sont les ressources mobilisables côté archives ?**
+--
+
+  * 1 référent identifié pour traiter les questions d'archivage électronique
+  * ressources requises par scénario archivage définitif retenu
+--
+
+* **RH SI : quelles sont les ressources mobilisables côté numérique ?**
+--
+
+  * Des ressources SI suffisantes pour mettre en œuvre puis maintenir les connecteurs
+  * ressources requises par scénario archivage définitif retenu
 ---
 ## **Scénario 5 : dépôt chez un tiers archiveur privé et agréé**
 
-* RH métiers : quelles sont les ressources mobilisables dans les directions métiers ?
-  * Des référents métiers identifiés dans les directions pour contribuer ponctuellement à la définition et la mise en œuvre de règles d'archivage
+* **RH métiers : quelles sont les ressources mobilisables dans les directions métiers ?**
+--
 
-* Moyens techniques : quelles sont les infrastructures disponibles ?
+  * Des référents métiers identifiés dans les directions pour contribuer ponctuellement à la définition et la mise en œuvre de règles d'archivage
+--
+
+* **Moyens techniques : quelles sont les infrastructures disponibles ?**
+--
+
   * Un dispositif d'échanges de données sécurisé entre le SI de la collectivité et le tiers-archiveur
   * Des solutions métiers à archiver homogènes entre les différentes collectivités associées au tiers-archiveur
   * moyens techniques requis par scénario archivage définitif retenu
 ---
 ## **Scénario 5 : dépôt chez un tiers archiveur privé et agréé**
-* Moyens financiers : quels sont les budgets disponibles ?
+* **Moyens financiers : quels sont les budgets disponibles ?**
+--
+
   * Entre 15 et 50 K€ sur 5 ans pour mettre en œuvre la prestation de tiers-archivage puis payer une redevance au tiers-archiveur pour les archives prises en charge (suivant modèle économique du tiers-archiveur)
   * moyens financiers requis par scénario archivage définitif retenu
 ---
 ## **Scénario 5 : dépôt chez un tiers archiveur privé et agréé**
-* volonté stratégique : Y-a-t-il une stratégie définie ? Un sponsor ?
+* **volonté stratégique : Y-a-t-il une stratégie définie ? Un sponsor ?**
+--
+
   * Validation générale des enjeux et de la démarche par la direction générale.
   * Intérêt pour l'externalisation
   * Confiance vis-à-vis de la pérennité, des compétences archivistiques et des moyens informatiques mis à disposition par le tiers-archiveur
 ---
 ## **Scénario 5 : dépôt chez un tiers archiveur privé et agréé**
 
-  * maturité : quelle est la maturité de l'organisation par rapport au numérique ?
-    * Système d'information maîtrisé
-    * Projets de dématérialisation engagés
-    * Sensibilité vis-à-vis des enjeux et contraintes associées aux projets mutualisés dans le domaine du numérique
+* **maturité : quelle est la maturité de l'organisation par rapport au numérique ?**
+--
+
+  * Système d'information maîtrisé
+  * Projets de dématérialisation engagés
+  * Sensibilité vis-à-vis des enjeux et contraintes associées aux projets mutualisés dans le domaine du numérique
 ---
 class: center, middle
 ## Identifier les forces et faiblesses de votre scenario
