@@ -66,6 +66,8 @@ a, a > code {
 .pull-right {
   float: right;
   width: 53%;
+  font-size: 0.7em;
+  font-family: 'Droid Serif';
 }
 .pull-right ~ * {
   clear: both;

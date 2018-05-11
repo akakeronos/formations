@@ -77,11 +77,13 @@ Par équipes de 3,4 vous devrez mener à bien votre quête en parcourant les for
 Vous pouvez vous aider de la [bibliothèque de référence pour l'archivage numérique](https://francearchives.fr/fr/article/26287443) et de la présence d'un [facilitateur numérique](#facilitateur) pour réaliser vos missions.
 
 Consulter la [carte de la quête](#carte) et se poser les [bonnes questions](#mvp-question) pour démarrer.  Se rendre sur la page de [choix de la quête](#quete)
+
+![couverture livre jeu de rôle](./media/jeuHeros.jpg)
 ---
 name: carte
 class: center, middle
 
-## Carte au trésor du pays de la théorie
+### Carte au trésor du pays de la théorie
 ![Mise en oeuvre théorique](./media/saetheorie.png)
 
 Au pays de la théorie, plusieurs projets sont en production et archivent quantités de données de manière totalement automatisée dans une forteresse inprenable.
@@ -90,7 +92,7 @@ Après avoir choisi votre quête, votre contexte et vos compagnon.nes, tentez de
 ---
 name: mvp-question
 
-## Les bonnes questions pour démarrer
+### Les bonnes questions pour démarrer
 1. Identifier les parties prenantes (éventuellement les premiers utilisateurs de la solution mise en place)
 2. Identifier leurs problèmes (et les solutions (de contournement) qu’ils utilisent)
 3. Identifier les solutions disponibles
@@ -108,9 +110,21 @@ class: center
 
 ## Choix de la quête
 En fonction de votre niveau d'expertise, de vos besoins ou de votre contexte vous pouvez choisir une quête parmi celles-ci.
---
 
+.pull-left[
+![illustration quete archiviste](./media/quetearchiviste.jpg)]
+]
+.pull-right[
+
+* [quête experte](#quete-experte) : vous devrez automatiser le processus de versement des marchés publics gérés par la direction de la commande publique.
+* [quête archiviste](#quete-archiviste) : vous devrez préparer et effectuer avec votre direction de la commande publique un versement d'un marché notifié et effectuer différents opérations de traitement.
+* [quête archiviste itinérant](#quete-itinerante) : vous devrez accompagner un service d'archives constitué dans le choix d'un scenario d'archivage électronique.
+]
+---
+name: quete-experte
 ### équipe experte
+.left-column[.reduite[![illustration bd quête oiseau temps](./media/queteoiseautemps.jpg)]]
+.right-column[
 Verser les dossiers de marchés publics notifiés depuis la GED dans le SAE intermédiaire et verser les pièces à conserver dans le SAE définitif
 
 * [ressource pédagogique](https://www.economie.gouv.fr/daj/ouverture-des-donnees-commande-publique)
@@ -123,11 +137,17 @@ Verser les dossiers de marchés publics notifiés depuis la GED dans le SAE inte
 5. écrire le [profil](#profil)
 6. effectuer un [versement](#versement-marche)
 
-aller à la page [architecture](#architecture)
+Si vous êtes prêts, aller à la page [architecture](#architecture)
+]
+
+
+
 ---
 name: quete-archiviste
 
 ### équipe archiviste
+.left-column[.reduite[![illustration bd quête oiseau temps](./media/queteoiseautemps2.jpg)]]
+.right-column[
 Effectuer un versement d'un marché public notifié et préparer l'instrument de recherche pour pouvoir le communiquer en salle de lecture.
 
 * [ressource pédagogique](https://www.economie.gouv.fr/daj/ouverture-des-donnees-commande-publique)
@@ -143,6 +163,7 @@ Effectuer un versement d'un marché public notifié et préparer l'instrument de
 8. [restituer le versement](#restituer-marche)
 
 aller à la page [organisation](#organisation)
+]
 ---
 name: quete-itinerante
 
@@ -150,13 +171,17 @@ name: quete-itinerante
 1. Je suis une municipalité de Seine-et-Marne et je veux archiver électroniquement mes marchés publics :
 2. Je suis la DREAL et je veux archiver les dossiers de classement des établissements dangereux pour la période 2008-2018
 3. Je suis la communauté de commune du Val d'Oise et je veux archiver mes flux comptables dématérialisés
-4. Je suis la direction des collèges du Département de la Seine-et-Marne et je veux archiver les dossiers de maintenance des batîments gérés dans l'application Abyla
+4. Je suis la direction archives du département du Val d'Oise et je veux archiver les dossiers d'action sociale gérés dans l'application métier
 
-aller à la page [scenarii d'arhivage](#scenarii)
+Vous devez conseiller ces différents partenaires en fonction de leur situation et produire une note détaillée à votre direction.
+
+aller à la page [scenarii d'archivage](#scenarii)
 
 ---
 name: architecture
 ### Architecture du cycle de vie des marchés publics
+.left-column[.reduite[![illustration bd quête oiseau temps](./media/circuitProcessus.jpg)]]
+.right-column[
 Afin de prendre en compte la globalité du cycle de vie des archives, il est essentiel d'identifier la ou les sources de production afin de déterminer les événements déclencheurs qui peuvent justifier du passage des données ou documents d'un entrepôt à un autre.
 > Ce travail est également requis dans le cadre de la mise en pplace du RGDP en intégrant l'identification des données à caractère privé.
 
@@ -166,6 +191,7 @@ Afin de prendre en compte la globalité du cycle de vie des archives, il est ess
 4. identifier les étapes et les lieux du processus
 
 aller à la page [organisation](#organisation)
+]
 
 ---
 name: organisation
@@ -185,7 +211,7 @@ allez à la page [scenarii](#scenarii)
 ---
 name: scenarii
 
-## scenarii
+### scenarii
 ![illustration table réflexion scenario](./media/scenarii.jpg)
 
 * internalisation : aller à la page [internalisation](#internalisation)
@@ -217,14 +243,14 @@ Si finalement vous préférez effectuer un versement manuel, retournez à la pag
 ---
 name: internalisation
 
-# internalisation :
+### internalisation :
 L'internalisation de la fonction archivage électronique nécessite une collaboration entre une autorité d'archivage et un opérateur d'archivage à l'intérieur de l'organisation. Découvrez les forces et les faiblesses de ce scenario pour voir s'il vous convient.
 
 * aller à la page [sc-interne](#sc-interne)
 ---
 name: externalisation-tiers
 
-# externalisation AI :
+### externalisation AI :
 La réglementation définie par le Code du Patrimoine permet d'effectuer une externalisation des archives chez un prestataire privé.
 
 Cette externalisation, toutefois, ne peut concerner que les archives intermédiaires et doit faire l'objet d'un marché public.
@@ -233,14 +259,14 @@ Pour connaître les forces et les faiblesses de ce scenario, aller à la page [s
 ---
 name: externalisation-epci
 
-# externalisation AI et AD :
+### externalisation AI et AD :
 Pour une commune il est possible de d'adresser à une communauté de commune ou à une commune du groupement afin de consommer un service d'archivage électronique.
 
 Pour connaître les forces et les faiblesses de ce scenario, aller à la page [sc-depot-EPCI](#sc-depot-EPCI)
 ---
 name: externalisation-ad
 
-# externalisation en AD :
+#### externalisation en AD :
 Pour une commune ou une communauté de commune il est possible d'effectuer des dépôts d'archives électroniques dans l'entrepôt de conservation des archives départementales si celle-ci dispose d'un service d'archivage électronique.
 
 Pour connaître les forces et les faiblesses de ce scenario, aller à la page [sc-depot-EPCI](#sc-depot-ad)
@@ -248,20 +274,20 @@ Pour connaître les forces et les faiblesses de ce scenario, aller à la page [s
 
 name: mutualisation-spa
 
-# mutualisation entre service public d'archives :
+### mutualisation entre service public d'archives :
 Pour une commune, une communauté de commune ou un département il est possible de mettre en place une convention de partenariat afin de mutualiser le service d'archivage électronique.
 
 Pour connaître les forces et les faiblesses de ce scenario, aller à la page [sc-depot-EPCI](#sc-depot-spa)
 ---
 name: sae-existant
 
-# j'ai déjà un SAE :
+### j'ai déjà un SAE :
 
 Vous disposez déjà d'un SAE. Vous pouvez soit effectuer un versement en rédigeant un profil ou convenir au préalable d'un contrat de versement avec le service versant. Dans tous les cas, vous devez mettre à jour votre politique d'archivage pour y inscrire le flux pris en charge et ses modalités d'archivage
 ---
 name: profil
 
-# écrire le profil
+### écrire le profil
 Ce profil doit contenir plusieurs unités de description : un dossier de consultation des entreprises, un dossier de publicité, un dossier de notification, un dossier contenant les offres et éventuellement un dossier contenant l'exemplaire unique légalisé.
 
 Il doit contenir les règles de sort final, de DUA et de communicabilité et les données définies dans le référentiel du ministère de l'économie dans l'arrêté du 14 avril 2017 relatif aux données essentielles dans la commande publique (https://www.economie.gouv.fr/files/files/directions_services/daj/marches_publics/ouverture-donnees/referentiel_marches_publics.pdf)
@@ -271,7 +297,7 @@ Une fois ce profil réalisé, vous pouvez l'associer à l'entité administrative
 ---
 name: contrat-versement
 
-# écrire le contrat de versement avec la direction des marchés
+### écrire le contrat de versement avec la direction des marchés
 Les modalités d'échanges avec les services consommateurs du service d'archivage électronique doivent être définies dans un document contractuel qui précise notamment la fréquence prévisionnelle des versements, leur contenu, leur volumétrie, les formats de fichier et les conditions de communication ou d'élimination.
 
 Rédigez le contrat de versement de la direction de la commande publique en vous inspirant du [modèle du SIAF](./ressources/BDR_04_Contrat_de_versement_sans_notice.odt)
@@ -280,7 +306,7 @@ Retranscrivez ces éléments dans votre [politique d'archivage](#politique-archi
 ---
 name: politique-archivage
 
-# mettre à jour le référentiel de la politique d'archivage
+### mettre à jour le référentiel de la politique d'archivage
 La politique d'archivage est le document qui établi les responsabilités entre les différents acteurs du service d'archivage électronique et précise les offres de service associées.
 
 A partir des éléments définis dans le contrat de versement établi avec la direction de la commande publique, vous mettrez à jour votre politique d'archivage avec le niveau de service associé.
@@ -289,7 +315,7 @@ Rédigez votre politique d'archivage en vous inspirant du [modèle du SIAF](./re
 ---
 name: association-profil
 
-# procéder à l'association du profil avec la direction des marchés de votre autorité d'archivage
+### procéder à l'association du profil avec la direction des marchés de votre autorité d'archivage
 
 Rendez-vous dans le [module référentiel](http://saem-demo.cloudapp.net/referentiel) et procéder à l'association entre le profil de versement des marchés et la direction de la commande publique du Conseil Départemental de Seine-et-Marne.
 
@@ -297,43 +323,47 @@ Rendez-vous dans le [module GED-SAS](http://saem-demo.cloudapp.net/share) pour s
 ---
 name: versement-marche
 
-# procéder au versement d'un marché :
+### procéder au versement d'un marché :
 
-(./exemples/exempleMarche/marche SPEC 08967 SAE.zip)
+[lien vers un dossier exemple](./exemples/exempleMarche/marche SPEC 08967 SAE.zip)
 
 Trois options sont possibles en fonction ni niveau d'automatisation et d'outillage disponible. A partir de l'exemple de dossier fourni, procéder à un versement manuel [via le formulaire](#versement-marche-form), à un versement manuel [depuis le dossier profilable](#versement-marche-manuel), à l'[import d'un dossier zippé](#versement-marche-zip).
 ---
 name: versement-marche-form
 
-## en remplissant le formulaire associé au profil dans le site versant de la direction des marchés
+### Versement via formulaire
+En remplissant le formulaire associé au profil dans le site versant de la direction des marchés
 
 Le formulaire est accessible depuis le bouton "préparer un versement" disponible sur le tableau de bord du service versant.
 
 Il permet de générer un formulaire à partir des informations contenues dans le profil et d'indiquer au service versant les informations qui restent à saisir.
 
-Rendez-vous dans la [GED-SAS](http://saem-demo.cloudapp.net/share/page?pt=login) en tant que Fabian Halboud (fhalboud/fhalboud) et préparer un versement avec le profil synchronisé depuis le référentiel
+Rendez-vous dans la [GED-SAS](http://saem-demo.cloudapp.net/share/page?pt=login) en tant que Gustave Mallet (gmallet/gmallet) et préparer un versement avec le profil synchronisé depuis le référentiel
 ---
 name: versement-marche-manuel
 
-## en créant une arborescence de fichiers et de dossiers dans le dossier profilable de l'espace documenaire du site versant de la direction des marchés
+## Versement manuel
+En créant une arborescence de fichiers et de dossiers dans le dossier profilable de l'espace documenaire du site versant de la direction des marchés
 
 Les profils synchronisés depuis le référentiel et associés à la direction des marchés créent des dossiers dans l'espace documentaire.
 
 En vous plaçant à l'intérieur de ce dossier, vous pouvez créer des dossiers et importer des documents en remplissant manuellement les métadonnées attendues.
 
-Rendez-vous dans la [GED-SAS](http://saem-demo.cloudapp.net/share/page?pt=login) en tant que Fabian Halboud (fhalboud/fhalboud) et préparer un versement dans le dossier profilable créé à partir de la synchronisation depuis le référentiel.
+Rendez-vous dans la [GED-SAS](http://saem-demo.cloudapp.net/share/page?pt=login) en tant que Gustave Mallet (gmallet/gmallet) et préparer un versement dans le dossier profilable créé à partir de la synchronisation depuis le référentiel.
 ---
 name: versement-marche-zip
 
-## en important le dossier zippé dans l'espace documentaire du site versant de la direction des marchés
+### Versement dossier zippé
+
+En important le dossier zippé dans l'espace documentaire du site versant de la direction des marchés
 
 Il est possible d'importer manuellement un dossier zippé qui correspond à l'arborescence définie dans votre profil de versement des marchés dans un dossier profilable et de générer un bordereau de versement permettant de valider sa conformité avec le profil.
 
-Rendez-vous dans la [GED-SAS](http://saem-demo.cloudapp.net/share/page?pt=login) en tant que Fabian Halboud (fhalboud/fhalboud) et préparer un versement dans le dossier profilable créé à partir de la synchronisation depuis le référentiel.
+Rendez-vous dans la [GED-SAS](http://saem-demo.cloudapp.net/share/page?pt=login) en tant que Gustave Mallet (gmallet/gmallet) et préparer un versement dans le dossier profilable créé à partir de la synchronisation depuis le référentiel.
 ---
 name: validation-versement-marche
 
-# accepter ce versement dans le SAE
+### accepter ce versement dans le SAE
 
 A l'issue du processus de versement effectué dans la GED-SAS, contrôler et valider ce versement pour le transférer dans le SAE.
 
@@ -342,7 +372,7 @@ Rendez-vous dans le [module d'archivage](http://saem-demo.cloudapp.net/asalae) e
 ---
 name: elimination-marche
 
-# éliminer les pièces et dossiers éliminables
+### éliminer les pièces et dossiers éliminables
 Le dossier des offres non retenues est éliminables au bout de 5 ans.
 
 Même si le dossier d'archives englobant a un sort final conserver, il est possible de définir un autre sort final pour une unité d'archives du versement et de procéder à son élimination.
@@ -351,7 +381,7 @@ Comment construire le profil afin de permettre d'éliminer le plus automatiqueme
 ---
 name: communication-marche
 
-# communiquer les dossiers communicables
+### communiquer les dossiers communicables
 Le délai de communicabilité des marchés publics étant immédiat, vous pouvez en tant que direction de commande publique demander la communication d'un dossier de votre versement. Lors de l'intégration d'un portail de recherche et de consultation des archives communicables vous pourrez également communiquer cette archives à toute personne qui en ferait la demande.
 
 Quels sont les éléments de recherche à fournir aux usagers et de quelle manière visualiser les documents recherchés ?
@@ -360,12 +390,12 @@ Rendez-vous dans la GED SAS dans le site de la direction de la commande publique
 ---
 name: restitution-marche
 
-# restituer le marché dans le site de la direction des marchés
+### restituer le marché dans le site de la direction des marchés
 Imaginons que le marché fasse l'objet d'un avenant et que la direction de la commande publique ait besoin de modifier le contenu du dossier versé, vous pouvez le lui restituer afin qu'elle puisse le modifier et vous le soumettre à nouveau.
 ---
 name: conception-sae
 
-# je dois mettre en place un SAE
+### je dois mettre en place un SAE
 Suite à la décision politique et administrative, vous êtes chargé de mettre en place un SAE dans vote organisation.
 
 Vous pouvez consulter la page des [scenarii d'archivage](#scenarii) pour voir les différentes options qui s'ouvrent à vous.
@@ -375,7 +405,7 @@ Dans le cas où vous souhaiteriez réaliser votre propre SAE, posez vous les [bo
 ---
 name: location-sae
 
-# je loue un SAE existant
+### je loue un SAE existant
 Dans le cas où la commande que vous avez reçu ne stipule pas obligatoirement le déploiement d'un système d'archviage électronique conçu en interne, rendez-vous sur la page des [scenarii](#scenarii) pour consulter les options qui s'offrent à vous et les forces et faiblesses de chacun.
 
 Vous devrez ensuite en fonction de votre choix mettre à jour votre [politique d'archivage](#politique-archivage) et préciser dans un [contrat de versement](#contrat-versement) le niveau de service auquel vous souscrivez.
@@ -383,7 +413,7 @@ Vous devrez ensuite en fonction de votre choix mettre à jour votre [politique d
 ---
 name: infra-sae
 
-## je définis l'espace de conservation numérique
+### je définis l'espace de conservation numérique
 
 Le SAE doit disposer d'un espace dans lequel il peut stocker les dossiers et documents à conserver.
 
@@ -396,7 +426,7 @@ Aller la page du [démarrage opérationnel](#sae-operationnel)
 ---
 name: pssi
 
-## je met à jour la PSSI
+### je met à jour la PSSI
 La Politique de sécurité des systèmes d'information définit les conditions d'utilisation des infrastructures et applications mises en oeuvre au sein de l'organisation et définissent les niveaux de service associés à l'utilisation des ressources.
 
 Elles permettent notamment de préciser les mesures mises en oeuvre pour garantir le maintien en condition opérationnelle des services numériques et les actions prévues pour rétablir le service en cas de panne.
@@ -409,15 +439,15 @@ Retourner à la page de définition de l'[infrastructure de stockage](#infra-sae
 ---
 name: reversibilite
 
-## je procède à un test de réversibilité
+### je procède à un test de réversibilité
 ---
 name: support-pedagogique
 
-## je rédige un support pédagogique pour les collègues de la direction des marchés
+### je rédige un support pédagogique pour les collègues de la direction des marchés
 ---
 name: dev-sae
 
-# je développe mon propre SAE
+### je développe mon propre SAE
 Pour développer son propre SAE il est important de connaître l'offre disponible sur le marché, de maîtriser la réglementation en vigeur et de [se poser les 9 question](#mvp-question)
 
 Ensuite vous pourrez rédiger vos [exigences fonctionnelles](#exigences-fonctionnelles)
@@ -425,7 +455,7 @@ Ensuite vous pourrez rédiger vos [exigences fonctionnelles](#exigences-fonction
 name: exigences-fonctionnelles
 class: center, middle
 
-## je liste mes exigences fonctionnelles
+### je liste mes exigences fonctionnelles
 écrire mes 10 histoires utilisateurs prioritaires sous la forme :
 " En tant que [rôle] je veux [fonctionnalité] afin de [usage]"
 
@@ -433,15 +463,28 @@ Vous préciserez pour chacune de ces exigences les tests que vous effecturez pou
 ---
 name: validation-exigence
 
-# je valide mes exigences fonctionnelles
+### je valide mes exigences fonctionnelles
 écrire mes 10 tests de validation
 
 ---
 name: sae-production
 
-Bravo ! votre SAE peut être mis en production. Il vous faut simplement définir l'infrastructure de stockage adaptée et vous pourrez ensuite procéder à la préparation des versements.
+Bravo ! votre SAE peut être mis en production. Il vous faut simplement définir le [schéma d'architecture technique](#archi-sae) adaptée et vous pourrez ensuite procéder à la [préparation des versements](#sae-operationnel).
+---
+name: archi-sae
+### Architecture technique du Système d'information
 
-# Définir l'[infrastructure du SAE](#infra-sae)
+Pour faire circuler les informations dans votre système d'information urbanisé, il faut de la signalisation.
+
+Dessinez un schéma d'infrastructure technique pour votre SAE :
+* en carré les applications
+* en losange les bases de données
+* en rectangle les serveurs de fichiers
+* en rond les applications liées
+
+Une fois ce schéma réalisé , vous pouvez définir l'[infrastructure du SAE](#infra-sae)
+
+Si cela est déjà fait, vous pouvez vous rendre dans la [salle de conférence de presse](#sae-fin)
 ---
 name: sae-operationnel
 
@@ -449,7 +492,13 @@ Bravo ! Votre application de SAE est opérationnelle.
 
 Vous pouvez commencer à rédiger des [profils](#profil) pour permettre aux services versants d'effectuer des versements.
 
-# Rédiger le [profil de versement](#profil)
+Rédiger le [profil de versement](#profil)
+---
+name: sae-fin
+Votre quête est terminée ! Vous avez réussi à mener à bien cette aventure en évitant les pièges et les obstacles.
+Vous méritez votre badge de super-eArchiviste
+--
+![illustration badge](./media/badge-earchiviste.png)
 ---
 name: sc-interne
 
