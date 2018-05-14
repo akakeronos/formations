@@ -5,7 +5,7 @@ background-repeat: no-repeat;
 background-size: contain;
 .footnote[CC-By-SA Keronos Entertainment. Ceci est fait en texte avec du logiciel libre]
 
-# formation CD77
+# formation AD77
 ## Mai 2018
 
 ### Au programme
