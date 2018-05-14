@@ -201,9 +201,11 @@ Afin de prendre en compte la globalité du cycle de vie des archives, il est ess
 4. identifier les étapes et les lieux du processus
 
 aller à la page [organisation](#organisation)
-]
 
 Au besoin consultez les [règles du jeu](#regles) puis placez les [rôles](#heros) présents dans votre équipe sur le schéma en fonction du [contexte de jeu](#scenarii) et de la [quête](#quete) poursuivie
+]
+
+
 ---
 name: organisation
 
