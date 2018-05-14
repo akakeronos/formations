@@ -193,7 +193,7 @@ name: architecture
 .left-column[.reduite[![illustration bd quête oiseau temps](./media/circuitProcessus.jpg)]]
 .right-column[
 Afin de prendre en compte la globalité du cycle de vie des archives, il est essentiel d'identifier la ou les sources de production afin de déterminer les événements déclencheurs qui peuvent justifier du passage des données ou documents d'un entrepôt à un autre.
-> Ce travail est également requis dans le cadre de la mise en pplace du RGDP en intégrant l'identification des données à caractère privé.
+> Ce travail est également requis dans le cadre de la mise en place du RGDP en intégrant l'identification des données à caractère privé.
 
 1. identifier les sources de production
 2. identifier les acteurs du processus
