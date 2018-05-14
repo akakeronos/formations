@@ -37,13 +37,13 @@ Constituez des équipes avec au moins un représentant de 2 entités OAIS puis c
 
 Parcourer les étapes de la mise en oeuvre d'un processus d'archivage jusqu'à la restitution de dossiers de marchés publics et votre destination sera atteinte.
 
-Choisir un rôle dans l'OASIS (pardon [OAIS](#oais)!)
+Choisir un [rôle](#heros) dans l'OASIS (pardon [OAIS](#oais)!)
 ---
 name: oais
 ### L'Ouverture des Archives Intelligible et Sécurisée (OAIS)
 ![schéma du modèle OAIS](./media/oais.png)
 
-Placer les rôles sur le schéma en fonction du [contexte de jeu](#scenarii)
+Consultez les [règles du jeu](#regles) puis placer les [rôles](#heros) présents dans votre équipe sur le schéma en fonction du [contexte de jeu](#scenarii)
 ---
 name: heros
 ### les héros (ou l'héroïne) de l'archivage électronique
@@ -66,7 +66,8 @@ name: heros
   * [superviseur de dépôt numérique](#superviseur)
 
 Rédiger votre fiche de poste [fiche de poste vierge](#vierge)
-Placer sur la [carte OAIS](#oais) les rôles de l'équipe et choisir un [thème de jeu](#scenarii)
+
+Placer sur la [carte OAIS](#oais) les rôles de l'équipe et choisir une [quête](#quete) à adapter en fonction de votre [contexte](#scenarii) de jeu
 ---
 name: regles
 class: center
@@ -76,7 +77,7 @@ Par équipes de 3,4 vous devrez mener à bien votre quête en parcourant les for
 
 Vous pouvez vous aider de la [bibliothèque de référence pour l'archivage numérique](https://francearchives.fr/fr/article/26287443) et de la présence d'un [facilitateur numérique](#facilitateur) pour réaliser vos missions.
 
-Consulter la [carte de la quête](#carte) et se poser les [bonnes questions](#mvp-question) pour démarrer.  Se rendre sur la page de [choix de la quête](#quete)
+Consulter la [carte de la quête](#carte) et se poser les [bonnes questions](#mvp-question) pour démarrer. Se rendre sur la page de [choix de la quête](#quete)
 
 ![couverture livre jeu de rôle](./media/jeuHeros.jpg)
 ---
@@ -88,7 +89,7 @@ class: center, middle
 
 Au pays de la théorie, plusieurs projets sont en production et archivent quantités de données de manière totalement automatisée dans une forteresse inprenable.
 
-Après avoir choisi votre quête, votre contexte et vos compagnon.nes, tentez de rejoindre le pays de la pratique en établissant un [plan](#architecture) et en organisant une [équipe](#organisation)
+Après avoir choisi votre [quête](#quete), votre [contexte](#scenarii) et vos [compagnon.nes](#heros), tentez de rejoindre le pays de la pratique en établissant un [plan](#architecture) et en organisant une [équipe](#organisation)
 ---
 name: mvp-question
 
@@ -120,6 +121,8 @@ En fonction de votre niveau d'expertise, de vos besoins ou de votre contexte vou
 * [quête archiviste](#quete-archiviste) : vous devrez préparer et effectuer avec votre direction de la commande publique un versement d'un marché notifié et effectuer différents opérations de traitement.
 * [quête archiviste itinérant](#quete-itinerante) : vous devrez accompagner un service d'archives constitué dans le choix d'un scenario d'archivage électronique.
 ]
+
+Au besoin consultez les [règles du jeu](#regles) puis placez les [rôles](#heros) présents dans votre équipe sur le schéma en fonction du [contexte de jeu](#scenarii)
 ---
 name: quete-experte
 ### équipe experte
@@ -138,8 +141,9 @@ Verser les dossiers de marchés publics notifiés depuis la GED dans le SAE inte
 6. effectuer un [versement](#versement-marche)
 
 Si vous êtes prêts, aller à la page [architecture](#architecture)
-]
+Au besoin consultez les [règles du jeu](#regles) puis placez les [rôles](#heros) présents dans votre équipe sur le schéma en fonction du [contexte de jeu](#scenarii)
 
+]
 
 
 ---
@@ -163,7 +167,11 @@ Effectuer un versement d'un marché public notifié et préparer l'instrument de
 8. [restituer le versement](#restituer-marche)
 
 aller à la page [organisation](#organisation)
+Au besoin consultez les [règles du jeu](#regles) puis placez les [rôles](#heros) présents dans votre équipe sur le schéma en fonction du [contexte de jeu](#scenarii)
+
 ]
+
+
 ---
 name: quete-itinerante
 
@@ -175,7 +183,9 @@ name: quete-itinerante
 
 Vous devez conseiller ces différents partenaires en fonction de leur situation et produire une note détaillée à votre direction.
 
-aller à la page [scenarii d'archivage](#scenarii)
+Aller à la page [scenarii d'archivage](#scenarii) puis choisissez votre plan d'[action](#action)
+
+Au besoin consultez les [règles du jeu](#regles) puis placez les [rôles](#heros) présents dans votre équipe sur le schéma en fonction du [contexte de jeu](#scenarii)
 
 ---
 name: architecture
@@ -193,6 +203,7 @@ Afin de prendre en compte la globalité du cycle de vie des archives, il est ess
 aller à la page [organisation](#organisation)
 ]
 
+Au besoin consultez les [règles du jeu](#regles) puis placez les [rôles](#heros) présents dans votre équipe sur le schéma en fonction du [contexte de jeu](#scenarii) et de la [quête](#quete) poursuivie
 ---
 name: organisation
 
@@ -208,6 +219,9 @@ Afin de mener à bien votre quête vous devrez constituer une équipe compétent
 
 allez à la page [scenarii](#scenarii)
 
+Au besoin consultez les [règles du jeu](#regles) puis placez les [rôles](#heros) présents dans votre équipe sur le schéma en fonction de la [quête](#quete) poursuivie
+
+En fonction de votre choix, mettez votre organisation en [action](#action)
 ---
 name: scenarii
 
@@ -219,16 +233,21 @@ name: scenarii
 * dépôt au Département : aller à la page [dépôt aux AD](#externalisation-ad)
 * mutualisation entre services publics d'archives : aller à la page [mutualisation SPA](#mutualisation-spa)
 * externalisation : aller à la page [tiers archiveur privé](#externalisation-tiers)
+
+Au besoin consultez les [règles du jeu](#regles) puis placez les [rôles](#heros) présents dans votre équipe sur le schéma en fonction du [contexte de jeu](#scenarii) et de la [quête](#quete) poursuivie
+
+Une fois choisi votre contexte, choisissez votre plan d'[action](#action)
 ---
 name: action
 
 ### mise en oeuvre
 * Vous avez déjà un SAE, [rédigez un profil](#profil) pour préparer le modèle de versement
-* Vous voulez automatiser le versement, [définissez les modalités](#automatisation) du connecteur
+* Vous voulez automatiser le versement, [définissez les modalités](#automatisation) d'automatisation d'un connecteur
 * vous voulez concevoir un SAE, [définissez vos besoins](#conception-sae)
 
 ![illustration table réflexion scenario](./media/action.jpg)
 
+Au besoin consultez les [règles du jeu](#regles) puis placez les [rôles](#heros) présents dans votre équipe sur le schéma en fonction du [contexte de jeu](#scenarii) et de la [quête](#quete) poursuivie
 ---
 name: automatisation
 ### Concevoir un connecteur applicatif
@@ -240,6 +259,9 @@ Par exemple, l'application de publication des marchés publics du département e
 * depuis une [GED](#automatisation-ged)
 
 Si finalement vous préférez effectuer un versement manuel, retournez à la page [rédaction du profil](#profil) de versement
+
+Au besoin consultez les [règles du jeu](#regles) puis placez les [rôles](#heros) présents dans votre équipe sur le schéma en fonction du [contexte de jeu](#scenarii) et de la [quête](#quete) poursuivie
+
 ---
 name: internalisation
 
@@ -247,6 +269,9 @@ name: internalisation
 L'internalisation de la fonction archivage électronique nécessite une collaboration entre une autorité d'archivage et un opérateur d'archivage à l'intérieur de l'organisation. Découvrez les forces et les faiblesses de ce scenario pour voir s'il vous convient.
 
 * aller à la page [sc-interne](#sc-interne)
+
+Au besoin consultez les [règles du jeu](#regles) puis placez les [rôles](#heros) présents dans votre équipe sur le schéma en fonction du [contexte de jeu](#scenarii) et de la [quête](#quete) poursuivie
+
 ---
 name: externalisation-tiers
 
@@ -256,6 +281,9 @@ La réglementation définie par le Code du Patrimoine permet d'effectuer une ext
 Cette externalisation, toutefois, ne peut concerner que les archives intermédiaires et doit faire l'objet d'un marché public.
 
 Pour connaître les forces et les faiblesses de ce scenario, aller à la page [sc-depot-tiers](#sc-depot-tiers)
+
+Au besoin consultez les [règles du jeu](#regles) puis placez les [rôles](#heros) présents dans votre équipe sur le schéma en fonction du [contexte de jeu](#scenarii) et de la [quête](#quete) poursuivie
+
 ---
 name: externalisation-epci
 
@@ -263,13 +291,19 @@ name: externalisation-epci
 Pour une commune il est possible de d'adresser à une communauté de commune ou à une commune du groupement afin de consommer un service d'archivage électronique.
 
 Pour connaître les forces et les faiblesses de ce scenario, aller à la page [sc-depot-EPCI](#sc-depot-EPCI)
+
+Au besoin consultez les [règles du jeu](#regles) puis placez les [rôles](#heros) présents dans votre équipe sur le schéma en fonction du [contexte de jeu](#scenarii) et de la [quête](#quete) poursuivie
+
 ---
 name: externalisation-ad
 
 #### externalisation en AD :
 Pour une commune ou une communauté de commune il est possible d'effectuer des dépôts d'archives électroniques dans l'entrepôt de conservation des archives départementales si celle-ci dispose d'un service d'archivage électronique.
 
-Pour connaître les forces et les faiblesses de ce scenario, aller à la page [sc-depot-EPCI](#sc-depot-ad)
+Pour connaître les forces et les faiblesses de ce scenario, aller à la page [sc-depot-AD](#sc-depot-ad)
+
+Au besoin consultez les [règles du jeu](#regles) puis placez les [rôles](#heros) présents dans votre équipe sur le schéma en fonction du [contexte de jeu](#scenarii) et de la [quête](#quete) poursuivie
+
 ---
 
 name: mutualisation-spa
@@ -277,13 +311,20 @@ name: mutualisation-spa
 ### mutualisation entre service public d'archives :
 Pour une commune, une communauté de commune ou un département il est possible de mettre en place une convention de partenariat afin de mutualiser le service d'archivage électronique.
 
-Pour connaître les forces et les faiblesses de ce scenario, aller à la page [sc-depot-EPCI](#sc-depot-spa)
+Pour connaître les forces et les faiblesses de ce scenario, aller à la page [sc-depot-spa](#sc-depot-spa)
+
+Au besoin consultez les [règles du jeu](#regles) puis placez les [rôles](#heros) présents dans votre équipe sur le schéma en fonction du [contexte de jeu](#scenarii) et de la [quête](#quete) poursuivie
+
 ---
 name: sae-existant
 
 ### j'ai déjà un SAE :
 
 Vous disposez déjà d'un SAE. Vous pouvez soit effectuer un versement en rédigeant un profil ou convenir au préalable d'un contrat de versement avec le service versant. Dans tous les cas, vous devez mettre à jour votre politique d'archivage pour y inscrire le flux pris en charge et ses modalités d'archivage
+
+Au besoin consultez les différents [contexte de jeu](#scenarii) et identifiez les [rôles](#heros) nécessaires à votre [quête](#quete)
+
+
 ---
 name: profil
 
@@ -292,8 +333,9 @@ Ce profil doit contenir plusieurs unités de description : un dossier de consult
 
 Il doit contenir les règles de sort final, de DUA et de communicabilité et les données définies dans le référentiel du ministère de l'économie dans l'arrêté du 14 avril 2017 relatif aux données essentielles dans la commande publique (https://www.economie.gouv.fr/files/files/directions_services/daj/marches_publics/ouverture-donnees/referentiel_marches_publics.pdf)
 
-Une fois ce profil réalisé, vous pouvez l'associer à l'entité administrative qui va en effectuer le versement.
+Une fois ce profil réalisé, vous pouvez l'[associer](#association-profil) à l'entité administrative qui va en effectuer le [versement](#versement).
 
+retournez à la [liste des étapes](#quete-archiviste) de votre quête
 ---
 name: contrat-versement
 
@@ -303,6 +345,8 @@ Les modalités d'échanges avec les services consommateurs du service d'archivag
 Rédigez le contrat de versement de la direction de la commande publique en vous inspirant du [modèle du SIAF](./ressources/BDR_04_Contrat_de_versement_sans_notice.odt)
 
 Retranscrivez ces éléments dans votre [politique d'archivage](#politique-archivage)
+
+retournez à la [liste des étapes](#quete-archiviste) de votre quête
 ---
 name: politique-archivage
 
@@ -312,6 +356,9 @@ La politique d'archivage est le document qui établi les responsabilités entre 
 A partir des éléments définis dans le contrat de versement établi avec la direction de la commande publique, vous mettrez à jour votre politique d'archivage avec le niveau de service associé.
 
 Rédigez votre politique d'archivage en vous inspirant du [modèle du SIAF](./resources/BDR_02_Politique_d-archivage_sans_notice.odt)
+
+retournez à la [liste des étapes](#quete-archiviste) de votre quête
+
 ---
 name: association-profil
 
@@ -320,6 +367,9 @@ name: association-profil
 Rendez-vous dans le [module référentiel](http://saem-demo.cloudapp.net/referentiel) et procéder à l'association entre le profil de versement des marchés et la direction de la commande publique du Conseil Départemental de Seine-et-Marne.
 
 Rendez-vous dans le [module GED-SAS](http://saem-demo.cloudapp.net/share) pour synchroniser ce profil dans l'espace du service versant.
+
+retournez à la [liste des étapes](#quete-archiviste) de votre quête
+
 ---
 name: versement-marche
 
@@ -328,6 +378,9 @@ name: versement-marche
 [lien vers un dossier exemple](./exemples/exempleMarche/marche SPEC 08967 SAE.zip)
 
 Trois options sont possibles en fonction ni niveau d'automatisation et d'outillage disponible. A partir de l'exemple de dossier fourni, procéder à un versement manuel [via le formulaire](#versement-marche-form), à un versement manuel [depuis le dossier profilable](#versement-marche-manuel), à l'[import d'un dossier zippé](#versement-marche-zip).
+
+retournez à la [liste des étapes](#quete-archiviste) de votre quête
+
 ---
 name: versement-marche-form
 
@@ -339,6 +392,9 @@ Le formulaire est accessible depuis le bouton "préparer un versement" disponibl
 Il permet de générer un formulaire à partir des informations contenues dans le profil et d'indiquer au service versant les informations qui restent à saisir.
 
 Rendez-vous dans la [GED-SAS](http://saem-demo.cloudapp.net/share/page?pt=login) en tant que Gustave Mallet (gmallet/gmallet) et préparer un versement avec le profil synchronisé depuis le référentiel
+
+retournez à la [liste des étapes](#quete-archiviste) de votre quête
+
 ---
 name: versement-marche-manuel
 
@@ -350,6 +406,8 @@ Les profils synchronisés depuis le référentiel et associés à la direction d
 En vous plaçant à l'intérieur de ce dossier, vous pouvez créer des dossiers et importer des documents en remplissant manuellement les métadonnées attendues.
 
 Rendez-vous dans la [GED-SAS](http://saem-demo.cloudapp.net/share/page?pt=login) en tant que Gustave Mallet (gmallet/gmallet) et préparer un versement dans le dossier profilable créé à partir de la synchronisation depuis le référentiel.
+retournez à la [liste des étapes](#quete-archiviste) de votre quête
+
 ---
 name: versement-marche-zip
 
@@ -360,6 +418,9 @@ En important le dossier zippé dans l'espace documentaire du site versant de la 
 Il est possible d'importer manuellement un dossier zippé qui correspond à l'arborescence définie dans votre profil de versement des marchés dans un dossier profilable et de générer un bordereau de versement permettant de valider sa conformité avec le profil.
 
 Rendez-vous dans la [GED-SAS](http://saem-demo.cloudapp.net/share/page?pt=login) en tant que Gustave Mallet (gmallet/gmallet) et préparer un versement dans le dossier profilable créé à partir de la synchronisation depuis le référentiel.
+
+retournez à la [liste des étapes](#quete-archiviste) de votre quête
+
 ---
 name: validation-versement-marche
 
@@ -368,6 +429,8 @@ name: validation-versement-marche
 A l'issue du processus de versement effectué dans la GED-SAS, contrôler et valider ce versement pour le transférer dans le SAE.
 
 Rendez-vous dans le [module d'archivage](http://saem-demo.cloudapp.net/asalae) en tant que Anna Bila (abilla/annabilla) et contrôler le versement dans le registre des transferts jusqu'à son intégration dans le journal des entrées.
+
+retournez à la [liste des étapes](#quete-archiviste) de votre quête
 
 ---
 name: elimination-marche
@@ -378,6 +441,7 @@ Le dossier des offres non retenues est éliminables au bout de 5 ans.
 Même si le dossier d'archives englobant a un sort final conserver, il est possible de définir un autre sort final pour une unité d'archives du versement et de procéder à son élimination.
 Comment construire le profil afin de permettre d'éliminer le plus automatiquement possible les sous-dossiers concernés par la procédure ?
 
+retournez à la [liste des étapes](#quete-archiviste) de votre quête
 ---
 name: communication-marche
 
@@ -387,11 +451,17 @@ Le délai de communicabilité des marchés publics étant immédiat, vous pouvez
 Quels sont les éléments de recherche à fournir aux usagers et de quelle manière visualiser les documents recherchés ?
 
 Rendez-vous dans la GED SAS dans le site de la direction de la commande publique et effectuer une demande de communication.
+
+retournez à la [liste des étapes](#quete-archiviste) de votre quête
+
 ---
 name: restitution-marche
 
 ### restituer le marché dans le site de la direction des marchés
 Imaginons que le marché fasse l'objet d'un avenant et que la direction de la commande publique ait besoin de modifier le contenu du dossier versé, vous pouvez le lui restituer afin qu'elle puisse le modifier et vous le soumettre à nouveau.
+
+retournez à la [liste des étapes](#quete-archiviste) de votre quête
+
 ---
 name: conception-sae
 
@@ -423,6 +493,9 @@ Le SAE doit disposer d'un espace dans lequel il peut stocker les dossiers et doc
 
 Mettez à jour votre [politique de sécurité des systèmes d'information](#pssi)
 Aller la page du [démarrage opérationnel](#sae-operationnel)
+
+retournez à la [liste des étapes](#quete-archiviste) de votre quête
+
 ---
 name: pssi
 
@@ -436,10 +509,16 @@ Pour l'archivage électronique la priorité concerne le maintien en condition op
 Les interruptions de service (même de plusieurs jours) peuvent être acceptables à condition qu'aucune donnée ne soit perdue lors du rétablissement du service.
 
 Retourner à la page de définition de l'[infrastructure de stockage](#infra-sae) ou aller directement à l'étape de [démarrage opérationnel](#sae-operationnel)
+
+retournez à la [liste des étapes](#quete-archiviste) de votre quête
+
 ---
 name: reversibilite
 
 ### je procède à un test de réversibilité
+
+retournez à la [liste des étapes](#quete-archiviste) de votre quête
+
 ---
 name: support-pedagogique
 
@@ -502,12 +581,12 @@ Vous méritez votre badge de super-eArchiviste
 ---
 name: sc-interne
 
-## **Scénario internalisation**
+### **Scénario internalisation**
 La collectivité gère en son sein ses propres archives
 
 * Prérequis : disposer au moins d’1 archiviste présent dans la collectivité prenant en charge les dépôts d’archives, leur gestion et leur valorisation, et accompagnant les services de la collectivité dans la mise en oeuvre des versements et l'utilisation du SAE
 ---
-## **Scénario internalisation**
+### **Scénario internalisation**
 Conditions de réussite / collectivité demandeuse :
 
 * **RH AE : quelles sont les ressources mobilisables côté archives ?**
@@ -531,7 +610,7 @@ Conditions de réussite / collectivité demandeuse :
   * Des référents métiers identifiés dans les directions pour contribuer ponctuellement à la définition et la mise en œuvre de règles d'archivage
   * Mise en œuvre d’un réseau de référent en archivage qui sont formés et accompagnés à l’exercice régulier des processus d’archivage. Réseau extensible à la gestion du cycle de vie courant(RM) et à l’accès aux données administratives (Open Data)
 ---
-## **Scénario internalisation**
+### **Scénario internalisation**
 
 * **Moyens techniques : quelles sont les infrastructures disponibles ?**
 --
@@ -547,7 +626,7 @@ Conditions de réussite / collectivité demandeuse :
   * Puis des coûts de maintenance et de reversibilité
   (fonction de la taille et des besoins de la collectivité)
 ---
-## **Scénario internalisation**
+### **Scénario internalisation**
 
 * **volonté stratégique : Y-a-t-il une stratégie définie ? Un sponsor ?**
 --
@@ -604,17 +683,18 @@ class: center, middle
   1. Risque de changement de stratégie des partenaires
   2. Risque de disparition / évolution des compétences des partenaires
 
+Consultez les autres [scenarii](#scenarii) ou débutez votre [quête](#quete) en fonction de votre contexte
 ---
 name: sc-depot-EPCI
 
-## **Scénario 2 : dépôt au sein d'un EPCI**
+### **Scénario 2 : dépôt au sein d'un EPCI**
 La collectivité externalise son archivage
 
 * **Prérequis** : L'EPCI ou une de ses communes membres
   - s'engagent vis-à-vis des autres communes de l'EPCI à mettre à disposition un service d'archivage électronique
   - disposent des moyens et compétences suffisantes pour prendre en charge les dépôts et accompagner les collectivités dans la mise en œuvre des versements et l'utilisation du SAE
 ---
-## **Scénario 2 : dépôt au sein d'un EPCI**
+### **Scénario 2 : dépôt au sein d'un EPCI**
 
 Conditions de réussite / collectivité demandeuse :
 
@@ -629,7 +709,7 @@ Conditions de réussite / collectivité demandeuse :
 --
   * Des ressources SI suffisantes pour mettre en œuvre puis maintenir les connecteurs
 ---
-## **Scénario 2 : dépôt au sein d'un EPCI**
+### **Scénario 2 : dépôt au sein d'un EPCI**
 
 * **RH métiers : quelles sont les ressources mobilisables dans les directions métiers ?**
 --
@@ -643,13 +723,13 @@ Conditions de réussite / collectivité demandeuse :
   * Un dispositif d'échanges de données sécurisé entre le SI de la collectivité et l'EPCI ou la commune membre
   * Des solutions métiers à archiver homogènes entre les différentes communes membres de l'EPCI
 ---
-## **Scénario 2 : dépôt au sein d'un EPCI**
+### **Scénario 2 : dépôt au sein d'un EPCI**
 * **Moyens financiers : quels sont les budgets disponibles ?**
 --
 
   * Entre 0 et 50 K€ sur 5 ans pour contribuer aux moyens mis en œuvre par l'EPCI ou la commune membre (suivant le modèle économique défini par l'EPCI)
 ---
-## **Scénario 2 : dépôt au sein d'un EPCI**
+### **Scénario 2 : dépôt au sein d'un EPCI**
 * **volonté stratégique : Y-a-t-il une stratégie définie ? Un sponsor ?**
 --
 
@@ -657,7 +737,7 @@ Conditions de réussite / collectivité demandeuse :
   * Intérêt pour la mutualisation
   * Confiance vis-à-vis de la pérennité, des compétences archivistiques et des moyens informatiques mis à disposition par l'EPCI ou la commune membre
 ---
-## **Scénario 2 : dépôt au sein d'un EPCI**
+### **Scénario 2 : dépôt au sein d'un EPCI**
 
 * **maturité : quelle est la maturité de l'organisation par rapport au numérique ?**
 --
@@ -668,7 +748,7 @@ Conditions de réussite / collectivité demandeuse :
 
 ---
 class: center, middle
-## Identifier les forces et faiblesses de votre scenario
+### Identifier les forces et faiblesses de votre scenario
 ![dcant forces et faiblesses](./media/dcant-vierge.png)
 ---
 ### Forces
@@ -706,17 +786,18 @@ class: center, middle
   1. Risque de changement de stratégie des partenaires
   2. Risque de disparition / évolution des compétences des partenaires
 
+Consultez les autres [scenarii](#scenarii) ou débutez votre [quête](#quete) en fonction de votre contexte
 ---
 name: sc-depot-ad
 
-## **Scénario 3 : dépôt au département**
+### **Scénario 3 : dépôt au département**
 La collectivité externalise son archivage au département le plus proche ou le plus avancé
 
 * **Prérequis** : Le Département
   * s'engage vis-à-vis des autres collectivités du Département à mettre à disposition un service d'archivage électronique
   * dispose des moyens et compétences suffisantes pour prendre en charge les dépôts et accompagner les collectivités dans la mise en œuvre des versements et l'utilisation du SAE
 ---
-## **Scénario 3 : dépôt au département**
+### **Scénario 3 : dépôt au département**
 Conditions de réussite / collectivité demandeuse :
 
 * **RH AE : quelles sont les ressources mobilisables côté archives ?**
@@ -730,7 +811,7 @@ Conditions de réussite / collectivité demandeuse :
 
   * Des ressources SI suffisantes pour mettre en œuvre puis maintenir les connecteurs
 ---
-## **Scénario 3 : dépôt au département**
+### **Scénario 3 : dépôt au département**
 
 * **RH métiers : quelles sont les ressources mobilisables dans les directions métiers ?**
 --
@@ -744,13 +825,13 @@ Conditions de réussite / collectivité demandeuse :
   * Un dispositif d'échanges de données sécurisé entre le SI de la collectivité et le Département
   * Des solutions métiers à archiver homogènes entre les différentes collectivités du Département
 ---
-## **Scénario 3 : dépôt au département**
+### **Scénario 3 : dépôt au département**
 * **Moyens financiers : quels sont les budgets disponibles ?**
 --
 
   * Entre 0 et 50 K€ sur 5 ans pour contribuer aux moyens mis en œuvre par le Département (suivant le modèle économique défini par le Département)
 ---
-## **Scénario 3 : dépôt au département**
+### **Scénario 3 : dépôt au département**
 * **volonté stratégique : Y-a-t-il une stratégie définie ? Un sponsor ?**
 --
 
@@ -758,7 +839,7 @@ Conditions de réussite / collectivité demandeuse :
   * Intérêt pour la mutualisation
   * Confiance vis-à-vis de la pérennité, des compétences archivistiques et des moyens informatiques mis à disposition par le Département
 ---
-## **Scénario 3 : dépôt au département**
+### **Scénario 3 : dépôt au département**
 
 * **maturité : quelle est la maturité de l'organisation par rapport au numérique ?**
 --
@@ -769,7 +850,7 @@ Conditions de réussite / collectivité demandeuse :
 
 ---
 class: center, middle
-## Identifier les forces et faiblesses de votre scenario
+### Identifier les forces et faiblesses de votre scenario
 ![dcant forces et faiblesses](./media/dcant-vierge.png)
 ---
 ### Forces
@@ -807,17 +888,19 @@ class: center, middle
 #### Option SAE-M : Mutualisation de logiciels et / ou infrastructure
   1. Risque de changement de stratégie des partenaires
   2. Risque de disparition / évolution des compétences des partenaires
+
+Consultez les autres [scenarii](#scenarii) ou débutez votre [quête](#quete) en fonction de votre contexte  
 ---
 name: sc-depot-spa
 
-## **Scénario 4 : mutualisation entre services publics d'archives**
+### **Scénario 4 : mutualisation entre services publics d'archives**
 La collectivité mutualise son archivage avec un ou plusieurs services publics d'archives
 
 * **Prérequis : Un service public d'archives**
   * propose à d'autres collectivités de mettre à leur disposition un service d'archivage électronique
   * dispose des moyens et compétences suffisantes pour prendre en charge les dépôts et accompagner les collectivités dans la mise en œuvre des versements et l'utilisation du SAE
 ---
-## **Scénario 4 : mutualisation entre services publics d'archives**
+### **Scénario 4 : mutualisation entre services publics d'archives**
 
 Conditions de réussite / collectivité demandeuse :
 
@@ -832,7 +915,7 @@ Conditions de réussite / collectivité demandeuse :
 
   * Des ressources SI suffisantes pour mettre en œuvre puis maintenir les connecteurs
 ---
-## **Scénario 4 : mutualisation entre services publics d'archives**
+### **Scénario 4 : mutualisation entre services publics d'archives**
 
 * **RH métiers : quelles sont les ressources mobilisables dans les directions métiers ?**
 --
@@ -846,13 +929,13 @@ Conditions de réussite / collectivité demandeuse :
   * Un dispositif d'échanges de données sécurisé entre le SI de la collectivité et le SPA
   * Des solutions métiers à archiver homogènes entre les différentes collectivités associées au SPA
 ---
-## **Scénario 4 : mutualisation entre services publics d'archives**
+### **Scénario 4 : mutualisation entre services publics d'archives**
 * **Moyens financiers : quels sont les budgets disponibles ?**
 --
 
   * Entre 0 et 50 K€ sur 5 ans pour contribuer aux moyens mis en œuvre par le SPA (suivant le modèle économique défini par le SPA)
 ---
-## **Scénario 4 : mutualisation entre services publics d'archives**
+### **Scénario 4 : mutualisation entre services publics d'archives**
 * **volonté stratégique : Y-a-t-il une stratégie définie ? Un sponsor ?**
 --
 
@@ -860,7 +943,7 @@ Conditions de réussite / collectivité demandeuse :
   * Intérêt pour la mutualisation
   * Confiance vis-à-vis de la pérennité, des compétences archivistiques et des moyens informatiques mis à disposition par le SPA
 ---
-## **Scénario 4 : mutualisation entre services publics d'archives**
+### **Scénario 4 : mutualisation entre services publics d'archives**
 
 * **maturité : quelle est la maturité de l'organisation par rapport au numérique ?**
 --
@@ -870,7 +953,7 @@ Conditions de réussite / collectivité demandeuse :
   * Sensibilité vis-à-vis des enjeux et contraintes associées aux projets mutualisés dans le domaine du numérique
 ---
 class: center, middle
-## Identifier les forces et faiblesses de votre scenario
+### Identifier les forces et faiblesses de votre scenario
 ![dcant forces et faiblesses](./media/dcant-vierge.png)
 ---
 ### Forces
@@ -907,10 +990,12 @@ class: center, middle
 #### Option SAE-M : Mutualisation de logiciels et / ou infrastructure
   1. Risque de changement de stratégie des partenaires
   2. Risque de disparition / évolution des compétences des partenaires
+
+Consultez les autres [scenarii](#scenarii) ou débutez votre [quête](#quete) en fonction de votre contexte
 ---
 name: sc-depot-tiers
 
-## **Scénario 5 : dépôt chez un tiers archiveur privé et agréé**
+### **Scénario 5 : dépôt chez un tiers archiveur privé et agréé**
 La collectivité externalise son archivage chez un tiers archiveur privé (EPL ou entreprise privée)
 
 * **Prérequis** :
@@ -918,7 +1003,7 @@ La collectivité externalise son archivage chez un tiers archiveur privé (EPL o
   * Le Tiers-archiveur dispose des moyens et compétences pour prendre en charge les dépôts et accompagner les collectivités dans la mise en œuvre des versements et l'utilisation du SAE
   * La collectivité dispose par ailleurs d'une solution pour gérer ses archives définitives (cf autres scénarios)
 ---
-## **Scénario 5 : dépôt chez un tiers archiveur privé et agréé**
+### **Scénario 5 : dépôt chez un tiers archiveur privé et agréé**
 
 Conditions de réussite / collectivité demandeuse :
 
@@ -935,7 +1020,7 @@ Conditions de réussite / collectivité demandeuse :
   * Des ressources SI suffisantes pour mettre en œuvre puis maintenir les connecteurs
   * ressources requises par scénario archivage définitif retenu
 ---
-## **Scénario 5 : dépôt chez un tiers archiveur privé et agréé**
+### **Scénario 5 : dépôt chez un tiers archiveur privé et agréé**
 
 * **RH métiers : quelles sont les ressources mobilisables dans les directions métiers ?**
 --
@@ -950,14 +1035,14 @@ Conditions de réussite / collectivité demandeuse :
   * Des solutions métiers à archiver homogènes entre les différentes collectivités associées au tiers-archiveur
   * moyens techniques requis par scénario archivage définitif retenu
 ---
-## **Scénario 5 : dépôt chez un tiers archiveur privé et agréé**
+### **Scénario 5 : dépôt chez un tiers archiveur privé et agréé**
 * **Moyens financiers : quels sont les budgets disponibles ?**
 --
 
   * Entre 15 et 50 K€ sur 5 ans pour mettre en œuvre la prestation de tiers-archivage puis payer une redevance au tiers-archiveur pour les archives prises en charge (suivant modèle économique du tiers-archiveur)
   * moyens financiers requis par scénario archivage définitif retenu
 ---
-## **Scénario 5 : dépôt chez un tiers archiveur privé et agréé**
+### **Scénario 5 : dépôt chez un tiers archiveur privé et agréé**
 * **volonté stratégique : Y-a-t-il une stratégie définie ? Un sponsor ?**
 --
 
@@ -965,7 +1050,7 @@ Conditions de réussite / collectivité demandeuse :
   * Intérêt pour l'externalisation
   * Confiance vis-à-vis de la pérennité, des compétences archivistiques et des moyens informatiques mis à disposition par le tiers-archiveur
 ---
-## **Scénario 5 : dépôt chez un tiers archiveur privé et agréé**
+### **Scénario 5 : dépôt chez un tiers archiveur privé et agréé**
 
 * **maturité : quelle est la maturité de l'organisation par rapport au numérique ?**
 --
@@ -975,7 +1060,7 @@ Conditions de réussite / collectivité demandeuse :
   * Sensibilité vis-à-vis des enjeux et contraintes associées aux projets mutualisés dans le domaine du numérique
 ---
 class: center, middle
-## Identifier les forces et faiblesses de votre scenario
+### Identifier les forces et faiblesses de votre scenario
 ![dcant forces et faiblesses](./media/dcant-vierge.png)
 ---
 ### Forces
@@ -985,6 +1070,9 @@ class: center, middle
 ### Faiblesses
 1. Reversibilité du dispositif
 2. Adéquation avec les spécificités des différentes collectivités (notamment connecteurs)
+
+Consultez les autres [scenarii](#scenarii) ou débutez votre [quête](#quete) en fonction de votre contexte
+
 ---
 name: archiviste
 
@@ -1015,6 +1103,8 @@ name: archiviste
 * utiliser l'informatique,
 * mettre en pratique ses connaissances,
 * animer une équipe, mener des projets, évaluer son activité
+
+Retournez à la liste des [rôles](#heros)
 ]
 
 ---
@@ -1041,6 +1131,8 @@ name: cartographe
 * connaissance du standard XML EAC
 * connaissance de l'institution
 * co-organisation de café des producteurs pour le réseau des référents
+
+Retournez à la liste des [rôles](#heros)
 ]
 ---
 name: indexeur
@@ -1067,6 +1159,8 @@ name: indexeur
 * capacité à organiser l'information de manière hiérarchique et structurée
 * connaissance du standard SKOS est une atout
 * organisation de café des professionnels de l'information documentaire pour partager et harmoniser les pratiques
+
+Retournez à la liste des [rôles](#heros)
 ]
 ---
 name: profileur
@@ -1094,6 +1188,8 @@ name: profileur
 * compréhension des règles de cardinalité et des schémas XML
 * compréhension des enjeux de la pérennisation numérique
 * formations aux standard SEDA et aux outils de production associés
+
+Retournez à la liste des [rôles](#heros)
 ]
 ---
 name: accompagnateur
@@ -1120,6 +1216,8 @@ name: accompagnateur
 * conseil et écoute, médiation à l'usage du numérique
 * co-organisation de café des services versants pour le réseau des référents
 * évaluer les besoins des services versants et produire un rapport d'activité pour l'entité administration
+
+Retournez à la liste des [rôles](#heros)
 ]
 ---
 name: accueil
@@ -1143,6 +1241,9 @@ name: accueil
 **compétences** :
 * maîtrise de l'environnement de travail numérique
 * sens de la formule dans les cas de refus de versement
+
+Retournez à la liste des [rôles](#heros)
+
 ]
 ---
 name: traitement
@@ -1170,6 +1271,8 @@ name: traitement
 * maîtrise de la norme ISAAD-G et du schéma XML EAD
 * bonne connaissance de l'environnement institutionnel
 * pratique avancée de rédaction littéraire
+
+Retournez à la liste des [rôles](#heros)
 ]
 ---
 name: valorisation
@@ -1196,6 +1299,8 @@ name: valorisation
 * médiation numérique avec les publics
 * veille sur les modalités de diffusion de l'information
 * animateur de communauté
+
+Retournez à la liste des [rôles](#heros)
 ]
 ---
 name: plombier
@@ -1221,6 +1326,8 @@ name: plombier
 * compréhension des besoins liés aux processus d'archivage
 * connaissance du métiers et des applications
 * connaissance des formats de données et des techniques de transformation, extraction, chargement
+
+Retournez à la liste des [rôles](#heros)
 ]
 ---
 name: urbaniste
@@ -1246,6 +1353,8 @@ name: urbaniste
 * maîtrise des enjeux de la dématérialisation
 * veille technologique et institutionnelle
 * capacité à dialoguer et à avancer pas à pas
+
+Retournez à la liste des [rôles](#heros)
 ]
 ---
 name: aiguilleur
@@ -1271,6 +1380,8 @@ name: aiguilleur
 * maîtrise du contexte juridique et réglementaire
 * connaissance des enjeux de l'archivage électronique
 * capacité à dialoguer et à avancer pas à pas
+
+Retournez à la liste des [rôles](#heros)
 ]
 ---
 name: superviseur
@@ -1296,6 +1407,8 @@ name: superviseur
 * déploiement de serveurs physiques et virtuels
 * rédaction de dossiers d'architecture technique
 * rédaction d'une politique de sécurité des systèmes d'information
+
+Retournez à la liste des [rôles](#heros)
 ]
 ---
 name: referent
@@ -1320,6 +1433,9 @@ name: referent
 * maîtrise de l'environnement numérique
 * connaissance des enjeux de la gestion du cycle de vie de l'information
 * compréhension des enjeux de la pérennisation de l'information
+
+Retournez à la liste des [rôles](#heros)
+
 ]
 ---
 name: vierge
@@ -1344,4 +1460,37 @@ name: vierge
 *
 *
 *
+Retournez à la liste des [rôles](#heros)
 ]
+---
+name: facilitateur
+### Facilitateur [rôles](#heros)
+
+.left-column[
+.reduite[![avatar citoyen lambda](./media/facilitateur.png)]
+]
+.right-column[
+
+
+> Au sein de l'entité administration, vous êtes chargé.e de faciliter les interactions entre les différentes entités et d'aider à l'amélioration continue du service proposé par votre organisation. [compatible télétravail : oui]
+
+**missions** :
+* accompagner vos collègues dans l'expression de leurs besoins techniques et fonctionnel
+* en tant que responsable produit, faciliter les interactions entre les équipes techniques et fonctionnelles pour la mise en oeuvre de projets
+* transmettre des éléments de culture numérique facilitant l'appréhension des enjeux techniques et fonctionnels.
+
+**Savoir (connaissances nécessaires pour agir)**
+* maîtrise des enjeux numériques et des modalités de gestion de projets agiles
+* maîtrise des enjeux du cycle de vie de l'information
+* capacité à transmettre et à former
+
+**compétences** :
+* connaissance des technologies appliquées à la gouvernance documentaire
+* veille technologique et institutionnelle
+* capacité à animer et impulser
+
+Retournez à la liste des [rôles](#heros)
+]
+
+
+---
