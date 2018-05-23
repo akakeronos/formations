@@ -78,7 +78,9 @@ Par équipes de 3,4 vous devrez mener à bien votre quête en parcourant les for
 Vous pouvez vous aider de la [bibliothèque de référence pour l'archivage numérique](https://francearchives.fr/fr/article/26287443) et de la présence d'un [facilitateur numérique](#facilitateur) pour réaliser vos missions.
 
 Consulter la [carte de la quête](#carte) et se poser les [bonnes questions](#mvp-question) pour démarrer. Se rendre sur la page de [choix de la quête](#quete)
+
 Si vous êtes perdu vous pouvez [réviser](slideshow.html)
+
 .reduite2[![couverture livre jeu de rôle](./media/jeuHeros.jpg)]
 ---
 name: carte
