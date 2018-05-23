@@ -5,7 +5,7 @@ background-repeat: no-repeat;
 background-size: contain;
 .footnote[CC-By-SA Keronos Entertainment. Ceci est fait en texte avec du logiciel libre]
 
-# formation AD79
+# formation CD79
 ## Mai 2018
 
 ### Au programme
@@ -16,14 +16,14 @@ background-size: contain;
 4. évaluation
 ---
 ## Agenda
-* C'est quoi l'archivage électronique
+* C'est quoi l'[archivage électronique](slideshow.html)
 * Choix du rôle
 * Réaliser la quête
 * Partage et rétrospective
 
 .reduite2[![horloge](./media/horaires.jpg)]
 ---
-## Retrospective
+## Tous dans le même bâteau
 .reduite[![SpeedBoat](./media/speedboat.jpg)]
 ---
 class: center
