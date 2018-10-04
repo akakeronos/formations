@@ -47,19 +47,19 @@ Facilitateur numérique : je contribue à renforcer le pouvoir d'agir des utilis
 ## L'archivage numérique comme processus dynamique 
 <!--L'archivage numérique est donc un processus dynamique qui commence dès la création des documents.-->
 
-|Critères|Archivage traditionnel|Archivage électronique|
-|:----------------:|:-------------:|:-----------------------:|
-|Pérennité|Qualité des supports et conservation d'un exemplaire unique|Écritures en multiples exemplaires, utilisation de formats informatiques non propriétaires, etc.|
-|Intégrité|Méthodes de protection des objets (en limitant leurs sorties)|Catalogue des objets conservés, outils permettant de détecter toute modification des objets conservés|
-|Sécurité|Contrôle des accès, protection des locaux et de leur contenu (contre l'incendie, les dégâts des eaux, les nuisibles, etc.)|Contrôle des accès physiques, protection des locaux (contre l'incendie, les dégâts des eaux, etc.), gestion des droits d'accès informatiques, administration du système, réplications, sauvegardes des systèmes, etc. |
+| Critères  | Archivage traditionnel                                                                                                     | Archivage électronique                                                                                                                                                                                                |
+| :-------: | :------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| Pérennité | Qualité des supports et conservation d'un exemplaire unique                                                                | Écritures en multiples exemplaires, utilisation de formats informatiques non propriétaires, etc.                                                                                                                      |
+| Intégrité | Méthodes de protection des objets (en limitant leurs sorties)                                                              | Catalogue des objets conservés, outils permettant de détecter toute modification des objets conservés                                                                                                                 |
+| Sécurité  | Contrôle des accès, protection des locaux et de leur contenu (contre l'incendie, les dégâts des eaux, les nuisibles, etc.) | Contrôle des accès physiques, protection des locaux (contre l'incendie, les dégâts des eaux, etc.), gestion des droits d'accès informatiques, administration du système, réplications, sauvegardes des systèmes, etc. |
 ---
 ## L'archivage numérique comme processus dynamique
-|Critères|Archivage traditionnel|Archivage électronique|
-|:----------------:|:-------------:|:-----------------------:|
-|Traçabilité|Journal des événements|Journal des événements|
-|Authenticité|Signature et date|Signature électronique, horodatage, calcul et gestion d'empreintes, etc.|
-|Lisibilité / Intégrité|Implicite. Attention, certains documents peuvent s'estomper avec le temps (carbone, papiers chimiques, etc.)|Dispositifs matériels (lecteurs), formats de stockage, métadonnées spécifiques|
-|Disponibilité|Organisation des moyens et des ressources|Organisation des ressources, plan de continuité, solutions de back-up, plan de reprise d'activité|
+| Critères               | Archivage traditionnel                                                                                       | Archivage électronique                                                                            |
+| :--------------------: | :----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------: |
+| Traçabilité            | Journal des événements                                                                                       | Journal des événements                                                                            |
+| Authenticité           | Signature et date                                                                                            | Signature électronique, horodatage, calcul et gestion d'empreintes, etc.                          |
+| Lisibilité / Intégrité | Implicite. Attention, certains documents peuvent s'estomper avec le temps (carbone, papiers chimiques, etc.) | Dispositifs matériels (lecteurs), formats de stockage, métadonnées spécifiques                    |
+| Disponibilité          | Organisation des moyens et des ressources                                                                    | Organisation des ressources, plan de continuité, solutions de back-up, plan de reprise d'activité |
 
 ---
 
@@ -82,15 +82,15 @@ L’archivage pérenne du document numérique a 3 objectifs principaux :
 
 Ces réflexions permettent d'introduire 3 notions fondamentales :
 * authenticité et intelligibilité au travers des métadonnées descriptives
-* environnement métériel
+* environnement matériel
 * environnement logiciel
 
-| Problèmes     | solutions|
-|--------------|:---------:|
-|l’obsolescence matérielle   |conserver des copies multiples des documents archivés|
-|l’obsolescence logicielle|dispositifs d’alertes de type veille technologique et économique|
-|l’obsolescence du format de fichier|format dont les spécifications internes sont librement accessibles|
-|la perte de la signification du contenu|métadonnées|
+| Problèmes                               | solutions                                                          |
+| --------------------------------------- | :----------------------------------------------------------------: |
+| l’obsolescence matérielle              | conserver des copies multiples des documents archivés              |
+| l’obsolescence logicielle              | dispositifs d’alertes de type veille technologique et économique  |
+| l’obsolescence du format de fichier    | format dont les spécifications internes sont librement accessibles |
+| la perte de la signification du contenu | métadonnées                                                        |
 
 .footnote[source : le concept de l'archivage numérique pérenne [ressource Cines][cines]]
 
@@ -127,10 +127,10 @@ La **norme ISO 30300** dite "gestion des documents d'activité" permet d'inclure
 ---
 ## Modèle de processus
 
-|Durée/date | Acteur 1 | Acteur 2 | Documents |
-|------|:--------------------:|:-----:|:----:|
-|04/12/2017|Action 1 --->|Action 2|Version 0.1|
-|04/12/2017|Action 3||version 0.2|
+| Durée/date | Acteur 1      | Acteur 2    | Documents   |
+| ---------- | :-----------: | :---------: | :---------: |
+| 04/12/2017 | Action 1 ---> | Action 2    | Version 0.1 |
+| 04/12/2017 | Action 3      | version 0.2 |
 ---
 ## Macro-processus de RM
 
@@ -497,12 +497,12 @@ Elle peut être composée des typologies suivantes :
 
 ### Par où commencer ?
 
-|étape | solutions applicatives          | solutions humaines | documentation |
-|------|:--------------------:|:-----:|:----:|
-|première étape|stockage organisé et documenté|gestion de la conservation|politique d'archivage|
-|cible intermédiaire|Données de référence / SAE|gestion des référentiels / gestion de la conservation|guide bonnes pratiques / politique d'archivage|
-|cible RM|Ged|gestion de la production courant / identification des records|guide de nommage / indexation|
-|cible SAE|Référentiel / GED / SAE|gestion des référentiels / record manager / gestion de la conservation|politique de gestion des données / politique d'archivage / Politique de gestion du SI|
+| étape               | solutions applicatives         | solutions humaines                                                     | documentation                                                                         |
+| ------------------- | :----------------------------: | :--------------------------------------------------------------------: | :-----------------------------------------------------------------------------------: |
+| première étape      | stockage organisé et documenté | gestion de la conservation                                             | politique d'archivage                                                                 |
+| cible intermédiaire | Données de référence / SAE     | gestion des référentiels / gestion de la conservation                  | guide bonnes pratiques / politique d'archivage                                        |
+| cible RM            | Ged                            | gestion de la production courant / identification des records          | guide de nommage / indexation                                                         |
+| cible SAE           | Référentiel / GED / SAE        | gestion des référentiels / record manager / gestion de la conservation | politique de gestion des données / politique d'archivage / Politique de gestion du SI |
 
 ---
 
