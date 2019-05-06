@@ -65,22 +65,22 @@ Facilitateur numérique : je contribue à renforcer le pouvoir d'agir des utilis
 ---
 ## Vous êtes déjà des archivistes
 
-|Critères|Archivage traditionnel|
-|:----------------:|:-------------:|
-|Pérennité|Qualité des supports et conservation d'un exemplaire unique|
-|Intégrité|Méthodes de protection des objets (en limitant leurs sorties)|
-|Sécurité|Contrôle des accès, protection des locaux et de leur contenu (contre l'incendie, les dégâts des eaux, les nuisibles, etc.)|
+| Critères  |                                                   Archivage traditionnel                                                   |
+| :-------: | :------------------------------------------------------------------------------------------------------------------------: |
+| Pérennité |                                Qualité des supports et conservation d'un exemplaire unique                                 |
+| Intégrité |                               Méthodes de protection des objets (en limitant leurs sorties)                                |
+| Sécurité  | Contrôle des accès, protection des locaux et de leur contenu (contre l'incendie, les dégâts des eaux, les nuisibles, etc.) |
 ---
 ## Prêts pour le grand saut numérique ?
 ![jusqu'ici tout va bien](./media/gestionRisque.png)
 ---
 ## Vous êtes déjà des conscients des enjeux du numérique
 
-|Critères|gestion électronique|
-|:----------------:|:-------------:|
-|Pérennité|Écritures en multiples exemplaires, utilisation de formats informatiques non propriétaires, etc.|
-|Intégrité|Catalogue des objets conservés, outils permettant de détecter toute modification des objets conservés|
-|Sécurité|Contrôle des accès physiques, protection des locaux (contre l'incendie, les dégâts des eaux, etc.), gestion des droits d'accès informatiques, administration du système, réplications, sauvegardes des systèmes, etc. |
+| Critères  |                                                                                                 gestion électronique                                                                                                  |
+| :-------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| Pérennité |                                                           Écritures en multiples exemplaires, utilisation de formats informatiques non propriétaires, etc.                                                            |
+| Intégrité |                                                         Catalogue des objets conservés, outils permettant de détecter toute modification des objets conservés                                                         |
+| Sécurité  | Contrôle des accès physiques, protection des locaux (contre l'incendie, les dégâts des eaux, etc.), gestion des droits d'accès informatiques, administration du système, réplications, sauvegardes des systèmes, etc. |
 ---
 ## Un petit détour par la vision processus
 
@@ -92,12 +92,12 @@ Facilitateur numérique : je contribue à renforcer le pouvoir d'agir des utilis
 
 ---
 ### L'archivage numérique est un processus dynamique
-|Critères|Archivage traditionnel|Archivage électronique|
-|:----------------:|:-------------:|:-----------------------:|
-|Traçabilité|Journal des événements|Journal des événements|
-|Authenticité|Signature et date|Signature électronique, horodatage, calcul et gestion d'empreintes, etc.|
-|Lisibilité / Intégrité|Implicite. Attention, certains documents peuvent s'estomper avec le temps (carbone, papiers chimiques, etc.)|Dispositifs matériels (lecteurs), formats de stockage, métadonnées spécifiques|
-|Disponibilité|Organisation des moyens et des ressources|Organisation des ressources, plan de continuité, solutions de back-up, plan de reprise d'activité|
+|        Critères        |                                            Archivage traditionnel                                            |                                      Archivage électronique                                       |
+| :--------------------: | :----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------: |
+|      Traçabilité       |                                            Journal des événements                                            |                                      Journal des événements                                       |
+|      Authenticité      |                                              Signature et date                                               |             Signature électronique, horodatage, calcul et gestion d'empreintes, etc.              |
+| Lisibilité / Intégrité | Implicite. Attention, certains documents peuvent s'estomper avec le temps (carbone, papiers chimiques, etc.) |          Dispositifs matériels (lecteurs), formats de stockage, métadonnées spécifiques           |
+|     Disponibilité      |                                  Organisation des moyens et des ressources                                   | Organisation des ressources, plan de continuité, solutions de back-up, plan de reprise d'activité |
 ---
 #### Cycle de vie des archives (Donnees == Documents)
 .reduite[![illustration du cycle de vie des données](./media/cyclevieDonnees.png)]
@@ -107,12 +107,7 @@ Facilitateur numérique : je contribue à renforcer le pouvoir d'agir des utilis
 **L’archivage numérique pérenne n’est pas une sauvegarde.**
 
 L’archivage pérenne du document numérique a 3 objectifs principaux :
-.pull-left[
-* conserver le document,
-* le rendre accessible,
-* en préserver l’intelligibilité.
-]
-.pull-right[
+
 .reduite2[![disquette](./media/sauvegarde.jpg)]
 .reduite2[![cadenas](./media/valeurProbante.jpg)]
 ]
@@ -136,12 +131,12 @@ Ces réflexions permettent d'introduire 3 notions fondamentales :
 * environnement matériel
 * environnement logiciel
 
-| Problèmes     | solutions|
-|--------------|:---------:|
-|l’obsolescence matérielle   |conserver des copies multiples des documents archivés|
-|l’obsolescence logicielle|dispositifs d’alertes de type veille technologique et économique|
-|l’obsolescence du format de fichier|format dont les spécifications internes sont librement accessibles|
-|la perte de la signification du contenu|métadonnées|
+| Problèmes                               |                             solutions                              |
+| --------------------------------------- | :----------------------------------------------------------------: |
+| l’obsolescence matérielle              |       conserver des copies multiples des documents archivés        |
+| l’obsolescence logicielle              | dispositifs d’alertes de type veille technologique et économique  |
+| l’obsolescence du format de fichier    | format dont les spécifications internes sont librement accessibles |
+| la perte de la signification du contenu |                            métadonnées                             |
 
 .footnote[source : le concept de l'archivage numérique pérenne [ressource Cines](https://www.cines.fr/archivage/un-concept-des-problematiques/le-concept-darchivage-numerique-perenne/)]
 
@@ -748,11 +743,11 @@ les propriétés de mise en correspondance proposées dans SKOS permettent d'exp
 Le but d’un modèle de donnée construit comme une **ontologie** est de pouvoir **décrire des entités** (archives, acteurs, vocabulaire etc…) en utilisant les principes du web sémantique. Ils **relient les données entre elles** via des liens et **des identifiants** en supprimant les ambigüités.
 Les relations sont décrites selon le modèle RDF qui utilise le triplet comme élément de base du format d’échange : sujet (celui dont on veut parler) prédicat (propriété, verbe) objet (information)
 
-|sujet|prédicat|objet|
-|:----:|:------:|:----------:|
-|Le marché public DI45|est|un dossier|
-|Le marché public DI45|a pour producteur|la direction des Infrasctructure|
-|Le marché public DI45|a été notifié| le 12 février 2017|
+|         sujet         |     prédicat      |              objet               |
+| :-------------------: | :---------------: | :------------------------------: |
+| Le marché public DI45 |        est        |            un dossier            |
+| Le marché public DI45 | a pour producteur | la direction des Infrasctructure |
+| Le marché public DI45 |   a été notifié   |        le 12 février 2017        |
 
 ---
 
